@@ -1,0 +1,15 @@
+// https://www.sencha.com/forum/showthread.php?472420-Grouped-grid-looks-broken-in-Graphite-theme&p=1326493#post1326493
+.sch-schedulerview .#{$prefix}grid-group-hd {
+    padding : 10px 0;
+}
+
+.sch-lockedview .#{$prefix}grid-group-hd {
+    padding : 10px;
+}
+
+// To make group header look a bit better
+.sch-schedulerview .#{$prefix}grid-group-hd,
+.sch-lockedview .#{$prefix}grid-group-hd {
+    border-color : $sch-grouprow-background-color;
+    background   : $sch-grouprow-background-color;
+}

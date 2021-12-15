@@ -1,0 +1,41 @@
+/* Use 3 specifiers to make sure we don't "lose" to .x-reset .x-grid-row .x-grid-cell which sets it to #fff */
+.sch-timelineview .#{$prefix}grid-item td.sch-timetd {
+    overflow         : visible;
+    background-color : transparent;
+    border-top-color : transparent;
+}
+
+.sch-timelineview td.sch-timetd {
+    overflow : hidden;
+}
+
+td.sch-timetd .#{$prefix}grid-cell-inner {
+    position      : relative;
+    padding-left  : 0; /*For IE in quirks mode */
+    padding-right : 0; /* No need for horizontal padding */
+    cursor        : default; /* For trees, Ext sets it to pointer for some reason */
+    overflow      : visible;
+}
+
+/* Make sure zones are always below the TRs/TDs */
+.sch-timelineview .#{$prefix}grid-item-container {
+    position : relative;
+}
+
+.sch-animations-enabled .sch-resourcezone,
+.sch-animations-enabled .sch-timeline,
+.sch-animations-enabled .sch-zone {
+    -moz-transition-property    : width, left, top, height;
+    -moz-transition-duration    : 0.4s;
+    -webkit-transition-property : width, left, top, height;
+    -webkit-transition-duration : 0.4s;
+    -ms-transition-property     : width, left, top, height;
+    -ms-transition-duration     : 0.4s;
+    transition-property         : width, left, top, height;
+    transition-duration         : 0.4s;
+}
+
+/* Ext adds a dotted outline of focused cells, remove it */
+.sch-timelinepanel .#{$prefix}grid-item-focused .#{$prefix}grid-cell-inner:before {
+    border : none;
+}

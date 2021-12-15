@@ -1,0 +1,35 @@
+.sch-gantt-column-dragdrop .#{$prefix}grid-cell-inner {
+    color         : #bbb;
+    text-overflow : clip;
+    cursor        : pointer;
+    padding-left  : 0;
+    padding-right : 0;
+    color         : #e7e7e7;
+}
+
+.sch-gantt-column-dragdrop .#{$prefix}grid-cell-inner:before,
+.sch-gantt-column-dragdrop-header .#{$prefix}column-header-text-inner:before {
+    font-family : $font-icon-font-family;
+    content     : "\f0b2" !important;
+}
+
+.sch-gantt-column-dragdrop .#{$prefix}grid-cell-inner:before {
+    position : relative !important;
+}
+
+.sch-gantt-column-dragdrop-header .#{$prefix}column-header-text-inner:before {
+    color : #999;
+}
+
+.sch-gantt-column-dragdrop-header .#{$prefix}column-header-text {
+    text-overflow : clip;
+}
+
+.sch-gantt-column-dragdrop .#{$prefix}grid-cell-inner:hover {
+    color : #777;
+}
+
+.sch-gantt-column-dragdrop:hover .#{$prefix}grid-cell-inner,
+.sch-gantt-column-dragdrop-header .#{$prefix}column-header-text-container {
+    background-image: none;
+}

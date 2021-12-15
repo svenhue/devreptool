@@ -1,0 +1,50 @@
+{
+    "name": "stimulsoft-data-adapter",
+    "version": "2021.3.7",
+    "description": "Nodejs data adapter for Stimulsoft Reports.JS",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stimulsoft/DataAdapters.JS/tree/main/NodejsDataAdapters"
+    },
+    "dependencies": {
+        "mssql": "^6.2.1",
+        "mysql": "^2.15.0",
+        "node-firebird": "^0.9.8",
+        "pg": "^8.3.3",
+        "tzdata": "^1.0.25"
+    },
+    "files": [
+        "package.json",
+        "README.md",
+        "app.js",
+        "FirebirdAdapter.js",
+        "MSSQLAdapter.js",
+        "MySQLAdapter.js",
+        "OracleAdapter.js",
+        "PostgreSQLAdapter.js"
+    ],
+    "author": {
+        "name": "Stimulsoft",
+        "url": "http://www.stimulsoft.com"
+    },
+    "maintainers": [
+        {
+            "name": "Stimulsoft",
+            "email": "info@stimulsoft.com",
+            "url": "http://www.stimulsoft.com"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Stimulsoft",
+            "email": "info@stimulsoft.com",
+            "url": "http://www.stimulsoft.com"
+        }
+    ],
+    "license": "Closed Source",
+    "homepage": "https://github.com/stimulsoft/DataAdapters.JS/tree/main/NodejsDataAdapters"
+}

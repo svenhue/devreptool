@@ -1,0 +1,14 @@
+.sch-timelinepanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item.#{$prefix}grid-item-selected,
+.sch-timelinepanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item-selected + .#{$prefix}grid-item {
+  border-style : $sch-timelineview-selected-row-style;
+  border-color : $sch-timelineview-selected-row-color;
+}
+
+.sch-timelinepanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item[data-recordindex="0"] {
+  border-top-color : transparent;
+}
+
+.#{$prefix}grid-cell-row-numberer {
+  color       : #FFF;
+  font-weight : bold;
+}

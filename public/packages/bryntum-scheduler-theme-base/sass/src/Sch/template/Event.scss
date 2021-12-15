@@ -1,0 +1,187 @@
+.sch-event {
+    color            : $sch-event-color;
+    border-color     : $sch-event-border-color;
+    border-style     : $sch-event-border-style;
+    border-width     : $sch-event-border-width;
+    background-color : $sch-event-background-color;
+    font-weight      : $sch-event-font-weight;
+    position         : absolute;
+    overflow         : hidden;
+    cursor           : pointer;
+    z-index          : 5;
+    text-align       : left;
+    opacity          : $sch-event-opacity;
+    transition       : $sch-event-transition;
+}
+
+.sch-scheduler-with-dependencies .sch-event {
+    overflow   : visible;
+}
+
+.sch-scheduler-with-dependencies .sch-event-inner {
+    width : 100%;
+}
+
+.sch-timelineview .#{$prefix}grid-item-focused .#{$prefix}grid-cell-inner {
+    z-index: 5;
+}
+
+div.sch-event-fixed {
+    cursor : default;
+}
+
+.sch-event-inner {
+    overflow    : hidden;
+    height      : 100%;
+    white-space : nowrap;
+    padding     : 3px 1px 3px 3px;
+}
+
+.sch-event-icon {
+    font-style : normal;
+    padding    : 0 6px;
+}
+
+/* Hide right border for events ending outside the view */
+.sch-horizontal.sch-ltr .sch-event.sch-event-endsoutside,
+.sch-horizontal.sch-rtl .sch-event.sch-event-startsoutside {
+    border-right-color                 : $sch-event-outside-border-color;
+    border-right-style                 : $sch-event-outside-border-style;
+    border-right-width                 : $sch-event-outside-border-width;
+    -moz-border-radius-topright        : 0 !important;
+    -moz-border-radius-bottomright     : 0 !important;
+    -webkit-border-radius-top-right    : 0 !important;
+    -webkit-border-radius-bottom-right : 0 !important;
+    -ms-border-radius-top-right        : 0 !important;
+    -ms-border-radius-bottom-right     : 0 !important;
+    border-top-right-radius            : 0 !important;
+    border-bottom-right-radius         : 0 !important;
+}
+
+/* Hide left border for events starting outside the view */
+.sch-horizontal.sch-ltr .sch-event.sch-event-startsoutside,
+.sch-horizontal.sch-rtl .sch-event.sch-event-endsoutside {
+    border-left-color                 : $sch-event-outside-border-color;
+    border-left-style                 : $sch-event-outside-border-style;
+    border-left-width                 : $sch-event-outside-border-width;
+    -moz-border-radius-topleft        : 0 !important;
+    -moz-border-radius-bottomleft     : 0 !important;
+    -webkit-border-radius-top-left    : 0 !important;
+    -webkit-border-radius-bottom-left : 0 !important;
+    -ms-border-radius-top-left        : 0 !important;
+    -ms-border-radius-bottom-left     : 0 !important;
+    border-top-left-radius            : 0 !important;
+    border-bottom-left-radius         : 0 !important;
+}
+
+.#{$prefix}rtl .sch-event {
+    text-align : right;
+}
+
+.sch-vertical .sch-event-startsoutside {
+    border-top-color : $sch-event-outside-border-color;
+    border-top-style : $sch-event-outside-border-style;
+    border-top-width : $sch-event-outside-border-width;
+}
+
+.sch-vertical .sch-event-endsoutside {
+    border-bottom-color : $sch-event-outside-border-color;
+    border-bottom-style : $sch-event-outside-border-style;
+    border-bottom-width : $sch-event-outside-border-width;
+}
+
+div.sch-event.sch-event-highlighted {
+    box-shadow   : inset 0 0 0 2px $sch-event-highlighted-shadow-color !important;
+    border-width : $sch-event-highlighted-border-width;
+    border-color : $sch-event-highlighted-border-color;
+    border-style : $sch-event-highlighted-border-style;
+    z-index      : 1000;
+}
+
+/* Ensure events are always visible if zoomed out */
+.sch-horizontal .sch-event {
+    min-width : 2px;
+}
+
+.sch-vertical .sch-event {
+    min-height : 2px;
+}
+
+div.sch-event-selected, div.sch-event-hover.sch-event-selected {
+    color            : $sch-event-selected-color;
+    background-color : $sch-event-selected-background-color;
+    border-width     : $sch-event-selected-border-width;
+    border-color     : $sch-event-selected-border-color;
+    border-style     : $sch-event-selected-border-style;
+    @if $sch-event-selected-shadow-horizontal-offset or $sch-event-selected-shadow-vertical-offset or $sch-event-selected-shadow-radius or $sch-event-selected-shadow-distance {
+        box-shadow   : $sch-event-selected-shadow-horizontal-offset $sch-event-selected-shadow-vertical-offset $sch-event-selected-shadow-radius $sch-event-selected-shadow-distance $sch-event-selected-shadow-color;
+    }
+    opacity          : $sch-event-selected-opacity;
+}
+
+.sch-event.sch-event-hover {
+    border-width : $sch-event-hover-border-width;
+    border-color : $sch-event-hover-border-color;
+    border-style : $sch-event-hover-border-style;
+    box-shadow   : $sch-event-hover-shadow-horizontal-offset $sch-event-hover-shadow-vertical-offset $sch-event-hover-shadow-radius $sch-event-hover-shadow-distance $sch-event-hover-shadow-color;
+    opacity      : $sch-event-hover-opacity;
+}
+
+/* TERMINAL STYLES */
+.sch-terminal {
+    display       : none;
+    position      : absolute;
+    width         : 11px;
+    height        : 11px;
+    background    : #fff;
+    border-width  : 1px;
+    border-style  : solid;
+    border-color  : inherit;
+    border-radius : 11px;
+    cursor        : pointer;
+    z-index       : 1000;
+}
+
+.sch-event-hover .sch-terminal {
+    display : block;
+}
+
+.sch-terminal:hover {
+    background    : #d9d9d9;
+}
+
+.sch-terminal-left {
+    left        : 0;
+    top         : 50%;
+    margin-top  : -6px;
+    margin-left : -9px;
+}
+
+.sch-terminal-right {
+    right        : 0;
+    top          : 50%;
+    margin-top   : -6px;
+    margin-right : -9px;
+}
+
+.sch-terminal-top {
+    left        : 50%;
+    top         : 0;
+    margin-left : -6px;
+    margin-top  : -9px;
+}
+
+.sch-terminal-bottom {
+    left          : 50%;
+    bottom        : 0;
+    margin-left   : -6px;
+    margin-bottom : -9px;
+}
+
+/* EOF TERMINAL STYLES */
+
+/* Allow to drag events with touch on Edge/IE11 */
+.#{$prefix}edge .sch-event,
+.#{$prefix}ie11 .sch-event {
+    touch-action: none;
+}

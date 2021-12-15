@@ -1,0 +1,68 @@
+.gnt-resourcehistogram .#{$prefix}grid-cell-inner {
+  height : 50px; /* match to rowHeight */
+}
+
+.gnt-resourcehistogram .#{$prefix}grid-item-selected td.sch-timetd {
+  background-color : $gnt-resourcehistogram-selected-cell-background-color !important;
+  border-color     : $gnt-resourcehistogram-selected-cell-border-color !important;
+}
+
+.gnt-resourcehistogram-line {
+  position     : absolute;
+  height       : 0;
+  width        : 100%;
+  border-width : 0;
+  border-top   : dotted 1px $gnt-resourcehistogram-line-color;
+}
+
+.gnt-resourcehistogram-limitline {
+  z-index      : 10;
+  position     : absolute;
+  height       : 0;
+  border-width : 0;
+  border-left  : solid 1px $gnt-resourcehistogram-limitline-color;
+  margin-left  : -1px;
+}
+
+.gnt-resourcehistogram-limitline.gnt-resourcehistogram-limitline-bottom {
+  border-bottom : solid 1px $gnt-resourcehistogram-limitline-color;
+}
+
+.gnt-resourcehistogram-limitline.gnt-resourcehistogram-limitline-top {
+  border-top : solid 1px $gnt-resourcehistogram-limitline-color;
+}
+
+.gnt-resourcehistogram-line.gnt-resourcehistogram-line-label {
+  border-top : dotted 1px $gnt-resourcehistogram-line-label-color;
+}
+
+.gnt-resourcehistogram-line.gnt-resourcehistogram-line-min {
+  border-top : solid 1px $gnt-resourcehistogram-line-min-color;
+}
+
+.gnt-resourcehistogram-bar {
+  position   : absolute;
+  background : $gnt-resourcehistogram-bar-background-color;
+}
+
+.gnt-resourcehistogram-bar.gnt-resourcehistogram-bar-partofbar {
+  background : $gnt-resourcehistogram-bar-partofbar-background-color;
+}
+
+.gnt-resourcehistogram-bar.gnt-resourcehistogram-bar-overwork {
+  background : $gnt-resourcehistogram-bar-overwork-background-color;
+}
+
+.gnt-resourcehistogram-spacer {
+  position : absolute;
+}
+
+.gnt-resourcehistogram-bar-text {
+  position         : absolute;
+  left             : 2px;
+  color            : $gnt-resourcehistogram-bar-text-color;
+  font-size        : 10px;
+  transform        : rotate(90deg) translateY(-5px);
+  transform-origin : left center;
+  z-index          : 20;
+}

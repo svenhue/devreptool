@@ -1,0 +1,125 @@
+$responsivecolumn-item-spacing: dynamic(0px);
+
+.big-100 {
+    @include responsivecolumn-item(100%);
+}
+
+.big-60 {
+    @include responsivecolumn-item(60%);
+}
+
+.big-50 {
+    @include responsivecolumn-item(50%);
+}
+
+.big-40 {
+    @include responsivecolumn-item(40%);
+}
+
+.big-33 {
+    @include responsivecolumn-item(33.33%);
+}
+
+.big-20 {
+    @include responsivecolumn-item(20%);
+}
+
+.x-responsivecolumn-small {
+    margin-bottom: 0;
+
+    > .small-100 {
+        @include responsivecolumn-item(100%);
+    }
+
+    > .small-50 {
+        @include responsivecolumn-item(50%);
+    }
+}
+
+.x-form-item-label-default.x-form-item-label-top > .x-form-item-label-inner {
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.login-title {
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.border-top {
+    border-top: 1px solid #D1D1D1 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #D1D1D1 !important;
+}
+
+.icon-field-pad {
+    padding-top: 8px;
+    font-size: 18px;
+    color: #c7c7c7;
+}
+
+.icon-field {
+    font-size: 18px;
+    color: #c7c7c7;
+
+}
+
+
+#hv_main_menu_tree_panel .x-panel-body-menu-panel {
+    border-color: #25313E;
+}
+
+#hv_main_menu_tree_panel .x-tree-icon {
+    height: 16px;
+    color: #fff;
+}
+
+#hv_main_menu_tree_panel .x-tree-elbow-img {
+    color: #fff;
+}
+
+#hv_main_menu_tree_panel .x-tree-elbow-img.x-tree-elbow {
+    color: #fff;
+}
+
+#hv_main_menu_tree_panel .x-grid-item {
+    color: #fff;
+    background-color: #25313E;
+}
+
+//#hv_main_menu_tree_panel .x-tree-elbow-img {
+//  display: none !important;
+//width: 0;
+//padding: 0 0 0 0;
+//}
+
+#hv_main_menu_tree_panel .x-grid-item-over {
+    color: #fff;
+    background-color: #2E3846;
+}
+
+#hv_main_menu_tree_panel .x-grid-item-selected {
+    color: #fff;
+    background-color: $base-color;
+}
+
+#hv_main_menu_tree_panel .x-grid-item-selected-over {
+    color: #fff;
+    background-color: $base-color;
+}
+
+#hv_main_menu_tree_panel .x-grid-item-focused {
+    color: #fff;
+    background-color: $base-color;
+}
+
+#hv_main_menu_tree_panel .x-grid-item-focused-over {
+    color: #fff;
+    background-color: $base-color;
+}
+
+

@@ -1,0 +1,95 @@
+.sch-taskview {
+    padding : 10px 2%;
+}
+
+.sch-taskcolumn {
+    border-radius : 1px;
+
+    &:focus-within {
+        .x-panel-header {
+            background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+        }
+    }
+
+    .#{$prefix}panel-header-text {
+        font-size   : 1.5em;
+        font-weight : normal;
+        margin      : 5px 0;
+        display     : block;
+        line-height : 22px;
+    }
+
+    /* https://www.sencha.com/forum/showthread.php?310308-6.0.2-DragSelector-US-missing-CSS-file&p=1132940#post1132940 */
+    .#{$prefix}view-selector {
+        position     : absolute;
+        border-width : $kanban-taskcolumn-view-selector-border-width;
+        border-style : $kanban-taskcolumn-view-selector-border-style;
+        border-color : $kanban-taskcolumn-view-selector-border-color;
+    }
+
+    &[size=large] .sch-taskview {
+        padding: 0.7em;
+    }
+}
+
+.sch-taskboard-scrollable {
+    .x-panel {
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex-shrink: 0;
+
+        .x-panel-header {
+            position : static !important;
+            width    : auto !important
+        }
+
+        .x-panel-bodyWrap {
+            flex      : 1;
+            flex-flow : column nowrap;
+            width     : auto !important;
+            height    : auto !important;
+
+            .x-docked {
+                position : static !important;
+                width    : auto!important
+            }
+        }
+
+        .x-panel-body {
+            display     : flex !important;
+            position    : static;
+            align-items : stretch;
+            flex        : 1;
+            width       : auto !important;
+            height      : auto !important;
+        }
+
+        .x-panel-bodyWrap {
+            display: flex;
+            align-items: stretch;
+        }
+    }
+
+    .x-autocontainer-outerCt {
+        display: flex;
+        flex: 1;
+        align-items: stretch;
+        width: auto !important;
+        max-width: 100%;
+    }
+
+    .x-autocontainer-innerCt {
+        align-items: stretch;
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .sch-taskview {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

@@ -1,0 +1,50 @@
+﻿.sch-gantt-item .sch-gantt-progressbar-handle {
+  display            : none;
+  position           : absolute;
+  bottom             : 0;
+  width              : 0;
+  height             : 0;
+  cursor             : ew-resize !important;
+  margin-left        : -5px;
+  z-index            : 1000;
+  overflow           : hidden;
+  border-color       : #fff;
+  border-right-color : transparent;
+  border-left-color  : transparent;
+  border-width       : 0px 5px 6px 5px;
+  border-style       : solid;
+}
+
+.#{$prefix}rtl .sch-gantt-progressbar-handle {
+  margin-left  : 0;
+  margin-right : -4px;
+}
+
+.#{$prefix}quirks .#{$prefix}ie .sch-gantt-progressbar-handle {
+  bottom : -1px;
+}
+
+.sch-event-hover .sch-gantt-progressbar-handle {
+  display : block;
+}
+
+.sch-gantt-progress-bar .#{$prefix}resizable-handle-east,
+.sch-gantt-dragproxy .sch-gantt-progressbar-handle,
+.sch-ganttview-readonly .sch-gantt-progressbar-handle,
+.#{$prefix}resizable-over .sch-gantt-progressbar-handle {
+  display : none !important;
+}
+
+/* Make the handle easier to reach in a touch environment */
+.sch-touch-only .sch-gantt-item .sch-gantt-progressbar-handle {
+  display     : block;
+  background  : none;
+  margin-left : -10px;
+  height      : 100%;
+  width       : 20px;
+}
+
+/*https://www.sencha.com/forum/showthread.php?321953-Ext-JS-resizer-sets-height-when-resizing-east-west&p=1151605#post1151605*/
+.sch-progress-bar-resizing {
+  height : 100% !important;
+}

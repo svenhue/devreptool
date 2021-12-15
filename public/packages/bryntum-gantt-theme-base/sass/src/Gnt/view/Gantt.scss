@@ -1,0 +1,10 @@
+.#{$prefix}ie .sch-ganttview td.sch-timetd {
+  background-image : none !important; /* z-index hack for IE, keeping dependencylines above rows */
+}
+
+/* Make sure row element doesn't make dependency line unreachable
+ https://www.assembla.com/spaces/bryntum/tickets/2391
+/* See tests 201_create.t.js and 052_dependency_events.t.js */
+.sch-ganttview .#{$prefix}grid-item-focused .#{$prefix}grid-cell-inner {
+  z-index : auto;
+}

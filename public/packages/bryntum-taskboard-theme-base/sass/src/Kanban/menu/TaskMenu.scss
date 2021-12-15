@@ -1,0 +1,28 @@
+/*
+  Icon taken from https://useiconic.com/open/
+*/
+
+.sch-task-menu-handle {
+    position        : absolute;
+    padding         : 1px;
+    display         : none;
+    opacity         : $kanban-task-menu-handle-opacity;
+    z-index         : 20;
+    right           : 3px;
+    top             : 3px;
+}
+
+.sch-task-menu-handle:hover {
+    opacity         : $kanban-task-menu-handle-over-opacity;
+    -ms-filter      : "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.sch-task-dd .sch-task-menu-handle {
+    display : none;
+}
+
+.sch-taskboard-with-menu [size=mini] .sch-task-menu-handle {
+    left: 4px;
+    top: 4px;
+    font-size: 19px;
+}

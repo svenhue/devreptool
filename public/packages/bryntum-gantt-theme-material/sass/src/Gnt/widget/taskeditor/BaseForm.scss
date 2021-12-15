@@ -1,0 +1,10 @@
+.gnt-taskeditor-form {
+    .gnt-field-with-null-value .#{$prefix}form-item-label {
+        font-size         : 12px;
+        -webkit-transform : translateY(8px);
+        -moz-transform    : translateY(8px);
+        -ms-transform     : translateY(8px);
+        -o-transform      : translateY(8px);
+        transform         : translateY(8px);
+    }
+}

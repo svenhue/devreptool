@@ -1,0 +1,5 @@
+$gnt-datepicker-nonworkingday-background-color : dynamic($sch-dayheadercell-nonworking-background-color);
+$gnt-datepicker-workingday-background-color : dynamic($grid-header-background-color);
+
+$gnt-datepicker-overriddenday-background-color : dynamic(#87FFFF);
+$gnt-datepicker-overriddenweekday-background-color : dynamic(#FF90BD);

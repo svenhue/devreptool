@@ -1,0 +1,18 @@
+.sch-event-tools .#{$prefix}box-inner {
+    box-shadow : 1px 1px 3px 0 rgba(255, 255, 255, 0.5);
+}
+
+.sch-tool-img {
+    font-size : 19px;
+    color     : rgba(255, 255, 255, 0.75);
+}
+
+.sch-tool-over {
+    background-color : $sch-event-tools-background-over-color;
+}
+
+.sch-tool-over .sch-tool-img {
+    color      : #fff;
+    background : transparent;
+    box-shadow : none;
+}

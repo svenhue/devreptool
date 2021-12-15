@@ -1,0 +1,1085 @@
+{
+    "id": "root",
+    "de": "Menü",
+    "info": "Menü",
+    "leaf": false,
+    "iconCls": "far fa-fw fa-folder",
+    "expanded": true,
+    "children": [
+        {
+            "id": "m_hv_dashboard",
+            "de": "Dashboard",
+            "info": "HV Dashboard",
+            "iconCls": "far fa-fw fa-tachometer-slow",
+            "leaf": true,
+            "moduleClass": "MyApp.view.hv.dashboard.Dashboard"
+        },
+        {
+            "id": "m_dispatching",
+            "de": "Einsatzsteuerung",
+            "info": "Einsatzsteuerung",
+            "iconCls": "far fa-fw fa-calendar-alt",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_msh_dispatch_monitor",
+                    "de": "Einsatzplanung",
+                    "info": "MSH Einsatzsteuerung",
+                    "iconCls": "far fa-fw fa-tasks-alt",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.dispatchmonitor.DispatchMonitor",
+                    "standalone": true
+                },
+                {
+                    "id": "m_msh_ticket_grid",
+                    "de": "Aufträge / Tickets",
+                    "info": "MSH Aufträge / Tickets",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.ticket.TicketGrid"
+                },
+                {
+                    "id": "m_msh_map_overview",
+                    "de": "Kartenübersicht",
+                    "info": "MSH Kartenübersicht",
+                    "iconCls": "far fa-fw fa-map-marked",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.geooverview.GeoOverview",
+                    "standalone": true
+                },
+                {
+                    "id": "m_msh_utilization_map",
+                    "de": "Auslastung",
+                    "info": "MSH Auslastung",
+                    "iconCls": "far fa-fw fa-map-marked",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.utilizationmap.UtilizationMap",
+                    "standalone": true
+                },
+                {
+                    "id": "m_msh_ticket_board",
+                    "de": "Ticket Kanban",
+                    "info": "MSH Ticket Kanban",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.ticketboard.Ticketboard"
+                },
+                {
+                    "id": "m_msh_lx_ticket_board",
+                    "de": "Lexmark Tickets",
+                    "info": "MSH LX Ticket Kanban",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.lexmark.Ticketboard"
+                },
+                {
+                    "id": "m_msh_supply_monitor_grid",
+                    "de": "VBM-Alarme",
+                    "info": "MSH VBM-Alarme",
+                    "iconCls": "far fa-fw fa-fill-drip",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.deliveryaddress.DeliveryAddressGrid"
+                },
+                {
+                    "id": "m_msh_supply_order_grid",
+                    "de": "Tonerbestellungen",
+                    "info": "MSH Tonerbestellungen",
+                    "iconCls": "far fa-fw fa-cash-register",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.supplyorder.SupplyOrderGrid"
+                },
+                {
+                    "id": "m_msh_service_monitor_grid",
+                    "de": "System-Alarme",
+                    "info": "MSH Service-Alarme",
+                    "iconCls": "far fa-fw fa-heart-rate",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.item.ItemGrid"
+                },
+                {
+                    "id": "m_tecd_ticket_grid",
+                    "de": "Aufträge / Tickets",
+                    "info": "TECD Aufträge / Tickets",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.ticket.TicketGrid"
+                },
+                {
+                    "id": "m_tecd_ticket_board",
+                    "de": "Ticket Kanban",
+                    "info": "TECD Ticket Kanban",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.ticketboard.TicketBoard"
+                },
+                {
+                    "id": "m_tecd_supply_order_grid",
+                    "de": "Tonerbestellungen",
+                    "info": "TECD Tonerbestellungen",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.supplyorder.SupplyOrderGrid"
+                },
+                {
+                    "id": "m_tecd_ticket_partner_board",
+                    "de": "Ticket Partner Kanban",
+                    "info": "TECD Ticket Partner Kanban",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.ticketboard.TicketPartnerBoard"
+                }
+            ]
+        },
+        {
+            "id": "m_contract_management",
+            "de": "Vertragsverwaltung",
+            "info": "Vertragsverwaltung",
+            "iconCls": "far fa-fw fa-file-signature",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_tecd_contract_grid",
+                    "de": "Verträge",
+                    "info": "TECD Verträge",
+                    "iconCls": "far fa-fw fa-file-signature",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.contract.ContractGrid",
+                    "standalone": false
+                },
+                {
+                    "id": "m_tecd_supply_selling_price_grid",
+                    "de": "VBM Verkaufspreise",
+                    "info": "TECD VBM Verkaufspreise",
+                    "iconCls": "far fa-fw fa-tag",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.item.SupplyItemSellingPriceGrid",
+                    "standalone": false
+                },
+                {
+                    "id": "m_tecd_supply_purchase_price_grid",
+                    "de": "VBM Einkaufspreise",
+                    "info": "TECD VBM Einkaufspreise",
+                    "iconCls": "far fa-fw fa-tag",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.item.SupplyItemPurchasePriceGrid",
+                    "standalone": false
+                },
+                {
+                    "id": "m_tecd_counter_grid",
+                    "de": "Zählererfassung",
+                    "info": "TECD Zählererfassung",
+                    "iconCls": "far fa-fw fa-tally",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.system.CounterGrid",
+                    "standalone": false
+                },
+                {
+                    "id": "m_tecd_contract_model_grid",
+                    "de": "Modell Vertragspreise",
+                    "info": "TECD Modell Vertragspreise",
+                    "iconCls": "far fa-fw fa-tag",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.contract.ContractModelGrid",
+                    "standalone": false
+                }
+            ]
+        },
+        {
+            "id": "hv_geooverview",
+            "de": "Kartenübersicht",
+            "info": "HV Kartenübersicht",
+            "iconCls": "far fa-fw fa-map-marked",
+            "leaf": true,
+            "moduleClass": "MyApp.view.hv.geooverview.GeoOverview"
+        },
+        {
+            "id": "tm_univeral_map_overview",
+            "de": "Übersicht",
+            "info": "TM Übersicht",
+            "iconCls": "far fa-fw fa-map-marked",
+            "leaf": true,
+            "moduleClass": "MyApp.view.tm.mapping.UniversalMapOverview"
+        },
+        {
+            "id": "m_hv_track_map",
+            "de": "Bewegungsprofile",
+            "info": "HV Bewegungsprofile",
+            "iconCls": "far fa-fw fa-route",
+            "leaf": true,
+            "moduleClass": "MyApp.view.hv.trackmap.TrackMap"
+        },
+        {
+            "id": "m_order_planning",
+            "de": "Bestellplanung",
+            "info": "Bestellplanung",
+            "iconCls": "far fa-fw fa-bags-shopping",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_ths_order_planning_compatible",
+                    "de": "Kompatible Produkte",
+                    "info": "THS Kompatible Produkte",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.CompatibleOrderPlanning",
+                    "standalone": true,
+                    "hidden": true
+                },
+                {
+                    "id": "m_ths_order_planning_inhouse",
+                    "de": "Eigenproduktion",
+                    "info": "THS Eigenproduktion",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.OwnProductionOrderPlanning",
+                    "standalone": true,
+                    "hidden": true
+                },
+                {
+                    "id": "m_ths_order_planning_finish_part",
+                    "de": "Fertigteilplanung",
+                    "info": "THS Fertigteilplanung",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.FinishPartOrderPlanning",
+                    "standalone": true
+                },
+                {
+                    "id": "m_ths_order_planning_raw_material",
+                    "de": "Rohstoffplanung",
+                    "info": "THS Rohstoffplanung",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.RawMaterialOrderPlanning",
+                    "standalone": true
+                },
+                {
+                    "id": "m_ths_order_planning_production_planning",
+                    "de": "Produktionsplanung",
+                    "info": "THS Produktionsplanung",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.ProductionPlanning",
+                    "standalone": true
+                },
+                {
+                    "id": "m_ths_order_planning_trading_goods_planning",
+                    "de": "Handelswarenplanung",
+                    "info": "THS Handelswarenplanung",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.TradingGoodsPlanning",
+                    "standalone": true
+                },
+                {
+                    "id": "m_ths_order_planning_rebuild",
+                    "de": "Rebuild",
+                    "info": "THS Rebuild",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.CompatibleOrderPlanning",
+                    "standalone": true,
+                    "hidden": true
+                },
+                {
+                    "id": "m_ths_order_planning_modified",
+                    "de": "Modified",
+                    "info": "THS Modified",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.CompatibleOrderPlanning",
+                    "standalone": true,
+                    "hidden": true
+                },
+                {
+                    "id": "m_ths_order_planning_oem",
+                    "de": "OEM Produkte",
+                    "info": "THS OEM Produkte",
+                    "iconCls": "far fa-fw fa-bags-shopping",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.orderplanning.CompatibleOrderPlanning",
+                    "standalone": true,
+                    "hidden": true
+                },
+                {
+                    "id": "m_ths_container_planning_grid",
+                    "de": "Container Planung",
+                    "info": "THS Container Planung",
+                    "iconCls": "far fa-fw fa-container-storage",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.container.ContainerPlanningGrid"
+                }
+            ]
+        },
+        {
+            "id": "m_production",
+            "de": "Fertigung",
+            "info": "Fertigung",
+            "iconCls": "far fa-fw fa-tasks-alt",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_ths_production_oem_planner",
+                    "de": "Fertigungsplanung",
+                    "info": "THS Fertigungsplanung",
+                    "iconCls": "far fa-fw fa-tasks-alt",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.production.ProductionPlanner",
+                    "standalone": true,
+                    "loadmask": true,
+                    "hidden": false
+                },
+                {
+                    "id": "m_ths_production_oem_scheduler",
+                    "de": "Tonerabfüllung",
+                    "info": "THS Tonerabfüllung",
+                    "iconCls": "far fa-fw fa-tasks-alt",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.production.ProductionScheduler",
+                    "standalone": true,
+                    "loadmask": true
+                },
+                {
+                    "id": "m_ths_production_tec_planner",
+                    "de": "Planung Technik",
+                    "info": "THS Planung Technik",
+                    "iconCls": "far fa-fw fa-tasks-alt",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.production.ProductionPlanner",
+                    "standalone": true,
+                    "loadmask": true,
+                    "hidden": true
+                }
+            ]
+        },
+        {
+            "id": "m_ths_quotation_grid",
+            "de": "Angebotsermittlung",
+            "info": "THS Angebotsermittlung",
+            "iconCls": "far fa-fw fa-abacus",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.quotation.QuotationGrid"
+        },
+        {
+            "id": "m_ths_repeat_label_print",
+            "de": "Artikeletikett nachdrucken",
+            "info": "THS Artikeletikett nachdrucken",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.RepeatLabelPrint"
+        },
+        {
+            "id": "m_ths_item_label_print",
+            "de": "Artikeletikett drucken",
+            "info": "THS Artikeletikett drucken",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.ItemLabelPrint"
+        },
+        {
+            "id": "m_ths_repeat_label_print_en",
+            "de": "Reprint label",
+            "info": "THS Artikeletikett nachdrucken EN",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.RepeatLabelPrint_EN"
+        },
+        {
+            "id": "m_ths_item_label_print_en",
+            "de": "Print item label",
+            "info": "THS Artikeletikett drucken EN",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.ItemLabelPrint_EN"
+        },
+        {
+            "id": "m_ths_repeat_charge_print",
+            "de": "Chargen-Etiketten nachdrucken",
+            "info": "THS Chargen-Etiketten nachdrucken",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.RepeatChargeLabelPrint"
+        },
+        {
+            "id": "m_ths_charge_label_print",
+            "de": "Chargen-Etiketten drucken",
+            "info": "THS Chargen-Etiketten drucken",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.ChargeLabelPrint"
+        },
+        {
+            "id": "m_ths_repeat_delivery_label_print",
+            "de": "Versandetikett nachdrucken",
+            "info": "THS Versandetikett nachdrucken",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.ths.label.RepeatDeliveryLabelPrint"
+        },
+        {
+            "id": "m_rma_intern",
+            "de": "RMA",
+            "info": "RMA Intern",
+            "iconCls": "far fa-fw fa-bug",
+            "leaf": false,
+            "hidden": true,
+            "children": [
+                {
+                    "id": "m_ths_rma_board",
+                    "de": "RMA Abwicklung",
+                    "info": "RMA Abwicklung",
+                    "iconCls": "far fa-fw fa-bug",
+                    "leaf": true,
+                    "moduleClass": ""
+                },
+                {
+                    "id": "m_ths_rma_grid",
+                    "de": "Rücksendungen",
+                    "info": "THS Rücksendungen",
+                    "iconCls": "far fa-fw fa-bug",
+                    "leaf": true,
+                    "moduleClass": ""
+                },
+                {
+                    "id": "m_ths_rma_customer_grid",
+                    "de": "Kunden",
+                    "info": "THS Kunden",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.customer.CustomerGrid"
+                },
+                {
+                    "id": "m_ths_rma_item_grid",
+                    "de": "Artikel",
+                    "info": "THS Artikel",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": ""
+                },
+                {
+                    "id": "m_ths_rma_item_group_grid",
+                    "de": "Artikelgruppen",
+                    "info": "THS Artikelgruppen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": ""
+                },
+                {
+                    "id": "m_ths_rma_error_group_grid",
+                    "de": "Fehlergruppen",
+                    "info": "THS Fehlergruppen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": ""
+                }
+            ]
+        },
+        {
+            "id": "m_pcts_piet_grid",
+            "de": "PIET Verwaltung",
+            "info": "PIET Verwaltung",
+            "iconCls": "far fa-fw fa-upload",
+            "leaf": true,
+            "moduleClass": "MyApp.view.pcts.piet.PietGrid"
+        },
+        {
+            "id": "m_pcts_piet_tec_grid",
+            "de": "PIET Technik",
+            "info": "PIET Technik",
+            "iconCls": "far fa-fw fa-tools",
+            "leaf": true,
+            "moduleClass": "MyApp.view.pcts.piet.PietTecGrid"
+        },
+        {
+            "id": "m_pcts_pam_grid",
+            "de": "PAM ",
+            "info": "PCTS PAM",
+            "iconCls": "far fa-fw fa-file-invoice-dollar",
+            "leaf": true,
+            "moduleClass": "MyApp.view.pcts.pam.PamGrid"
+        },
+        {
+            "id": "m_prg_survey_grid",
+            "de": "Projektstarter",
+            "info": "PRG Projektstarter",
+            "iconCls": "fab fa-fw fa-product-hunt",
+            "leaf": true,
+            "moduleClass": "MyApp.view.prg.pssurvey.PSSurveyGrid"
+        },
+        {
+            "id": "m_reporting",
+            "de": "Reports / Auswertungen",
+            "info": "Reports / Auswertungen",
+            "iconCls": "far fa-fw fa-tasks-alt",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_ths_twi",
+                    "de": "TWI",
+                    "info": "THS TWI",
+                    "iconCls": "far fa-fw fa-map-marked",
+                    "leaf": true,
+                    "moduleClass": "http://172.27.0.68/TWI",
+                    "startalone": true
+                },
+                {
+                    "id": "m_hv_report_grid",
+                    "de": "Reportverwaltung",
+                    "info": "HV Reportverwaltung",
+                    "iconCls": "far fa-fw fa-ruler-triangle",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.report.ReportGrid"
+                }
+            ]
+        },
+        {
+            "id": "m_msh_stock",
+            "de": "Lagerverwaltung",
+            "info": "MSH Lagerverwaltung",
+            "iconCls": "far fa-fw fa-layer-group",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_stock_type",
+                    "de": "Lagerstandort",
+                    "info": "MSH Lagerstandort",
+                    "iconCls": "far fa-fw fa-cubes",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.stockoverview.StockOverview"
+                }
+            ]
+        },
+        {
+            "id": "m_tm_corona_check",
+            "de": "Corona Check",
+            "info": "TM Corona Check",
+            "iconCls": "far fa-fw fa-layer-group",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_cc_person",
+                    "de": "Personen",
+                    "info": "TM Personen",
+                    "iconCls": "far fa-fw fa-virus",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.coronacheck.PersonGrid"
+                },
+                {
+                    "id": "m_cc_test",
+                    "de": "Testprotokolle",
+                    "info": "TM Tests",
+                    "iconCls": "far fa-fw fa-virus",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.coronacheck.TestGrid"
+                }
+            ]
+        },
+        {
+            "id": "m_master_data",
+            "de": "Stammdaten",
+            "info": "Stammdaten",
+            "iconCls": "far fa-fw fa-puzzle-piece",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_msh_system_grid",
+                    "de": "Systeme",
+                    "info": "MSH Systeme",
+                    "iconCls": "far fa-fw fa-print",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.system.SystemGrid"
+                },
+                {
+                    "id": "m_msh_system_grid",
+                    "de": "Systeme",
+                    "info": "MSH Systeme",
+                    "iconCls": "far fa-fw fa-print",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.system.SystemGrid"
+                },
+                {
+                    "id": "m_tecd_system_grid",
+                    "de": "Systeme",
+                    "info": "TECD Systeme",
+                    "iconCls": "far fa-fw fa-print",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.system.SystemGrid"
+                },
+                {
+                    "id": "m_msh_model_grid",
+                    "de": "Modelle",
+                    "info": "MSH Modelle",
+                    "iconCls": "far fa-fw fa-shredder",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.model.ModelGrid"
+                },
+                {
+                    "id": "m_msh_system_location_grid",
+                    "de": "Standort Zuweisungen",
+                    "info": "MSH Standort Zuweisungen",
+                    "iconCls": "far fa-fw fa-search-location",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.systemlocation.SystemLocationGrid"
+                },
+                {
+                    "id": "m_tecd_model_grid",
+                    "de": "Modelle",
+                    "info": "TECD Modelle",
+                    "iconCls": "far fa-fw fa-shredder",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.model.ModelGrid"
+                },
+                {
+                    "id": "m_tecd_fmamodel_grid",
+                    "de": "Modelle",
+                    "info": "TECD FMAuditModelle",
+                    "iconCls": "far fa-fw fa-shredder",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.model.FMAModelGrid"
+                },
+                {
+                    "id": "m_msh_customer_address_grid",
+                    "de": "Kundenadressen",
+                    "info": "MSH Kundenadressen",
+                    "iconCls": "far fa-fw fa-city",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.customeraddress.CustomerAddressGrid"
+                },
+                {
+                    "id": "m_tecd_customer_address_grid",
+                    "de": "Kundenadressen",
+                    "info": "TECD Kundenadressen",
+                    "iconCls": "far fa-fw fa-city",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.customeraddress.CustomerAddressGrid"
+                },
+                {
+                    "id": "m_msh_delivery_address_grid",
+                    "de": "Lieferadressen",
+                    "info": "MSH Lieferadressen",
+                    "iconCls": "far fa-fw fa-truck-loading",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.deliveryaddress.DeliveryAddressGrid"
+                },
+                {
+                    "id": "m_msh_item_grid",
+                    "de": "Artikel",
+                    "info": "MSH Artikel",
+                    "iconCls": "far fa-fw fa-cubes",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.item.ItemGrid"
+                },
+                {
+                    "id": "m_tecd_item_grid",
+                    "de": "Artikel",
+                    "info": "TECD Artikel",
+                    "iconCls": "far fa-fw fa-cubes",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.item.ItemGrid"
+                },
+                {
+                    "id": "m_tecd_info_text_grid",
+                    "de": "Zusatzinformationen",
+                    "info": "TECD Zusatzinformationen",
+                    "iconCls": "far fa-fw fa-align-left",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.infotext.InfoTextGrid"
+                },
+                {
+                    "id": "m_ths_customer_grid",
+                    "de": "Kunden",
+                    "info": "THS Kunden",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.customer.CustomerGrid"
+                },
+                {
+                    "id": "m_ths_parsia_customer_grid",
+                    "de": "PARSIA Kunden",
+                    "info": "THS PARSIA Kunden",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.customer.ParsiaCustomerGrid"
+                },
+                {
+                    "id": "m_ths_order_planning_supplier_grid",
+                    "de": "Lieferanten",
+                    "info": "THS Lieferanten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.supplier.SupplierGrid"
+                },
+                {
+                    "id": "m_ths_product_grid",
+                    "de": "Produkte",
+                    "info": "THS Produkte",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.product.ProductGrid"
+                },
+                {
+                    "id": "m_ths_product_device_model_grid",
+                    "de": "Modelle",
+                    "info": "THS Modelle",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.devicemodel.DeviceModelGrid"
+                },
+                {
+                    "id": "m_ths_product_manufacturer_grid",
+                    "de": "Hersteller",
+                    "info": "THS Hersteller",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.manufacturer.ManufacturerGrid"
+                },
+                {
+                    "id": "m_ths_label_grid",
+                    "de": "Etiketten",
+                    "info": "THS Etiketten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.label.LabelGrid"
+                },
+                {
+                    "id": "m_ths_salesman_grid",
+                    "de": "Vertreter",
+                    "info": "THS Vertreter",
+                    "iconCls": "far fa-fw fa-user-tie",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.salesman.SalesmanGrid"
+                },
+                {
+                    "id": "m_hv_user_grid",
+                    "de": "Benutzer",
+                    "info": "HV Benutzer",
+                    "iconCls": "far fa-fw fa-user",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.user.UserGrid"
+                },
+                {
+                    "id": "m_tm_service_provider",
+                    "de": "Dienstleister",
+                    "info": "TM Dienstleister",
+                    "iconCls": "far fa-fw fa-user-tie",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.serviceprovider.ServiceProviderGrid"
+                },
+                {
+                    "id": "m_tm_building",
+                    "de": "Gebäude",
+                    "info": "TM Gebäude",
+                    "iconCls": "far fa-fw fa-building",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.building.BuildingGrid"
+                },
+                {
+                    "id": "m_tm_stock",
+                    "de": "Lagerorte",
+                    "info": "TM Lagerorte",
+                    "iconCls": "far fa-fw fa-warehouse",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.stock.StockGrid"
+                },
+                {
+                    "id": "m_tm_exam",
+                    "de": "Prüfungen",
+                    "info": "TM Prüfungen",
+                    "iconCls": "far fa-fw fa-clipboard-list",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.formdev.FormDevGrid"
+                },
+                {
+                    "id": "m_tm_system",
+                    "de": "Anlagen",
+                    "info": "TM Anlagen",
+                    "iconCls": "far fa-fw fa-conveyor-belt",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.system.SystemGrid"
+                },
+                {
+                    "id": "m_tm_item",
+                    "de": "Artikel",
+                    "info": "TM Artikel",
+                    "iconCls": "far fa-fw fa-cube",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tm.item.ItemGrid"
+                },
+                {
+                    "id": "m_hv_machine_resource_grid",
+                    "de": "Ressourcen",
+                    "info": "HV Ressourcen",
+                    "iconCls": "far fa-fw fa-hdd",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.resource.MachineResourceGrid"
+                },
+                {
+                    "id": "m_msh_user_grid",
+                    "de": "Benutzer",
+                    "info": "MSH Benutzer",
+                    "iconCls": "far fa-fw fa-user",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.user.UserGrid"
+                },
+                {
+                    "id": "m_tecd_user_grid",
+                    "de": "Benutzer",
+                    "info": "TECD Benutzer",
+                    "iconCls": "far fa-fw fa-user",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.user.UserGrid"
+                }
+            ]
+        },
+        {
+            "id": "m_base_data",
+            "de": "Grundlagen",
+            "info": "Grundlagen",
+            "iconCls": "far fa-fw fa-cog",
+            "leaf": false,
+            "children": [
+                {
+                    "id": "m_pcts_symptom_grid",
+                    "de": "Symptome",
+                    "info": "PCTS Symptome",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.symptom.SymptomGrid"
+                },
+                {
+                    "id": "m_pcts_reason_grid",
+                    "de": "Ursachen",
+                    "info": "PCTS Ursachen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.reason.ReasonGrid"
+                },
+                {
+                    "id": "m_pcts_action_grid",
+                    "de": "Aktionen",
+                    "info": "PCTS Aktionen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.action.ActionGrid"
+                },
+                {
+                    "id": "m_pcts_order_status_type_grid",
+                    "de": "Auftragstatus",
+                    "info": "PCTS Auftragstatus",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.orderstatustype.OrderStatusTypeGrid"
+                },
+                {
+                    "id": "m_pcts_order_type_grid",
+                    "de": "Auftragsarten",
+                    "info": "PCTS Auftragsarten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.ordertype.OrderTypeGrid"
+                },
+                {
+                    "id": "m_msh_order_type_grid",
+                    "de": "Auftragsarten",
+                    "info": "MSH Auftragsarten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.ordertype.OrderTypeGrid"
+                },
+                {
+                    "id": "m_pcts_sla_grid",
+                    "de": "SLA's",
+                    "info": "PCTS SLA's",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.sla.SLAGrid"
+                },
+                {
+                    "id": "m_tecd_sla_grid",
+                    "de": "SLA's",
+                    "info": "TECD SLA's",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.sla.SLAGrid"
+                },
+                {
+                    "id": "m_pcts_urgency_grid",
+                    "de": "Dringlichkeiten",
+                    "info": "PCTS Dringlichkeiten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.urgency.UrgencyGrid"
+                },
+                {
+                    "id": "m_pcts_contact_type_grid",
+                    "de": "Kontaktarten",
+                    "info": "PCTS Kontaktarten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.contacttype.ContactTypeGrid"
+                },
+                {
+                    "id": "m_pcts_contract_type_grid",
+                    "de": "Vertragsarten",
+                    "info": "PCTS Vertragsarten",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.contracttype.ContractTypeGrid"
+                },
+                {
+                    "id": "m_pcts_revisit_reason_grid",
+                    "de": "Nachbesuchsgründe",
+                    "info": "PCTS Nachbesuchsgründe",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.revisitreason.RevisitReasonGrid"
+                },
+                {
+                    "id": "m_pcts_text_block_grid",
+                    "de": "Textbausteine",
+                    "info": "PCTS Textbausteine",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.textblock.TextBlockGrid"
+                },
+                {
+                    "id": "m_pcts_error_code_grid",
+                    "de": "Fehlercodes",
+                    "info": "PCTS Fehlercodes",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.errorcode.ErrorCodeGrid"
+                },
+                {
+                    "id": "m_hv_qualification_grid",
+                    "de": "Qualifikationen",
+                    "info": "HV Qualifikationen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.qualification.QualificationGrid"
+                },
+                {
+                    "id": "m_pcts_resource_status_type_grid",
+                    "de": "Mitarbeitertstatus",
+                    "info": "PCTS Mitarbeitertstatus",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.pcts.resourcestatustype.ResourceStatusTypeGrid"
+                },
+                {
+                    "id": "m_hv_resource_type_grid",
+                    "de": "Ressourcetypen",
+                    "info": "HV Ressourcetypen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.resourcetype.ResourceTypeGrid"
+                },
+                {
+                    "id": "m_msh_ticket_note_type_grid",
+                    "de": "Ticket Notizarten",
+                    "info": "MSH Notizarten für Tickets",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.ticketnotetype.TicketNoteTypeGrid"
+                },
+                {
+                    "id": "m_tecd_ticket_note_type_grid",
+                    "de": "Ticket Notizarten",
+                    "info": "TECD Notizarten für Tickets",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.ticketnotetype.TicketNoteTypeGrid"
+                },
+                {
+                    "id": "m_tecd_company_basics_edit",
+                    "de": "Firmeneinstellungen",
+                    "info": "TECD Firmeneinstellungen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.companybasics.CompanyBasicsEdit"
+                },
+                {
+                    "id": "m_ths_product_group_grid",
+                    "de": "Produktgruppen",
+                    "info": "THS Produktgruppen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.productgroup.ProductGroupGrid"
+                },
+                {
+                    "id": "m_ths_product_device_model_group_grid",
+                    "de": "Modellgruppen",
+                    "info": "THS Modellgruppen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.devicemodelgroup.DeviceModelGroupGrid"
+                },
+                {
+                    "id": "m_ths_voucher_type_grid",
+                    "de": "Belegarten",
+                    "info": "THS Belegarten",
+                    "iconCls": "far fa-fw fa-file-invoice",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.vouchertype.VoucherTypeGrid"
+                },
+                {
+                    "id": "m_ths_printer_grid",
+                    "de": "Drucker",
+                    "info": "THS Drucker",
+                    "iconCls": "far fa-fw fa-print",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.printer.PrinterGrid"
+                },
+                {
+                    "id": "m_ths_product_basics_edit",
+                    "de": "Produktgrundlagen",
+                    "info": "THS Produktgrundlagen",
+                    "iconCls": "far fa-fw fa-cog",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.productbasics.ProductBasicsEdit"
+                },
+                {
+                    "id": "m_ths_container_type_grid",
+                    "de": "Containertyp",
+                    "info": "THS Containertyp",
+                    "iconCls": "far fa-fw fa-truck-container",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.ths.container.ContainerTypeGrid"
+                },
+                {
+                    "id": "m_hv_usergroup_grid",
+                    "de": "Benutzergruppen",
+                    "info": "HV Benutzergruppen",
+                    "iconCls": "far fa-fw fa-users",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.hv.usergroup.UserGroupGrid"
+                },
+                {
+                    "id": "m_msh_usergroup_grid",
+                    "de": "Benutzergruppen",
+                    "info": "MSH Benutzergruppen",
+                    "iconCls": "far fa-fw fa-users",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.msh.usergroup.UserGroupGrid"
+                },
+                {
+                    "id": "m_tecd_usergroup_grid",
+                    "de": "Benutzergruppen",
+                    "info": "TECD Benutzergruppen",
+                    "iconCls": "far fa-fw fa-users",
+                    "leaf": true,
+                    "moduleClass": "MyApp.view.tecd.usergroup.UserGroupGrid"
+                }
+            ]
+        },
+        {
+            "id": "m_hv_company_adm_grid",
+            "de": "Portalverwaltung",
+            "info": "HV Portalverwaltung",
+            "iconCls": "far fa-fw fa-building",
+            "leaf": true,
+            "superUser": true,
+            "moduleClass": "MyApp.view.hv.company.CompanyAdmGrid"
+        }
+    ]
+}

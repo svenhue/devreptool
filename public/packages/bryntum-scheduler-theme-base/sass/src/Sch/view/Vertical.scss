@@ -1,0 +1,82 @@
+.sch-vertical .sch-verticaltimeaxis-cell {
+    background : $sch-verticaltimeaxis-background-color;
+}
+
+.sch-vertical .sch-verticaltimeaxis-cell .#{$prefix}grid-cell-inner {
+    color   : #666;
+    padding : 0 5px;
+}
+
+.sch-vertical .sch-timetd {
+    border-top-color : transparent;
+}
+
+.sch-vertical .sch-animations-enabled .sch-event {
+    transition-property         : width, left;
+    transition-duration         : 0.4s;
+}
+
+.sch-vertical .sch-schedulerview .#{$prefix}grid-cell-inner {
+    padding  : 0;
+    height   : 100%;
+    overflow : visible;
+    // ExtJS sets this to 1 which interferes with events rendering in Vertical and Week modes
+    z-index  : auto;
+}
+
+.sch-vertical .sch-schedulerview td.sch-timetd,
+.sch-vertical .sch-schedulerview .#{$prefix}grid-item-alt {
+    background : transparent;
+}
+
+/* Alternating coloring for columns */
+.sch-schedulerpanel.sch-vertical .sch-schedulerview td.sch-col-alt {
+    background-color : rgba(245, 245, 245, 0.4);
+}
+
+/* No mouse over effect for vertical time column cells */
+.sch-vertical .#{$prefix}grid-item-over .sch-verticaltimeaxis-cell {
+    background-color : #F9F9F9;
+    border-color     : #FAFAFA #EDEDED #EDEDED;
+}
+
+.sch-verticaltimeaxis-header .#{$prefix}column-header-text {
+    background-image : none;
+}
+
+/* visual divider for rows in day/week view */
+.sch-vertical .sch-schedulerview .#{$prefix}grid-cell-inner:before {
+    position   : absolute;
+    left       : 0;
+    top        : 50%;
+    width      : 100%;
+    height     : 1px;
+    content    : " ";
+    border-top : 1px dotted #e9e9e9;
+    margin-top : -1px;
+}
+
+.sch-vertical .sch-header-secondary-canvas {
+    width   : 100%;
+    z-index : 1;
+}
+
+/* Border is moved from .x-grid-item to .x-grid-cell to highlight properly and use along with column lines feature */
+.sch-vertical .#{$prefix}grid-item {
+    border-top-width: 0;
+    border-color: transparent;
+}
+
+.sch-vertical .#{$prefix}grid-cell {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: $grid-row-cell-border-color;
+}
+
+.sch-vertical .sch-lockedview .#{$prefix}grid-item:first-child .#{$prefix}grid-cell {
+    border-top-color: transparent;
+}
+
+.sch-vertical .sch-normalview .#{$prefix}grid-cell {
+    border-top-color: transparent;
+}

@@ -1,0 +1,58 @@
+{
+    "id": "root",
+    "de": "Menü",
+    "info": "Menü",
+    "leaf": false,
+    "iconCls": "far fa-fw fa-folder",
+    "expanded": true,
+    "children": [
+        {
+            "id": "msaDPFleetTaskBoard",
+            "de": "Fleet Taskboard",
+            "info": "MSA DP Fleet Taskboard",
+            "iconCls": "far fa-fw fa-truck",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msa.dp.fleet.task.TaskBoard"
+        },
+        {
+            "id": "msaDPFleetTaskGrid",
+            "de": "Fleet Vorgänge",
+            "info": "MSA DP Fleet Task Grid",
+            "iconCls": "far fa-fw fa-truck",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msa.dp.fleet.task.TaskGrid"
+        },
+        {
+            "id": "msaDPBikeTaskBoard",
+            "de": "Bike Taskboard",
+            "info": "MSA DP Bike Taskboard",
+            "iconCls": "far fa-fw fa-bicycle",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msa.dp.bike.task.TaskBoard"
+        },
+        {
+            "id": "msaDPBikeTaskGrid",
+            "de": "Bike Vorgänge",
+            "info": "MSA DP Bike Task Grid",
+            "iconCls": "far fa-fw fa-bicycle",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msa.dp.bike.task.TaskGrid"
+        },
+        {
+            "id": "msaOriginUserGrid",
+            "de": "Benutzer",
+            "info": "MSA Origin User Grid",
+            "iconCls": "far fa-fw fa-user",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msa.origin.UserGrid"
+        },
+        {
+            "id": "msaOriginUserGroupGrid",
+            "de": "Benutzergruppen",
+            "info": "MSA Origin UserGroup Grid",
+            "iconCls": "far fa-fw fa-user",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msa.origin.UserGroupGrid"
+        }
+    ]
+}

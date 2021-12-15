@@ -1,0 +1,97 @@
+.sch-header-row .#{$prefix}column-header-inner,
+.sch-timeheader {
+    padding-top    : 3px !important;
+    padding-bottom : 3px !important;
+}
+
+/* Hide default Ext JS column text container since it's not used in the timeaxis column*/
+.sch-simple-timeaxis .#{$prefix}column-header-text-container {
+    display : none !important;
+}
+
+.sch-column-header.sch-header-cell-center .sch-simple-timeheader {
+    margin-left  : 0;
+    margin-right : 0;
+}
+
+.sch-simple-timeaxis .#{$prefix}column-header-inner {
+    padding : 0;
+}
+
+.sch-column-header {
+    position     : relative;
+    overflow     : hidden;
+    color        : $sch-timeaxis-column-header-color;
+    border-right : $sch-timeaxis-column-header-border-width $sch-timeaxis-column-header-border-style $sch-timeaxis-column-header-border-color;
+    @if not is-null($sch-timeaxis-column-header-background-gradient) {
+        @include background-gradient($sch-timeaxis-column-header-background-color, $sch-timeaxis-column-header-background-gradient);
+    }
+}
+
+.sch-column-header .sch-simple-timeheader {
+    margin : $sch-timeaxis-column-header-padding;
+}
+
+.sch-header-row {
+    border-top : $sch-timeaxis-column-header-border-width $sch-timeaxis-column-header-border-style $sch-timeaxis-column-header-border-color;
+}
+
+.sch-column-header-over {
+    background-color : $sch-timeaxis-column-header-over-background-color;
+    @if not is-null($sch-timeaxis-column-header-over-background-gradient) {
+        @include background-gradient($sch-timeaxis-column-header-over-background-color, $sch-timeaxis-column-header-over-background-gradient);
+    }
+}
+
+.sch-simple-timeaxis .sch-simple-timeheader {
+    white-space : nowrap;
+    overflow    : hidden;
+    padding     : 0 6px;
+}
+
+.sch-simple-timeheader-pad {
+    padding : 0 6px;
+}
+
+/* Adjust font size and padding for very narrow cells */
+.sch-simple-timeaxis .sch-header-row-compact .sch-simple-timeheader {
+    padding-left  : 1px;
+    padding-right : 1px;
+    font-size : 85%;
+}
+
+.sch-simple-timeaxis .sch-header-row-compact .sch-column-header .sch-simple-timeheader {
+    margin-left  : 0;
+    margin-right : 0;
+}
+
+.#{$prefix}safari .sch-simple-timeaxis .sch-header-row-compact .sch-simple-timeheader {
+    padding-left  : 0;
+    padding-right : 0;
+}
+
+.sch-timeaxiscolumn .#{$prefix}column-header-inner {
+    padding : 0;
+}
+
+.sch-header-row {
+    table-layout : fixed;
+}
+
+.sch-header-single-row .#{$prefix}group-sub-header {
+    border-top-width : 0 !important;
+}
+
+.#{$prefix}webkit .sch-column-header .#{$prefix}column-header-inner {
+    white-space : normal;
+}
+
+.sch-header-secondary-canvas {
+    position : absolute;
+    top      : 0;
+    left     : 0;
+}
+
+.sch-horizontal .sch-header-secondary-canvas {
+    height : 100%;
+}

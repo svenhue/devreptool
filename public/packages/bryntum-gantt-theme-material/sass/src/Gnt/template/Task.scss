@@ -1,0 +1,12 @@
+.sch-gantt-task-bar,
+.sch-gantt-task-segment {
+    border-width : 0;
+}
+
+.sch-gantt-task-bar .sch-gantt-progress-bar,
+.sch-gantt-task-segment .sch-gantt-progress-bar {
+    text-align  : right;
+    text-indent : 3px;
+    font-size   : 0.9em;
+    overflow    : visible;
+}

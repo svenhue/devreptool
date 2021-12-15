@@ -1,0 +1,60 @@
+.sch-all-day-header {
+  background-color : $sch-all-day-header-background-color;
+  border           : 0 !important;
+  border-top       : 1px solid $sch-all-day-header-border-color !important;
+
+  .#{$prefix}grid-body {
+    border-left-width : 0;
+  }
+
+  .#{$prefix}grid-scrollbar {
+    display : none;
+  }
+
+  .#{$prefix}grid-scroll-body {
+    height : 100% !important;
+  }
+
+  .#{$prefix}panel,
+  .sch-timetd,
+  .#{$prefix}grid-item {
+    border : 0 !important;
+  }
+
+  .#{$prefix}grid-scroll-container,
+  .#{$prefix}grid-scroll-body,
+  .#{$prefix}grid-view,
+  .#{$prefix}grid-item {
+    background : transparent !important;
+    overflow   : hidden !important;
+  }
+
+  .sch-event {
+    font-size   : 11px;
+    line-height : 14px;
+
+    .sch-event-inner {
+      white-space   : nowrap;
+      text-overflow : ellipsis;
+    }
+  }
+
+  .sch-column-line {
+    border-color : #d0d0d0;
+  }
+
+  .sch-schedulerview .#{$prefix}grid-cell-inner:before {
+    display : none;
+  }
+}
+
+.sch-all-day-locked-header {
+  display          : flex;
+  align-items      : center;
+  justify-content  : center;
+  text-align       : center;
+  overflow         : hidden;
+  background-color : $grid-header-background-color;
+  color            : $grid-column-header-color;
+  font             : $grid-column-header-font;
+}

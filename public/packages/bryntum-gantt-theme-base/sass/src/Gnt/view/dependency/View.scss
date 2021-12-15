@@ -1,0 +1,143 @@
+.sch-dd-dependency-from-name, .sch-dd-dependency-to-name {
+    font-weight : bold;
+}
+
+.sch-export .sch-dependency-line {
+    -webkit-box-sizing : content-box;
+}
+
+.sch-export.#{$prefix}chrome .sch-dependency-line,
+.sch-export.#{$prefix}safari .sch-dependency-line,
+.sch-export.sch-ie-export .sch-dependency-line {
+    -webkit-box-sizing : border-box;
+}
+
+.sch-terminal-start {
+    left        : 0;
+    top         : 50%;
+    margin-top  : -6px;
+    margin-left : -9px;
+}
+
+.sch-terminal-end {
+    right        : 0;
+    top          : 50%;
+    margin-top   : -6px;
+    margin-right : -9px;
+}
+
+.#{$prefix}rtl .sch-terminal-start {
+    left         : auto;
+    right        : 0;
+    margin-right : -9px;
+    margin-left  : auto;
+}
+
+.#{$prefix}rtl .sch-terminal-end {
+    left        : 0;
+    right : auto;
+    margin-left : -9px;
+    margin-right: auto;
+}
+
+.sch-gantt-task-readonly .sch-terminal {
+    display : none !important;
+}
+
+.sch-gantt-project-task .sch-terminal {
+    display : none !important;
+}
+
+.sch-event-hover .sch-terminal {
+    display: none; /* In scheduler only allowed terminals are added to dom, but in gantt it is controlled via css */
+}
+
+.sch-terminal-allow-source-start .sch-event-hover .sch-terminal-start,
+.sch-terminal-allow-source-end .sch-event-hover .sch-terminal-end {
+    display : block;
+}
+
+.sch-terminals-visible.sch-terminal-allow-source-start .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-source-end .sch-terminal-end,
+.sch-terminals-visible.sch-terminal-allow-source-start .sch-event-hover .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-source-end .sch-event-hover .sch-terminal-end {
+    display : none;
+}
+
+.sch-terminals-visible.sch-terminal-allow-target-start .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-target-end .sch-terminal-end,
+.sch-terminals-visible.sch-terminal-allow-target-start .sch-event-hover .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-target-end .sch-event-hover .sch-terminal-end{
+    display : block;
+}
+
+.#{$prefix}dd-drag-proxy .sch-terminal,
+.#{$prefix}dd-drag-proxy .sch-dependency,
+.sch-ganttview-readonly .sch-terminal,
+.sch-gantt-baseline-item .sch-terminal,
+.#{$prefix}resizable-over .sch-terminal {
+    display : none !important;
+}
+
+/*.sch-gantt-dep-dd-dragging .#{$prefix}resizable-handle {
+    display : none !important;
+}*/
+
+.sch-dependency.sch-dependency-selected {
+  border-color : $sch-dependency-selected-color;
+}
+
+.sch-dependency.sch-dependency-over {
+  border-color : darken($sch-dependency-color, 10%);
+}
+
+.sch-dependency.sch-dependency-selected.sch-dependency-over {
+  border-color : darken($sch-dependency-selected-color, 10%);
+}
+
+/* CRITICAL CHAIN STYLING */
+.sch-gantt-critical-chain .sch-dependency {
+    opacity : 0.2;
+    filter  : alpha(opacity=20);
+}
+
+.sch-gantt-critical-chain .sch-dependency-selected {
+    display : block;
+    opacity : 1;
+    filter  : alpha(opacity=100);
+}
+
+/* EOF CRITICAL CHAIN STYLING */
+
+/* TOUCH ADAPTIONS */
+
+/* Make the touchable area for task edges larger to make it easy to create dependencies with the finger */
+.sch-touch-only .sch-terminal {
+    display    : block;
+    height     : 25px;
+    width      : 25px;
+    margin-top : -12px;
+    border     : 0 none;
+    background : transparent;
+    box-shadow : none;
+}
+
+.sch-touch-only .sch-terminal-start {
+    left : -25px;
+}
+
+.sch-touch-only .sch-terminal-end {
+    right : -25px;
+}
+
+.sch-touch-only .sch-gantt-dep-dd-dragging .sch-terminal-start {
+    width : 35px;
+    left  : -18px;
+}
+
+.sch-touch-only .sch-gantt-dep-dd-dragging .sch-terminal-end {
+    width : 35px;
+    right : -18px;
+}
+
+/* EOF TOUCH ADAPTIONS*/

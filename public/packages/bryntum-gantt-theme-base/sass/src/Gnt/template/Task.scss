@@ -1,0 +1,420 @@
+.sch-event-wrap {
+  z-index    : 10;
+  position   : absolute;
+  overflow   : visible;
+  top        : 16%;
+  height     : 68%;
+  transition : opacity 0.4s;
+}
+
+.sch-gantt-item {
+  position : relative; /* To position dependency terminals by % */
+}
+
+.sch-event-hover:not(.sch-event-fixed).sch-gantt-item,
+.sch-event-hover:not(.sch-event-fixed) .sch-gantt-task-segment {
+  cursor : move;
+}
+
+.sch-gantt-task-readonly .sch-event-hover .sch-gantt-task-segment,
+.gnt-group-item .sch-gantt-item {
+  cursor : default !important;
+}
+
+.sch-event-hover.sch-event-segmented {
+  cursor : default;
+}
+
+.sch-gantt-baseline-item {
+  cursor : default;
+}
+
+.sch-event-segmented .sch-resizable-handle {
+  display : none;
+}
+
+.sch-gantt-task-segment .sch-resizable-handle {
+  display : block;
+}
+
+/* PARTIALLY VISIBLE TASK STYLING */
+.sch-ltr .sch-event-endsoutside .sch-gantt-item {
+  border-right-style         : dashed;
+  border-radius-top-right    : 0 !important;
+  border-radius-bottom-right : 0 !important;
+}
+
+/* Hide right border for events ending outside the view */
+.sch-ltr .sch-event-endsoutside .sch-gantt-item {
+  border-right-style         : dashed;
+  border-radius-top-right    : 0 !important;
+  border-radius-bottom-right : 0 !important;
+}
+
+/* Hide left border for events starting outside the view */
+.sch-ltr .sch-event-startsoutside .sch-gantt-item {
+  border-left-style         : dashed;
+  border-radius-top-left    : 0 !important;
+  border-radius-bottom-left : 0 !important;
+}
+
+.sch-ltr .sch-event-startsoutside.sch-gantt-parent-task {
+  border-left : 0 none;
+}
+
+.sch-ltr .sch-event-endsoutside.sch-gantt-parent-task {
+  border-right : 0 none;
+}
+
+/* Hide label if not part of the view */
+.sch-ltr .sch-event-startsoutside .sch-gantt-labelct-left,
+.sch-ltr .sch-event-endsoutside .sch-gantt-labelct-right {
+  display : none;
+}
+
+/* EOF PARTIALLY VISIBLE TASK STYLING */
+
+/* Leaf task styling */
+div.sch-gantt-task-bar.sch-event-segmented {
+  border-width : 0;
+  background   : transparent;
+  box-shadow   : none;
+}
+
+.sch-gantt-segment-connector {
+  width          : 98%;
+  height         : 0;
+  border-top     : 2px dotted;
+  border-color   : inherit;
+  left           : 2px;
+  top            : 50%;
+  position       : absolute;
+  pointer-events : none;
+}
+
+.sch-gantt-progress-bar {
+  overflow : hidden;
+  height   : 100%;
+}
+
+.gnt-group-item .sch-gantt-label {
+  display : none;
+}
+
+/*.sch-gantt-task-bar .sch-gantt-progress-bar*/
+/*{*/
+/*margin-left : -1px;*/
+/*}*/
+
+/*.sch-gantt-no-task-border .sch-gantt-progress-bar {*/
+/*margin-left : 0;*/
+/*}*/
+
+.sch-event-segmented .sch-gantt-progress-bar {
+  display : none;
+}
+
+.sch-event-segmented .sch-gantt-task-segment .sch-gantt-progress-bar {
+  display : block;
+}
+
+.sch-event-segmented .sch-gantt-progress-bar.sch-progress-bar-resizing {
+  display : block;
+  opacity : 0.1
+}
+
+.sch-gantt-task-segment {
+  position : absolute;
+}
+
+.sch-event-wrap {
+  .sch-gantt-top-label & {
+    top    : 35%;
+    height : 16px;
+  }
+
+  .sch-gantt-labelct {
+    position        : absolute;
+    top             : 0;
+    height          : 100%;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+
+    .sch-gantt-label {
+      white-space : nowrap;
+    }
+  }
+
+  .sch-gantt-labelct-top,
+  .sch-gantt-labelct-bottom {
+    align-items : flex-start;
+    width       : 100%;
+  }
+
+  .sch-gantt-labelct-left {
+    left  : -600px;
+    width : 570px;
+  }
+
+  .sch-gantt-labelct-left {
+    margin-right    : 30px;
+    justify-content : flex-end;
+  }
+
+  .sch-gantt-labelct-right {
+    margin-left     : 30px;
+    justify-content : flex-start;
+  }
+
+  .sch-gantt-labelct-top {
+    margin-top : -20px;
+  }
+
+  .sch-gantt-labelct-bottom {
+    margin-top : 20px;
+  }
+}
+
+.sch-gantt-milestone {
+  .sch-gantt-labelct-right {
+    margin-left : 60px;
+  }
+}
+
+/* Hardcoded heights when using top/bottom labels */
+.sch-gantt-topbottom-labels .sch-gantt-milestone-diamond-ct {
+  height : 14px;
+  width  : 14px;
+}
+
+.sch-gantt-topbottom-labels .sch-gantt-parenttask-bar {
+  height : 11px;
+}
+
+.sch-gantt-topbottom-labels .sch-gantt-task-bar {
+  height : 16px;
+}
+
+/* Baseline styling */
+.sch-ganttview-showbaseline .sch-event-wrap {
+  height : 34%;
+}
+
+.sch-ganttview-showbaseline .sch-gantt-task-bar {
+  height : 100%;
+}
+
+.sch-gantt-baseline-item {
+  display : none;
+  top     : 50%;
+  z-index : 0 !important;
+}
+
+.sch-gantt-baseline-item .sch-gantt-item {
+  cursor : auto !important;
+}
+
+.sch-gantt-task-baseline .sch-gantt-task-bar {
+  border-width  : 1px;
+  overflow      : hidden !important;
+  border-radius : 2px;
+}
+
+.sch-ganttview-showbaseline .sch-gantt-baseline-item {
+  display : block;
+}
+
+.sch-gantt-critical-chain .#{$prefix}grid-row .sch-event-wrap {
+  opacity : 0.2;
+  filter  : alpha(opacity=20);
+}
+
+.sch-gantt-critical-chain .#{$prefix}grid-item-selected .#{$prefix}grid-row .sch-event-wrap,
+.sch-gantt-critical-chain .#{$prefix}grid-row-selected .sch-event-wrap {
+  opacity : 0.5;
+  filter  : alpha(opacity=50);
+}
+
+.sch-gantt-critical-chain .#{$prefix}grid-item-selected .#{$prefix}grid-row.sch-gantt-task-highlighted .sch-event-wrap,
+.sch-gantt-critical-chain .#{$prefix}grid-row.sch-gantt-task-highlighted .sch-event-wrap,
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-event-wrap {
+  opacity : 1;
+  filter  : alpha(opacity=100);
+}
+
+.sch-gantt-task-readonly {
+  cursor : default;
+}
+
+.sch-gantt-task-readonly .sch-event-hover.sch-gantt-item {
+  cursor : default !important;
+}
+
+.sch-ganttview-readonly .sch-gantt-milestone-diamond,
+.sch-ganttview-readonly .sch-gantt-task-bar {
+
+}
+
+.sch-gantt-task-baseline .sch-gantt-labelct {
+  top : -50%;
+}
+
+.sch-gantt-milestone-baseline .sch-gantt-labelct {
+  top : -25%;
+}
+
+/* ROLLUP STYLING           */
+/* ---------------------    */
+.sch-event-hover.sch-rollup-task,
+.sch-event-hover .sch-rollup-task {
+  cursor : default;
+}
+
+.sch-rollup-wrap .sch-event-wrap {
+  height  : 100%;
+  z-index : 15;
+  opacity : 0.6;
+  filter  : alpha(opacity=50);
+}
+
+.sch-rollup-wrap .sch-event-wrap:hover {
+  opacity : 1;
+  filter  : alpha(opacity=100);
+  z-index : 16;
+}
+
+/* EOF ROLLUP STYLING       */
+
+/* CRITICAL CHAIN STYLING           */
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-task-segment,
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-task-bar.sch-event-notsegmented,
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-milestone-diamond {
+  box-shadow : 0 0 8px $sch-gantt-critical-chain-highlighted-shadow-color;
+}
+
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-segment-connector {
+  border-color : $sch-gantt-critical-chain-highlighted-border-color;
+}
+
+/* EOF CRITICAL CHAIN STYLING           */
+
+.gnt-deadline-indicator {
+  position    : absolute;
+  top         : 0;
+  margin-left : 0;
+  cursor      : pointer;
+  width       : 1px;
+  border-left : 1px dotted $gnt-deadline-indicator-border-color;
+  height      : 96%;
+  z-index     : 11;
+}
+
+.gnt-deadline-indicator:before {
+  content            : '';
+  position           : absolute;
+  top                : 0;
+  left               : -6px;
+  border-top         : 6px solid $gnt-deadline-indicator-border-color;
+  border-left        : 6px solid;
+  border-right       : 6px solid;
+  border-left-color  : transparent !important;
+  border-right-color : transparent !important;
+}
+
+.gnt-deadline-indicator-late,
+.gnt-deadline-indicator-late:before {
+  border-color : $gnt-deadline-indicator-late-border-color;
+}
+
+.sch-gantt-rollup-label {
+  position       : absolute;
+  top            : -13px;
+  left           : 50%;
+  pointer-events : none;
+  transform      : translate(-50%);
+  -ms-transform  : translate(-50%);
+  font-size      : 80%;
+  font-weight    : normal;
+  line-height    : 12px;
+}
+
+.sch-gantt-task-highlighted .sch-gantt-task-bar,
+.sch-gantt-task-highlighted .sch-event-segmented,
+.sch-gantt-task-highlighted .sch-gantt-task-segment {
+  border-color     : $sch-gantt-task-highlighted-border-color;
+  background-color : $sch-gantt-task-highlighted-background-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-task-bar,
+.#{$prefix}grid-item-selected .sch-event-segmented,
+.#{$prefix}grid-item-selected .sch-gantt-task-segment {
+  border-color     : $sch-gantt-task-selected-border-color;
+  background-color : $sch-gantt-task-selected-background-color;
+}
+
+.sch-gantt-task-highlighted .sch-gantt-task-bar.sch-event-notsegmented,
+.sch-gantt-task-highlighted .sch-gantt-task-segment {
+  box-shadow : 1px 1px 2px $sch-gantt-task-highlighted-shadow-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-task-bar.sch-event-notsegmented,
+.#{$prefix}grid-item-selected .sch-gantt-task-segment {
+  box-shadow : 1px 1px 2px $sch-gantt-task-selected-shadow-color;
+}
+
+.sch-gantt-task-bar,
+.sch-gantt-task-segment {
+  border           : 1px solid $sch-gantt-task-border-color;
+  background-color : $sch-gantt-task-background-color;
+  box-shadow       : 1px 1px 2px $sch-gantt-task-shadow-color;
+  color            : $sch-gantt-task-color;
+  height           : 100%;
+  min-width        : 1px;
+}
+
+.sch-gantt-task-bar.sch-event-hover {
+  border-color : $sch-gantt-task-hover-border-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-task-bar.sch-event-hover {
+  border-color : $sch-gantt-task-hover-selected-border-color;
+}
+
+.sch-gantt-task-bar .sch-gantt-progress-bar,
+.sch-gantt-task-segment .sch-gantt-progress-bar {
+  color            : $sch-gantt-progress-bar-color;
+  background-color : $sch-gantt-progress-bar-background-color;
+}
+
+.sch-gantt-progress-bar {
+  background-color : $sch-gantt-progress-bar-background-color;
+}
+
+.sch-gantt-label {
+  color : $sch-gantt-task-label-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-label {
+  color : $sch-gantt-task-selected-label-color;
+}
+
+.sch-gantt-task-baseline .sch-gantt-task-bar {
+  background-color : $sch-gantt-task-baseline-background-color;
+  border-color     : $sch-gantt-task-baseline-border-color;
+}
+
+.sch-ganttview-showbaseline .sch-gantt-task-baseline {
+  display : block;
+}
+
+.sch-gantt-task-readonly .sch-gantt-task-bar .sch-gantt-progress-bar,
+.sch-gantt-task-readonly .sch-gantt-task-segment .sch-gantt-progress-bar {
+  background-color : $sch-gantt-progress-bar-readonly-background-color;
+}
+
+.sch-gantt-task-readonly .sch-gantt-task-bar,
+.sch-gantt-task-readonly .sch-gantt-task-segment {
+  border-color     : $sch-gantt-task-readonly-border-color;
+  background-color : $sch-gantt-task-readonly-background-color;
+}

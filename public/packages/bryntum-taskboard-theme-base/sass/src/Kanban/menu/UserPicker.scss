@@ -1,0 +1,60 @@
+.sch-userpicture-view .sch-user {
+    position           : relative;
+    float              : left;
+    margin             : 0 5px 5px 5px;
+    text-align         : center;
+    line-height        : 14px;
+    color              : $kanban-userpicture-view-user-color;
+    font-size          : 10px;
+    height             : 80px;
+    width              : 55px;
+    overflow           : hidden;
+    cursor             : pointer;
+    left               : 0;
+    top                : 0;
+    opacity            : 0.6;
+    -webkit-transition : opacity 0.4s;
+    -moz-transition    : opacity 0.4s;
+    -ms-transition     : opacity 0.4s;
+    -o-transition      : opacity 0.4s;
+    transition         : opacity 0.4s;
+}
+
+.sch-userpicture-view .sch-user img {
+
+    width         : 50px;
+    border-radius : 100%;
+    border        : 1px solid $kanban-userpicture-view-user-image-border-color;
+    padding       : 1px;
+}
+
+.sch-user-selected {
+    font-weight  : bold;
+}
+
+.sch-userpicture-view .sch-user-selected {
+    top          : -5px;
+    left         : -5px;
+    width        : 70px;
+    margin-right : -10px;
+    opacity      : 1;
+    background-color : $kanban-userpicture-view-user-selected-background-color;
+}
+
+.sch-userpicture-view .sch-user-hover {
+    opacity : 0.8;
+}
+
+.sch-userpicture-view .sch-user-hover img {
+    border-color : $kanban-userpicture-view-user-image-hover-border-color;
+}
+
+.sch-userpicture-view .sch-user-selected img {
+    box-shadow   : 1px 1px 3px $kanban-userpicture-view-user-selected-shadow-color;
+    border-color : $kanban-userpicture-view-user-selected-img-background-color;
+    width        : 60px;
+}
+
+.x-keyboard-mode .sch-userpicture-view .sch-user.x-view-item-focused {
+    outline : none !important;
+}

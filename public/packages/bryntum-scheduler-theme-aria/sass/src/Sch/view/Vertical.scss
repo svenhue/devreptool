@@ -1,0 +1,13 @@
+.sch-vertical .x-grid-item,
+.sch-vertical .x-grid-cell {
+  background : transparent;
+}
+
+.x-grid-cell.sch-verticaltimeaxis-cell {
+  color : #fff;
+}
+
+.sch-vertical .x-grid-with-row-lines .x-grid-item-selected,
+.sch-vertical .x-grid-with-col-lines .x-grid-item-selected .x-grid-cell{
+  border-color : #ededed;
+}

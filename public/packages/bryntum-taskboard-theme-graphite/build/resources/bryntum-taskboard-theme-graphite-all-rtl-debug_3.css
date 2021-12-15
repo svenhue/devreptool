@@ -1,0 +1,1189 @@
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:74 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:78 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:83 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-over {
+    background-color: #aeaeae;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:87 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:92 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:96 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:100 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:106 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active {
+    background-color: #e6e6e6;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:111 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after {
+    background: none !important;
+    content: '\f107';
+    font: 16px/1 'Font Awesome 5 Free';
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:116 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:121 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:125 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:129 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:134 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed.x-btn-over,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active.x-btn-over {
+    background-color: #cecece;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:138 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:143 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:147 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:155 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus {
+    background-color: #56b4e9;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:160 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:165 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:169 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:173 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:178 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-over,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-over {
+    background-color: #56b4e9;
+    -webkit-box-shadow: #fff 0 3px 0px 0 inset, #fff 0 -3px 0px 0 inset, #fff -3px 0 0px 0 inset, #fff 3px 0 0px 0 inset;
+    -moz-box-shadow: #fff 0 3px 0px 0 inset, #fff 0 -3px 0px 0 inset, #fff -3px 0 0px 0 inset, #fff 3px 0 0px 0 inset;
+    box-shadow: #fff 0 3px 0px 0 inset, #fff 0 -3px 0px 0 inset, #fff -3px 0 0px 0 inset, #fff 3px 0 0px 0 inset;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:184 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:189 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:193 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:199 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active {
+    background-color: #0072b2;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:204 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:209 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:213 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:217 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:222 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed.x-btn-over,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active.x-btn-over,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed.x-btn-over,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active.x-btn-over {
+    background-color: #0072b2;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:226 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:231 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:235 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: #f0f0f0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:239 */
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-pressed.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after,
+.x-keyboard-mode .x-breadcrumb-btn.x-btn-plain-toolbar-small.x-arrow-focus.x-btn-menu-active.x-btn-over .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:247 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-disabled {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:251 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-disabled .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after,
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-disabled .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
+    color: rgba(240, 240, 240, 0.5);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:256 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-disabled .x-btn-wrap-plain-toolbar-small .x-btn-inner-plain-toolbar-small {
+    color: rgba(240, 240, 240, 0.5);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:260 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-disabled .x-btn-wrap-plain-toolbar-small .x-btn-icon-el-plain-toolbar-small {
+    color: rgba(240, 240, 240, 0.5);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/var/toolbar/Breadcrumb.scss:264 */
+.x-breadcrumb-btn.x-btn-plain-toolbar-small.x-btn-disabled .x-btn-wrap-plain-toolbar-small.x-btn-split .x-btn-button:after {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/src/window/Toast.scss:2 */
+.x-toast .x-window-body-default {
+    background-color: #f2f2f2;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/classic/theme-graphite/sass/src/window/Toast.scss:6 */
+.x-toast .x-autocontainer-innerCt {
+    color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/gauge/Gauge.scss:1 */
+.x-gauge svg {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/gauge/Gauge.scss:6 */
+.x-gauge-text {
+    position: absolute;
+    text-align: center;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/var/gauge/Gauge.scss:39 */
+.x-gauge svg {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/var/gauge/Gauge.scss:42 */
+.x-gauge .x-gauge-track {
+    fill: #6d6d6d;
+    fill-opacity: 1;
+    stroke: #707070;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/var/gauge/Gauge.scss:50 */
+.x-gauge .x-gauge-value {
+    fill: #c6c6c6;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/var/gauge/Gauge.scss:58 */
+.x-gauge .x-gauge-needle {
+    fill: #0a0a0a;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:1 */
+.ux-rating-picker {
+    overflow: hidden;
+    color: #ccc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:15 */
+.ux-rating-picker-inner {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    white-space: nowrap;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:28 */
+.ux-rating-picker-over.ux-rating-picker-track-over {
+    color: #ccc;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:31 */
+.ux-rating-picker-over.ux-rating-picker-track-over > * > .ux-rating-picker-value {
+    display: none;
+    width: 0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:36 */
+.ux-rating-picker-over.ux-rating-picker-track-over > * > .ux-rating-picker-value:hover {
+    color: inherit;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:40 */
+.ux-rating-picker-over.ux-rating-picker-track-over > * > .ux-rating-picker-tracker {
+    display: inline-block;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:45 */
+.ux-rating-picker-value,
+.ux-rating-picker-tracker {
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    top: 0;
+    width: 0;
+    height: 100%;
+    color: #ffe850;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:58 */
+.ux-rating-picker-tracker {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/sass/src/rating/Picker.scss:62 */
+.ux-rating-picker-over {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/DataView/DragSelector.scss:1 */
+.x-view-selector {
+    position: absolute;
+    border: 1px dotted #39b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/Explorer.scss:1 */
+.x-explorer-view {
+    background-color: #fff;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/Explorer.scss:5 */
+.x-explorer-item {
+    float: left;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/Explorer.scss:9 */
+.x-explorer-item-text {
+    text-align: center;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/Explorer.scss:13 */
+.x-explorer-node-icon {
+    height: 100px;
+    width: 100px;
+    background: url(ux/images/explorer/node.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/Explorer.scss:19 */
+.x-explorer-leaf-icon {
+    background: url(ux/images/explorer/leaf.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:1 */
+.x-statusbar .x-status-text {
+    cursor: default;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:4 */
+.x-statusbar .x-status-busy {
+    padding-left: 25px !important;
+    background: transparent no-repeat 3px 0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:9 */
+.x-statusbar .x-status-text-panel {
+    border: 0 none;
+    padding: 2px 8px 2px 5px;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:14 */
+.x-statusbar .x-status-error {
+    cursor: pointer;
+    padding-left: 25px !important;
+    background: transparent no-repeat 3px 0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:19 */
+.x-statusbar .x-status-valid {
+    padding-left: 25px !important;
+    background: transparent no-repeat 3px 0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:23 */
+.x-status-error-list {
+    font: 11px tahoma, arial, verdana, sans-serif;
+    position: absolute;
+    z-index: 9999;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    padding: 5px 10px;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:33 */
+.x-status-error-list li {
+    cursor: pointer;
+    list-style: disc;
+    margin-left: 10px;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:38 */
+.x-status-error-list li a {
+    text-decoration: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:41 */
+.x-status-error-list li a:hover {
+    text-decoration: underline;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:45 */
+.x-statusbar .x-status-busy {
+    background-image: url(ux/images/statusbar/loading.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:49 */
+.x-statusbar .x-status-error {
+    color: #c33;
+    background-image: url(ux/images/statusbar/exclamation.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:53 */
+.x-statusbar .x-status-valid {
+    background-image: url(ux/images/statusbar/accept.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:56 */
+.x-status-error-list {
+    border-color: #c33;
+    background: white;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/statusbar/StatusBar.scss:60 */
+.x-status-error-list li a {
+    color: #15428b;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/LiveSearchGridPanel.scss:1 */
+.x-livesearch-match {
+    font-weight: bold;
+    background-color: yellow;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/TabScrollerMenu.scss:1 */
+.x-tab-tabmenu-right {
+    background: transparent url(ux/images/tabscrollermenu/menu.gif) no-repeat 0 0;
+    width: 18px;
+    height: 20px;
+    cursor: pointer;
+    zoom: 1;
+    z-index: 6;
+    float: right;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/TabScrollerMenu.scss:10 */
+.x-tab-tabmenu-over {
+    background-position: -18px 0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/TabScrollerMenu.scss:13 */
+.x-tab-tabmenu-disabled {
+    background-position: 0 0;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: opacity=50;
+    cursor: default;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:2 */
+.x-colorpicker {
+    /* The actual pop window with the color picker components */
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:8 */
+.x-colorpicker >.x-box-inner {
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:13 */
+.x-colorpicker .x-form-item-label {
+    text-align: center;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:18 */
+.x-colopicker-escape-overflow {
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:21 */
+.x-colopicker-escape-overflow >.x-box-inner {
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:28 */
+.x-colorpicker-colormap {
+    background-image: url(ux/images/colorpick/map_gradient.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:35 */
+.x-colorpicker-colormap-draghandle-container {
+    overflow: visible;
+    z-index: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:41 */
+.x-colorpicker-colormap-blender {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:49 */
+.x-colorpicker-colormap-draghandle {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -7px;
+    top: -7px;
+    background-image: url(ux/images/colorpick/drag_circle.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:60 */
+.x-colorpicker-draghandle-container {
+    width: 20px;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:63 */
+.x-colorpicker-draghandle-container .x-autocontainer-outerCt {
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:68 */
+.x-colorpicker-draghandle {
+    width: 32px;
+    height: 9px;
+    position: relative;
+    left: -6px;
+    top: -4px;
+    background-image: url(ux/images/colorpick/pickerslider.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:79 */
+.x-colorpicker-hue {
+    background-image: url(ux/images/colorpick/huegradient.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:86 */
+.x-colorpicker-hue-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:95 */
+.x-colorpicker-saturation .x-colorpicker-draghandle-container {
+    background: -moz-linear-gradient(top, #fff 0%, #000 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #fff 0%, #000 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 0%, #000 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 0%, #000 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fff 0%, #000 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:106 */
+.x-colorpicker-value .x-colorpicker-draghandle-container {
+    background: -moz-linear-gradient(top, red 0%, #000 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, red 0%, #000 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, red 0%, #000 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, red 0%, #000 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, red 0%, #000 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#000000',GradientType=0 );
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:117 */
+.x-colorpicker-alpha .x-colorpicker-draghandle-container {
+    background-image: url(ux/images/colorpick/checkerboard.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Selector.scss:123 */
+.x-colorpicker-preview {
+    background-image: url(ux/images/colorpick/checkerboard.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Button.scss:2 */
+.x-colorpicker-button {
+    position: relative;
+    border: 1px solid gray;
+    background-image: url(ux/images/colorpick/checkerboard.png);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Field.scss:3 */
+.x-colorpicker-field .x-form-item-body {
+    position: relative;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Field.scss:7 */
+.x-colorpicker-field input {
+    padding-left: 26px;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Field.scss:12 */
+.x-colorpicker-field-swatch {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+    background-image: url(ux/images/colorpick/checkerboard.png);
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/colorpick/Field.scss:25 */
+.x-colorpicker-field-swatch-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:3 */
+.x-form-multiselect-body .x-boundlist .x-mask {
+    /* Styles used by Ext.ux.form.ItemSelector */
+    background: none;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:7 */
+.x-form-itemselector-body .x-form-item {
+    margin: 0;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:11 */
+.x-form-itemselector-top {
+    background-image: url(ux/images/itemselector/top.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:14 */
+.x-form-itemselector-up {
+    background-image: url(ux/images/itemselector/up.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:17 */
+.x-form-itemselector-add {
+    background-image: url(ux/images/itemselector/right.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:20 */
+.x-form-itemselector-remove {
+    background-image: url(ux/images/itemselector/left.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:23 */
+.x-form-itemselector-down {
+    background-image: url(ux/images/itemselector/down.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/form/ItemSelector.scss:26 */
+.x-form-itemselector-bottom {
+    background-image: url(ux/images/itemselector/bottom.gif);
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/grid/SubTable.scss:1 */
+.x-grid-subtable {
+    border-collapse: collapse;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/grid/SubTable.scss:5 */
+tr.x-grid-subtable-row {
+    background-color: #424242;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/grid/SubTable.scss:9 */
+.x-grid-subtable-header {
+    border: 1px solid #1b1b1b;
+    color: #fff;
+    font: 400 18px/36px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    background-image: none;
+    background-color: #6d6d6d;
+    padding: 5px 10px 5px 10px;
+    text-overflow: ellipsis;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/grid/SubTable.scss:27 */
+.x-grid-subtable-cell {
+    border-top: 0px solid #4a4a4a;
+    border-right: 0px solid #4a4a4a;
+    border-bottom: 0px solid #4a4a4a;
+    border-left: 0px solid #4a4a4a;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/layout/ResponsiveColumn.scss:1 */
+.x-responsivecolumn {
+    padding: 20px 0 0 20px;
+}
+/* /home/dev/workspace/Bryntum/extjs-7.4.0/packages/ux/classic/sass/src/layout/ResponsiveColumn.scss:4 */
+.x-responsivecolumn > * {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:1 */
+.sch-task-dd {
+    overflow: visible !important;
+    opacity: 0.7;
+    border: 0 none !important;
+    background-color: transparent !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:8 */
+.sch-task-dd .sch-task {
+    background: #fff;
+    border-top: 1px dashed #888;
+    border-right: 1px dashed #888;
+    border-bottom: 1px dashed #888;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:15 */
+.sch-task-dd .x-dd-drop-icon {
+    top: -12px;
+    left: -6px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 22px;
+    width: 22px;
+    border: 1px solid #ddd;
+    padding: 2px 0;
+    text-align: center;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:29 */
+.sch-dd-wrap-holder {
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:33 */
+.sch-task-placeholder {
+    background-color: rgba(230, 230, 230, 0.7);
+    border-width: 1px !important;
+    border-style: dashed;
+    border-color: #aaa;
+    box-shadow: none;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:41 */
+.sch-dd-extra {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/dd/DragZone.scss:48 */
+.sch-task-dd .sch-no-img,
+.sch-hidden {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/field/ColumnFilter.scss:1 */
+.sch-columnfilter-list li {
+    border: 0;
+    font-size: 1.2em;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/field/ColumnFilter.scss:8 */
+.sch-columnfilter-list li.x-boundlist-item:before {
+    font: 16px/1 'Font Awesome 5 Free';
+    content: "\f00c";
+    margin-right: 6px;
+    visibility: hidden;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/field/ColumnFilter.scss:15 */
+.sch-columnfilter-list li.x-boundlist-selected:before {
+    visibility: visible;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserMenu.scss:1 */
+.sch-usermenu .x-menu-item-icon {
+    opacity: 0.4;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserMenu.scss:5 */
+.sch-user-selected .x-menu-item-icon {
+    opacity: 1;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserMenu.scss:9 */
+.sch-user-selected,
+.sch-user-selected .x-menu-item-text {
+    font-weight: bold;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/TaskMenu.scss:5 */
+.sch-task-menu-handle {
+    /*
+  Icon taken from https://useiconic.com/open/
+*/
+    position: absolute;
+    padding: 1px;
+    display: none;
+    opacity: 0.3;
+    z-index: 20;
+    right: 3px;
+    top: 3px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/TaskMenu.scss:15 */
+.sch-task-menu-handle:hover {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/TaskMenu.scss:20 */
+.sch-task-dd .sch-task-menu-handle {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/TaskMenu.scss:24 */
+.sch-taskboard-with-menu [size=mini] .sch-task-menu-handle {
+    left: 4px;
+    top: 4px;
+    font-size: 19px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:1 */
+.sch-userpicture-view .sch-user {
+    position: relative;
+    float: left;
+    margin: 0 5px 5px 5px;
+    text-align: center;
+    line-height: 14px;
+    color: #fff;
+    font-size: 10px;
+    height: 80px;
+    width: 55px;
+    overflow: hidden;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -ms-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:23 */
+.sch-userpicture-view .sch-user img {
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    padding: 1px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:31 */
+.sch-user-selected {
+    font-weight: bold;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:35 */
+.sch-userpicture-view .sch-user-selected {
+    top: -5px;
+    left: -5px;
+    width: 70px;
+    margin-right: -10px;
+    opacity: 1;
+    background-color: #56b4e9;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:44 */
+.sch-userpicture-view .sch-user-hover {
+    opacity: 0.8;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:48 */
+.sch-userpicture-view .sch-user-hover img {
+    border-color: #ccc;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:52 */
+.sch-userpicture-view .sch-user-selected img {
+    box-shadow: 1px 1px 3px #fff;
+    border-color: #666;
+    width: 60px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/menu/UserPicker.scss:58 */
+.x-keyboard-mode .sch-userpicture-view .sch-user.x-view-item-focused {
+    outline: none !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:1 */
+.sch-task.x-view-item-focused {
+    outline: none !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:5 */
+.sch-task {
+    position: relative;
+    border-left: 7px solid royalblue;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px 0 rgba(150, 150, 150, 0.8);
+    cursor: pointer;
+    color: #404040;
+    margin: 0 2% 7px 2%;
+    background-color: #fff;
+    padding-bottom: 2px;
+    width: 96%;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s, height 0.4s, opacity 0.3s;
+    -moz-transition: width 0.4s, height 0.4s, opacity 0.3s;
+    -ms-transition: width 0.4s, height 0.4s, opacity 0.3s;
+    -o-transition: width 0.4s, height 0.4s, opacity 0.3s;
+    transition: width 0.4s, height 0.4s, opacity 0.3s;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:23 */
+.sch-task.sch-taskboard-cut-task {
+    opacity: 0.3;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:28 */
+.sch-task {
+    border-top: 0 solid #aaa;
+    border-bottom: 0 solid #aaa;
+    border-right: 0 solid #aaa;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:34 */
+.sch-task-inner {
+    height: inherit;
+    overflow: hidden;
+    padding: 2px 8px 2px 8px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:40 */
+.sch-task-name {
+    margin: 5px 0;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:44 */
+.sch-task-id {
+    color: #404040;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:48 */
+.sch-phantom-task span.sch-task-id {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:52 */
+.sch-taskboard-filtered .sch-task {
+    opacity: 0.2;
+    filter: opacity=20;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:57 */
+.sch-taskboard-filtered .sch-task.sch-filter-match {
+    opacity: 1;
+    filter: opacity=100;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:62 */
+.sch-taskview div.sch-task-over {
+    background-color: #e6e6e6;
+    color: #404040;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:67 */
+.sch-taskview div.sch-task-selected {
+    background-color: #56b4e9;
+    z-index: 2;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:72 */
+.sch-phantom-task {
+    opacity: 0.7;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: #1b1b1b;
+    border-right-width: 2px;
+    border-right-style: dashed;
+    border-right-color: #1b1b1b;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:85 */
+.sch-task-selected div,
+.sch-task-selected span {
+    color: #fff;
+    text-shadow: 1px 1px 1px transparent;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:91 */
+.sch-color {
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    width: 10px;
+    position: absolute;
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:99 */
+.sch-task.sch-task-state-NotStarted {
+    border-left-color: brown;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:103 */
+.sch-task.sch-task-state-InProgress {
+    border-left-color: #e7a84b;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:107 */
+.sch-task.sch-task-state-Test {
+    border-left-color: lightblue;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:111 */
+.sch-task.sch-task-state-Done {
+    border-left-color: lightgreen;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:115 */
+.sch-task-img {
+    width: 100%;
+    border-radius: 1px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:122 */
+.sch-task img.sch-user-avatar {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #bababa;
+    padding: 1px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:134 */
+.sch-task img.sch-user-avatar:hover {
+    border-color: #777;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:138 */
+.sch-no-img {
+    display: none;
+    opacity: 0.6;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:143 */
+.sch-task-over .sch-no-img {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:147 */
+.sch-no-img:hover {
+    opacity: 1;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:152 */
+[size=large] div.sch-task {
+    width: auto;
+    margin: 0 0 0.5em 0;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:156 */
+[size=large] div.sch-task .sch-task-inner {
+    overflow-wrap: break-word;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:161 */
+[size=medium] div.sch-task {
+    width: 90px;
+    height: 90px;
+    float: left;
+    font-size: 90%;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:168 */
+[size=small] div.sch-task {
+    height: 50px;
+    width: 50px;
+    float: left;
+    font-size: 85%;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:175 */
+[size=mini] div.sch-task {
+    height: 25px;
+    width: 25px;
+    float: left;
+    font-size: 75%;
+    border: 0;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:183 */
+[size=mini] .sch-task-img,
+[size=mini] .sch-task-name,
+[size=mini] .sch-no-img {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:189 */
+[size=mini] .sch-task-id {
+    margin: 6px 0px;
+    display: block;
+    text-align: center;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:195 */
+[size=mini] .sch-task-inner {
+    padding: 0;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:199 */
+[size=mini] .sch-user-avatar {
+    left: 3px;
+    top: 3px;
+    bottom: auto;
+    right: auto;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:206 */
+[size=mini] .sch-task.sch-task-state-NotStarted {
+    background-color: brown;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:210 */
+[size=mini] .sch-task.sch-task-state-InProgress {
+    background-color: #e7a84b;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:214 */
+[size=mini] .sch-task.sch-task-state-Test {
+    background-color: lightblue;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/template/Task.scss:218 */
+[size=mini] .sch-task.sch-task-state-Done {
+    background-color: lightgreen;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:1 */
+.sch-taskview {
+    padding: 10px 2%;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:5 */
+.sch-taskcolumn {
+    border-radius: 1px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:9 */
+.sch-taskcolumn:focus-within .x-panel-header {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:14 */
+.sch-taskcolumn .x-panel-header-text {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 5px 0;
+    display: block;
+    line-height: 22px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:23 */
+.sch-taskcolumn .x-view-selector {
+    /* https://www.sencha.com/forum/showthread.php?310308-6.0.2-DragSelector-US-missing-CSS-file&p=1132940#post1132940 */
+    position: absolute;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #39b;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:30 */
+.sch-taskcolumn[size=large] .sch-taskview {
+    padding: 0.7em;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:36 */
+.sch-taskboard-scrollable .x-panel {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-shrink: 0;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:43 */
+.sch-taskboard-scrollable .x-panel .x-panel-header {
+    position: static !important;
+    width: auto !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:48 */
+.sch-taskboard-scrollable .x-panel .x-panel-bodyWrap {
+    flex: 1;
+    flex-flow: column nowrap;
+    width: auto !important;
+    height: auto !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:54 */
+.sch-taskboard-scrollable .x-panel .x-panel-bodyWrap .x-docked {
+    position: static !important;
+    width: auto!important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:60 */
+.sch-taskboard-scrollable .x-panel .x-panel-body {
+    display: flex !important;
+    position: static;
+    align-items: stretch;
+    flex: 1;
+    width: auto !important;
+    height: auto !important;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:69 */
+.sch-taskboard-scrollable .x-panel .x-panel-bodyWrap {
+    display: flex;
+    align-items: stretch;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:75 */
+.sch-taskboard-scrollable .x-autocontainer-outerCt {
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    width: auto !important;
+    max-width: 100%;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:83 */
+.sch-taskboard-scrollable .x-autocontainer-innerCt {
+    align-items: stretch;
+    flex: 1;
+    max-width: 100%;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskColumn.scss:89 */
+.sch-taskboard-scrollable .sch-taskview {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskBoard.scss:1 */
+.sch-taskboard,
+.sch-taskboard-body {
+    background: #6d6d6d;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskBoard.scss:8 */
+.sch-taskboard .x-view-selector {
+    /* Selector element should appear above task elements */
+    z-index: 2;
+    border-width: 2px;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskBoard.scss:15 */
+.sch-taskboard.sch-taskboard-scrollable .x-autocontainer-outerCt {
+    /* Styling for the scrollable panel */
+    display: flex;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-base/sass/src/Kanban/view/TaskBoard.scss:19 */
+.sch-taskboard.sch-taskboard-scrollable .x-autocontainer-innerCt {
+    display: flex;
+    flex-flow: row nowrap;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-graphite/sass/src/Kanban/template/Task.scss:1 */
+.sch-task {
+    border-radius: 0;
+    box-shadow: none;
+    padding-bottom: 0;
+}
+/* /home/dev/workspace/Bryntum/TaskBoard2.x/taskboard-2.0.30/packages/bryntum-taskboard-theme-graphite/sass/src/Kanban/template/Task.scss:7 */
+.sch-phantom-task {
+    opacity: 0.8;
+}

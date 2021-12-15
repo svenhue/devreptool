@@ -1,0 +1,15 @@
+$sch-event-color: $grid-row-cell-selected-color;
+$sch-event-background-color: $grid-column-header-focus-background-color;
+$sch-event-border-color: dynamic(#dea007);
+$sch-event-border-width: dynamic(0);
+$sch-event-font-weight: dynamic(bold);
+$sch-event-opacity: dynamic(0.8);
+$sch-event-transition: dynamic(opacity 0.2s, background 0.2s);
+
+$sch-event-selected-color: dynamic(#ffffff);
+$sch-event-selected-border-color: dynamic(#ffc107);
+$sch-event-selected-background-color: $grid-row-cell-focus-background-color;
+$sch-event-selected-opacity: dynamic(1);
+
+$sch-event-hover-border-color: dynamic(#dea007);
+$sch-event-hover-opacity: dynamic(0.95);

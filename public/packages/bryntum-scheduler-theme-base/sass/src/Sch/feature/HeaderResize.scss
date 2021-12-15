@@ -1,0 +1,9 @@
+.sch-header-cell-resizehandle {
+  position  : absolute;
+  top       : 0;
+  right     : 0;
+  height    : 100%;
+  max-width : 100%;
+  width     : 7px;
+  cursor    : col-resize;
+}

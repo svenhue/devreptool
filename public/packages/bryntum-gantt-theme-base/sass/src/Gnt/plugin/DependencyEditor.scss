@@ -1,0 +1,14 @@
+.sch-gantt-dependencyeditor {
+  z-index  : 13;
+  top      : -1000px;
+  left     : -1000px;
+  position : absolute;
+}
+
+.sch-gantt-dependencyeditor-readonly .#{$prefix}form-trigger-wrap {
+  border : 0;
+}
+
+.sch-gantt-dependencyeditor-readonly input {
+  padding-left : 0
+}

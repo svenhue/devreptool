@@ -1,0 +1,24 @@
+/* Make sure column lines are always out of reach in Chrome */
+.#{$prefix}webkit .sch-horizontal td.sch-timetd {
+    position : relative;
+}
+
+/* Ext Triton sets this to 1 which leads to dependencies rendering above terminals */
+.sch-horizontal td.sch-timetd .#{$prefix}grid-cell-inner {
+    z-index : auto;
+}
+
+/* Remove Ext JS default 1px border top of the table */
+.sch-timelinepanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item[data-recordindex="0"] {
+    border-top-color : transparent;
+}
+
+/* Locked column in RTL positioned incorrectly by EXT
+ https://www.sencha.com/forum/showthread.php?299582-RTL-locking-grid-bug
+ https://www.sencha.com/forum/showthread.php?304826-Locked-column-content-is-misaligned-with-RTL-ext
+ TODO: try to get rid of it
+ */
+.sch-locked-column-fixer {
+    margin : 0 !important;
+    right  : auto !important;
+}

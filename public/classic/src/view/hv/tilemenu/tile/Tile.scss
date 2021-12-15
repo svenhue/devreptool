@@ -1,0 +1,63 @@
+.tile-panel {
+    background: #e6e6e6;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.tile-image-container {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: $base-color;
+    text-align: center;
+    padding-top: 24px;
+}
+
+//.tile-image-container-hl {
+//    height: 80px;
+//    width: 100px;
+//    float: left;
+//    background-color: #4D4D4D;
+//    text-align: center;
+//    padding-top: 24px;
+//}
+
+.tile-details-container {
+    color: #4D4D4D;
+    line-height: 20px;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+
+    :first-child {
+        color: #B41825;
+        //margin-bottom: 4px;
+        //font-size: 24px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.tile-details-container-small {
+    color: #4D4D4D;
+    line-height: 20px;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+
+    :first-child {
+        color: #989898;
+        //margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.tile-details-container-simple {
+    color: #4D4D4D;
+    //line-height: 20px;
+    float: left;
+    padding: 35px 20px 20px 20px;
+    font-size: 20px;
+
+}

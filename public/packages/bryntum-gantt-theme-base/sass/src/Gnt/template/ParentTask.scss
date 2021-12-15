@@ -1,0 +1,124 @@
+.sch-gantt-parenttask-bar {
+  height           : 59%;
+  line-height      : 7px; /* IE Quirks */
+  border           : 1px solid $sch-gantt-parenttask-border-color;
+  min-width        : 1px;
+  background-color : $sch-gantt-parenttask-background-color;
+  box-shadow       : 1px 1px 2px $sch-gantt-parenttask-shadow-color;
+}
+
+.sch-gantt-parenttask-bar .sch-gantt-progress-bar {
+  background-color : $sch-gantt-parenttask-progress-bar-background-color;
+  overflow         : hidden;
+}
+
+.sch-gantt-parenttask-bar:before,
+.sch-gantt-parenttask-bar:after {
+  position           : absolute;
+  height             : 0;
+  width              : 0;
+  bottom             : -8px;
+  border             : 0;
+  border-color       : $sch-gantt-parenttask-border-color;
+  border-left-color  : transparent !important;
+  border-right-color : transparent !important;
+  border-style       : solid;
+  content            : ' ';
+}
+
+.sch-gantt-parenttask-bar:before {
+  left         : -1px;
+  border-width : 8px 8px 0 0;
+}
+
+.sch-gantt-parenttask-bar:after {
+  right        : -1px;
+  border-width : 8px 0 0 8px;
+}
+
+/* Hide parent arrows explicitly for short tasks */
+.sch-gantt-parent-noarrows .sch-gantt-parenttask-bar:before,
+.sch-gantt-parent-noarrows .sch-gantt-parenttask-bar:after,
+  /* Hide parent arrows if not part of the view */
+.sch-ltr .sch-event-startsoutside .sch-gantt-parenttask-bar:before,
+.sch-ltr .sch-event-endsoutside .sch-gantt-parenttask-bar:after {
+  visibility : hidden;
+}
+
+.sch-gantt-no-task-border .sch-gantt-parenttask-bar:before {
+  left : 0;
+}
+
+.sch-gantt-no-task-border .sch-gantt-parenttask-bar:after {
+  right : 0;
+}
+
+/* BASELINE STYLING           */
+/* ---------------------    */
+.sch-ganttview-showbaseline .sch-event-wrap.sch-gantt-parent-task {
+  height : 50%;
+}
+
+.sch-gantt-parenttask-baseline {
+  display : none;
+  z-index : 0 !important;
+}
+
+.sch-ganttview-showbaseline .sch-gantt-parenttask-baseline {
+  display : block;
+}
+
+/* ROLLUP STYLING           */
+/* ---------------------    */
+
+/* Container el holding all the rollup task elements */
+.sch-rollup-wrap {
+  position : absolute;
+  top      : 58%;
+  height   : 8px;
+}
+
+.sch-gantt-task-highlighted .sch-gantt-parenttask-bar {
+  border-color     : $sch-gantt-parenttask-highlighted-border-color;
+  background-color : $sch-gantt-parenttask-highlighted-background-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-parenttask-bar {
+  border-color     : $sch-gantt-parenttask-selected-border-color;
+  background-color : $sch-gantt-parenttask-selected-background-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-parenttask-bar:before,
+.#{$prefix}grid-item-selected .sch-gantt-parenttask-bar:after {
+  border-color : $sch-gantt-parenttask-selected-border-color;
+}
+
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar {
+  background-color : $sch-gantt-parenttask-readonly-background-color;
+  border-color     : $sch-gantt-parenttask-readonly-border-color;
+}
+
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar:before,
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar:after {
+  border-color : $sch-gantt-parenttask-readonly-border-color;
+}
+
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar .sch-gantt-progress-bar {
+  background-color : $sch-gantt-parenttask-progress-bar-readonly-background-color;
+}
+
+.sch-gantt-parenttask-arrow {
+  border-color : $sch-gantt-parenttask-arrow-border-color;
+}
+
+.sch-gantt-task-readonly .sch-gantt-parenttask-arrow {
+  border-color : $sch-gantt-parenttask-readonly-arrow-border-color;
+}
+
+.sch-gantt-parenttask-baseline .sch-gantt-parenttask-bar {
+  cursor           : auto !important;
+  border           : 1px solid $sch-gantt-parenttask-baseline-border-color;
+  overflow         : hidden !important;
+  left             : 0;
+  background-color : $sch-gantt-parenttask-baseline-background-color;
+}

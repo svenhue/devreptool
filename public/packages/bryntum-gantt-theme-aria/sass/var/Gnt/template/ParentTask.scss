@@ -1,0 +1,14 @@
+$sch-gantt-parenttask-background-color : dynamic(#DA7B19);
+$sch-gantt-parenttask-border-color : dynamic(#DA7B19);
+
+$sch-gantt-parenttask-selected-border-color : dynamic(#7E55EF);
+$sch-gantt-parenttask-selected-background-color : dynamic(#7E55EF);
+
+$sch-gantt-parenttask-baseline-background-color : dynamic(#FAFAD2);
+$sch-gantt-parenttask-baseline-border-color : dynamic(#FAFAD2);
+
+$sch-gantt-parenttask-progress-bar-background-color : dynamic(rgba(255, 255, 255, 0.7));
+
+$sch-gantt-parenttask-readonly-background-color : dynamic(#7B7B7B);
+$sch-gantt-parenttask-readonly-border-color : dynamic(#7B7B7B);
+$sch-gantt-parenttask-progress-bar-readonly-background-color : dynamic($sch-gantt-parenttask-progress-bar-background-color);

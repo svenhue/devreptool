@@ -1,0 +1,4 @@
+.#{$prefix}datepicker-prevday .#{$prefix}datepicker-date,
+.#{$prefix}datepicker-nextday .#{$prefix}datepicker-date {
+  color: $gnt-datepicker-noncurrentmonth-color;
+}

@@ -1,0 +1,9 @@
+.sch-ganttpanel {
+    .#{$prefix}grid-cell-inner-treecolumn {
+        padding : 16px 8px;
+    }
+
+    .#{$prefix}form-text-field-body-default {
+        min-width : 85px;
+    }
+}

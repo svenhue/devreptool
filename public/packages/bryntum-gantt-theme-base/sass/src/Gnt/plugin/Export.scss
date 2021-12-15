@@ -1,0 +1,14 @@
+.sch-export .sch-dependency-line {
+  -webkit-box-sizing : content-box;
+}
+
+.sch-export.#{$prefix}chrome .sch-dependency-line,
+.sch-export.#{$prefix}safari .sch-dependency-line,
+.sch-export.sch-ie-export .sch-dependency-line {
+  -webkit-box-sizing : border-box;
+}
+
+.sch-export-header {
+  background : $sch-export-header-background-color;
+  border     : 1px solid $sch-export-header-border-color;
+}

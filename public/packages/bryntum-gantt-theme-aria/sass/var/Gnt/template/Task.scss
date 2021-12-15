@@ -1,0 +1,25 @@
+$sch-gantt-task-color : dynamic(#3A4154);
+$sch-gantt-task-label-color : dynamic(#FFF);
+$sch-gantt-task-background-color : dynamic(#FFA500);
+$sch-gantt-task-border-color : dynamic(#FFA500);
+
+$sch-gantt-task-hover-border-color : dynamic(#FFA500);
+
+$sch-gantt-task-selected-label-color : dynamic($sch-gantt-task-label-color);
+$sch-gantt-task-selected-border-color : dynamic(#7E55EF);
+$sch-gantt-task-selected-background-color : dynamic(#7E55EF);
+
+$sch-gantt-task-highlighted-border-color : dynamic($sch-gantt-task-border-color);
+$sch-gantt-task-highlighted-background-color : dynamic($sch-gantt-task-background-color);
+
+$sch-gantt-task-baseline-background-color : dynamic(#FAFAD2);
+$sch-gantt-task-baseline-border-color : dynamic(#FAFAD2);
+
+$sch-gantt-progress-bar-color : dynamic(#000);
+$sch-gantt-progress-bar-background-color : dynamic(rgba(255, 255, 255, 0.7));
+
+$sch-gantt-task-readonly-background-color : dynamic(#7B7B7B);
+$sch-gantt-task-readonly-border-color : dynamic(#7B7B7B);
+$sch-gantt-progress-bar-readonly-background-color : dynamic($sch-gantt-progress-bar-background-color);
+
+$gnt-deadline-indicator-late-border-color : dynamic(#F00);

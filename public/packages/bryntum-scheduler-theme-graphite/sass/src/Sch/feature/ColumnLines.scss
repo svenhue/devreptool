@@ -1,0 +1,15 @@
+.sch-column-line,
+.sch-horizontal .sch-column-line,
+.sch-all-day-header.sch-horizontal .sch-column-line {
+    border-color: $sch-column-line-border-color;
+}
+
+.sch-vertical .sch-column-line {
+    border-width : 1px 0 0 0;
+    width        : 100%;
+}
+
+.sch-vertical .sch-verticaltimeaxis-cell.sch-column-line-solid,
+.sch-column-line-solid {
+    border-color : $sch-vertical-column-line-solid-border-color;
+}

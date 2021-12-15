@@ -1,0 +1,215 @@
+/**
+ * @class Kanban.template.Task
+ */
+
+/**
+ * @var {color}
+ * Task bar border color
+ */
+$kanban-task-border-color: dynamic(#aaa);
+/**
+ * @var {string}
+ * Task bar border style
+ */
+$kanban-task-border-style: dynamic(solid);
+/**
+ * @var {number}
+ * Task bar border width
+ */
+$kanban-task-border-width: dynamic(1px);
+
+/**
+ * @var {color}
+ * Task bar left border color
+ */
+$kanban-task-border-left-color: dynamic(royalblue);
+/**
+ * @var {number}
+ * Task bar left border width
+ */
+$kanban-task-border-left-width: dynamic(7px);
+/**
+ * @var {string}
+ * Task bar left border style
+ */
+$kanban-task-border-left-style: dynamic($kanban-task-border-style);
+
+/**
+ * @var {color}
+ * Task bar right border color
+ */
+$kanban-task-border-right-color: dynamic($kanban-task-border-color);
+/**
+ * @var {number}
+ * Task bar right border width
+ */
+$kanban-task-border-right-width: dynamic($kanban-task-border-width);
+/**
+ * @var {string}
+ * Task bar right border style
+ */
+$kanban-task-border-right-style: dynamic($kanban-task-border-style);
+
+/**
+ * @var {color}
+ * Task bar top border color
+ */
+$kanban-task-border-top-color: dynamic($kanban-task-border-color);
+/**
+ * @var {number}
+ * Task top border width
+ */
+$kanban-task-border-top-width: dynamic($kanban-task-border-width);
+/**
+ * @var {string}
+ * Task bar top border style
+ */
+$kanban-task-border-top-style: dynamic($kanban-task-border-style);
+
+/**
+ * @var {color}
+ * Task bar bottom border color
+ */
+$kanban-task-border-bottom-color: dynamic($kanban-task-border-color);
+/**
+ * @var {number}
+ * Task bar bottom border width
+ */
+$kanban-task-border-bottom-width: dynamic($kanban-task-border-width);
+/**
+ * @var {string}
+ * Task bar bottom border style
+ */
+$kanban-task-border-bottom-style: dynamic($kanban-task-border-style);
+
+$kanban-task-box-shadow-x: dynamic(1px);
+$kanban-task-box-shadow-y: dynamic(1px);
+$kanban-task-box-shadow-blur: dynamic(1px);
+$kanban-task-box-shadow-spread: dynamic(0);
+$kanban-task-box-shadow-color: dynamic(rgba(150, 150, 150, 0.8));
+
+/**
+ * @var {color}
+ * Task bar text color
+ */
+$kanban-task-color: dynamic(#666);
+$kanban-task-id-color: dynamic($kanban-task-color);
+/**
+ * @var {color}
+ * Task bar background color
+ */
+$kanban-task-background-color: dynamic(#fff);
+
+/**
+ * @var {color}
+ * Hovered task bar text color
+ */
+$kanban-task-over-color: dynamic($kanban-task-color);
+/**
+ * @var {color}
+ * Hovered task bar background color
+ */
+$kanban-task-over-background-color: dynamic(#eff);
+
+/**
+ * @var {color}
+ * Selected task bar text color
+ */
+$kanban-task-selected-color: dynamic(#fff);
+/**
+ * @var {color}
+ * Selected task bar background color
+ */
+$kanban-task-selected-background-color: dynamic(rgb(57, 174, 254));
+// mix(#000, $grid-cell-selected-background-color, 80%)
+/**
+ * @var {color}
+ * Selected task bar text shadow color
+ */
+$kanban-task-selected-text-shadow-color: dynamic(navy);
+
+/**
+ * @var {color}
+ * Phantom task bar border color
+ */
+$kanban-task-phantom-border-color: dynamic(#ccc);
+$kanban-task-phantom-border-width: dynamic(1px);
+$kanban-task-phantom-border-style: dynamic(dashed);
+/**
+ * @var {color}
+ * Phantom task bar left border color
+ */
+$kanban-task-phantom-border-left-color: dynamic($kanban-task-phantom-border-color);
+$kanban-task-phantom-border-left-width: dynamic($kanban-task-phantom-border-width);
+$kanban-task-phantom-border-left-style: dynamic($kanban-task-phantom-border-style);
+/**
+ * @var {color}
+ * Phantom task bar top border color
+ */
+$kanban-task-phantom-border-top-color: dynamic($kanban-task-phantom-border-color);
+$kanban-task-phantom-border-top-width: dynamic($kanban-task-phantom-border-width);
+$kanban-task-phantom-border-top-style: dynamic($kanban-task-phantom-border-style);
+/**
+ * @var {color}
+ * Phantom task bar right border color
+ */
+$kanban-task-phantom-border-right-color: dynamic($kanban-task-phantom-border-color);
+$kanban-task-phantom-border-right-width: dynamic($kanban-task-phantom-border-width);
+$kanban-task-phantom-border-right-style: dynamic($kanban-task-phantom-border-style);
+/**
+ * @var {color}
+ * Phantom task bar bottom border color
+ */
+$kanban-task-phantom-border-bottom-color: dynamic($kanban-task-phantom-border-color);
+$kanban-task-phantom-border-bottom-width: dynamic($kanban-task-phantom-border-width);
+$kanban-task-phantom-border-bottom-style: dynamic($kanban-task-phantom-border-style);
+
+/**
+ * @var {color}
+ * Color indicating tasks in "Not Started" state,
+ */
+$kanban-task-state-notstarted-color: dynamic(brown);
+/**
+ * @var {color}
+ * Color indicating tasks in "In Progress" state,
+ */
+$kanban-task-state-inprogress-color: dynamic(rgb(231, 168, 75));
+/**
+ * @var {color}
+ * Color indicating tasks in "Test" state,
+ */
+$kanban-task-state-test-color: dynamic(lightblue);
+/**
+ * @var {color}
+ * Color indicating tasks in "Done" state,
+ */
+$kanban-task-state-done-color: dynamic(lightgreen);
+
+$kanban-task-state-notstarted-border-left-color: $kanban-task-state-notstarted-color;
+$kanban-task-state-inprogress-border-left-color: $kanban-task-state-inprogress-color;
+$kanban-task-state-test-border-left-color: $kanban-task-state-test-color;
+$kanban-task-state-done-border-left-color: $kanban-task-state-done-color;
+
+$kanban-task-mini-state-notstarted-background-color: $kanban-task-state-notstarted-color;
+$kanban-task-mini-state-inprogress-background-color: $kanban-task-state-inprogress-color;
+$kanban-task-mini-state-test-background-color: $kanban-task-state-test-color;
+$kanban-task-mini-state-done-background-color: $kanban-task-state-done-color;
+
+/**
+ * @var {color}
+ * User avatar (in a task bar) border color
+ */
+$kanban-task-user-avatar-border-color: dynamic(#bababa);
+/**
+ * @var {color}
+ * User avatar (in a task bar) background color
+ */
+$kanban-task-user-avatar-background-color: dynamic(#fff);
+/**
+ * @var {color}
+ * Hovered user avatar (in a task bar) border color
+ */
+$kanban-task-user-avatar-hover-border-color: dynamic(#777);
+
+$kanban-task-menu-handle-opacity: dynamic(0.3);
+$kanban-task-menu-handle-over-opacity: dynamic(0.8);

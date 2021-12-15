@@ -1,0 +1,51 @@
+.sch-task-dd {
+    overflow         : visible !important;
+    opacity          : 0.7;
+    border           : 0 none !important;
+    background-color : $kanban-dragzone-taskdd-background-color;
+}
+
+.sch-task-dd .sch-task {
+    background    : #fff;
+    border-top    : 1px dashed #888;
+    border-right  : 1px dashed #888;
+    border-bottom : 1px dashed #888;
+}
+
+.sch-task-dd .#{$prefix}dd-drop-icon {
+    top              : -12px;
+    left             : -6px;
+    position         : absolute;
+    z-index          : 2;
+    border-radius    : 100%;
+    background-color : $kanban-dragzone-taskdd-dropicon-background-color;
+    height           : 22px;
+    width            : 22px;
+    border           : 1px solid #ddd;
+    padding          : 2px 0;
+    text-align       : center;
+}
+
+.sch-dd-wrap-holder {
+    overflow : visible;
+}
+
+.sch-task-placeholder {
+    background-color : $kanban-dragzone-placeholder-background-color;
+    border-width    : 1px !important;
+    border-style    : dashed;
+    border-color    : $kanban-dragzone-placeholder-border-color;
+    box-shadow      : none;
+}
+
+.sch-dd-extra {
+    -webkit-transform : rotate(2deg);
+    -moz-transform    : rotate(2deg);
+    -ms-transform     : rotate(2deg);
+    transform         : rotate(2deg);
+}
+
+.sch-task-dd .sch-no-img,
+.sch-hidden {
+    display : none !important;
+}

@@ -1,0 +1,180 @@
+/* z-index 2 to make sure lines are on top of row inner elements - we reset .x-grid-cell-inner to z-index:auto toofocused */
+/* See tests 201_create.t.js and 052_dependency_events.t.js */
+.sch-dependencyview-ct {
+  position : absolute;
+  top      : 0;
+}
+
+.sch-ltr .sch-dependencyview-ct {
+  left : 0;
+}
+
+.#{$prefix}rtl .sch-dependencyview-ct {
+  right : 0;
+}
+
+.sch-dependency-line {
+  position         : absolute;
+  border-style     : solid;
+  border-color     : $sch-dependency-line-color;
+  border-width     : 1px;
+  overflow         : hidden;
+  z-index          : 0;
+  box-sizing       : border-box;
+  -moz-box-sizing  : border-box;
+  background-color : transparent;
+}
+
+div.sch-dependency-line-horizontal {
+  border-width : 1px 0px 0px 0px;
+  height       : 4px; /* it's important to have height defined for horizontal line otherwise mouse events won't happen */
+}
+
+div.sch-dependency-line-vertical {
+  border-width : 0px 0px 0px 1px;
+  width        : 4px; /* it's important to have width defined for vertical line otherwise mouse events won't happen */
+}
+
+.#{$prefix}rtl div.sch-dependency-line-vertical {
+  border-width : 0px 1px 0px 0px;
+}
+
+.sch-export .sch-dependency-line {
+  -webkit-box-sizing : content-box;
+}
+
+.sch-export.#{$prefix}chrome .sch-dependency-line,
+.sch-export.#{$prefix}safari .sch-dependency-line,
+.sch-export.sch-ie-export .sch-dependency-line {
+  -webkit-box-sizing : border-box;
+}
+
+.sch-dependency-arrow {
+  position     : absolute;
+  height       : 0px;
+  width        : 0px;
+  border-style : solid;
+  border-color : $sch-dependency-arrow-color;
+  line-height  : 0; /* Required for IE in quirks mode */
+  z-index      : 1; /* Should be above dependency lines */
+}
+
+/* The extra 0.5 offset makes the alignment better in Firefox (no effect in Chrome) */
+.sch-dependency-arrow-left {
+  margin-top          : -3.5px;
+  margin-left         : -8px;
+  border-top-color    : transparent !important;
+  border-bottom-color : transparent !important;
+  border-left-color   : transparent !important;
+  border-width        : 4px 8px 4px 0;
+  border-style        : solid;
+}
+
+.sch-dependency-arrow-right {
+  margin-top          : -3.5px;
+  border-width        : 4px 0 4px 8px;
+  border-style        : solid;
+  border-top-color    : transparent !important;
+  border-bottom-color : transparent !important;
+  border-right-color  : transparent !important;
+}
+
+.sch-dependency-arrow-up {
+  margin-left        : -3.5px;
+  margin-top         : -8px;
+  border-right-color : transparent !important;
+  border-left-color  : transparent !important;
+  border-width       : 0px 4px 8px 4px;
+  border-style       : solid;
+}
+
+.sch-dependency-arrow-down {
+  margin-left        : -3.5px;
+  border-right-color : transparent !important;
+  border-left-color  : transparent !important;
+  border-width       : 8px 4px 0;
+  border-style       : solid;
+}
+
+.#{$prefix}rtl .sch-dependency-arrow-up,
+.#{$prefix}rtl .sch-dependency-arrow-down {
+  margin-left  : 0;
+  margin-right : -3.5px;
+}
+
+.#{$prefix}rtl .sch-dependency-arrow-right {
+  margin-right : -8px;
+}
+
+.sch-dependency-selected {
+  z-index : 4;
+}
+
+.sch-dependency.sch-dependency-selected {
+  border-color : $sch-dependency-selected-color;
+}
+
+.sch-dependency.sch-dependency-over {
+  border-color : darken($sch-dependency-color, 10%);
+}
+
+.sch-dependency-connector-proxy {
+  position                 : absolute;
+  width                    : 2px;
+  border-left              : 2px dashed gray;
+  z-index                  : 20;
+  transform-origin         : 0 0;
+  -ms-transform-origin     : 0 0;
+  -o-transform-origin      : 0 0;
+  -moz-transform-origin    : 0 0;
+  -webkit-transform-origin : 0 0;
+  pointer-events           : none;
+}
+
+.sch-terminal-valid-drop {
+  background   : rgb(164,207,109);
+  border-color : green;
+}
+
+.sch-terminal-invalid-drop {
+  background   : rgb(217,112,93);
+  border-color : red;
+}
+
+.sch-terminals-visible .sch-terminal {
+  display : block;
+}
+
+.sch-schedulerview-readonly .sch-terminal,
+.sch-terminal.sch-terminal-hidden {
+  display : none;
+}
+
+.sch-dependency-tip {
+  .#{$prefix}fa {
+    font-size     : 18px;
+    margin-bottom : 3px;
+  }
+
+  dt {
+    font-weight : bolder;
+  }
+}
+
+.sch-dep-tip {
+  margin: 0;
+  min-width : 100px;
+
+  .#{$prefix}fa {
+      &.sch-dep-tip-valid {
+          color : #a4cf6d;
+      }
+      &.sch-dep-tip-invalid {
+          color : #d9705d;
+      }
+  }
+
+  dd {
+    margin : 0 0 10px 0;
+  }
+}

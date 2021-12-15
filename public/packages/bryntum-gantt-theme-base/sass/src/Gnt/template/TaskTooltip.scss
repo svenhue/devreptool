@@ -1,0 +1,24 @@
+.sch-task-tip {
+    width     : 100%;
+    min-width : 160px;
+}
+
+.sch-task-tip td {
+    width       : 70px;
+    padding     : 5px 0 0 0;
+    white-space : nowrap;
+}
+
+.sch-task-tip-header {
+    white-space   : nowrap;
+    margin-bottom : 4px;
+    margin-top    : 0;
+}
+
+.sch-task-tip-header:not(:first-child) {
+    margin-top : 15px;
+}
+
+.sch-task-tip-extra {
+    padding-top : 5px;
+}

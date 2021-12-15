@@ -1,0 +1,59 @@
+﻿.sch-eventeditor-floating-container {
+    -webkit-box-shadow     : 1px 1px 5px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow        : 1px 1px 5px rgba(100, 100, 100, 0.5);
+    box-shadow             : 1px 1px 5px rgba(100, 100, 100, 0.5);
+    border-radius          : 3px;
+    border-top-left-radius : 0px;
+    border                 : 1px solid #DDDDDD;
+}
+
+.sch-eventeditor {
+    background             : #fff;
+    z-index                : 5000;
+}
+
+.sch-eventeditor-floating-container {
+    top                    : -1000px;
+    left                   : -1000px;
+}
+
+.sch-eventeditor .#{$prefix}border-layout-ct {
+    background : transparent;
+}
+
+.sch-eventeditor-timefields .#{$prefix}form-text {
+    padding-right : 2px;
+}
+
+.sch-event-editor-durationlabel {
+    padding-top : 7px;
+}
+
+.sch-eventeditor-timefields {
+    background              : #ececec;
+    border-top-right-radius : 3px;
+    border-bottom           : 1px solid #DDDDDD;
+    padding                 : 7px;
+}
+
+.sch-eventeditor-timefields .#{$prefix}field,
+.sch-eventeditor-timefields .label {
+    margin-right : 5px;
+}
+
+.sch-eventeditor-timefields .label {
+    line-height : 21px;
+}
+
+.sch-eventeditor.#{$prefix}panel-collapsed {
+    border : 0px none;
+}
+
+.sch-eventeditor > .#{$prefix}panel-body {
+    background : transparent;
+    border-top : 0 none;
+}
+
+.sch-eventeditor .#{$prefix}toolbar-footer {
+    padding-bottom : 5px;
+}

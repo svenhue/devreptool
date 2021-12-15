@@ -1,0 +1,57 @@
+.geo_overview_css_0 .x-change-cell {
+    background-color: #0101fd;
+    vertical-align: middle;
+}
+
+.geo_overview_css_1 .x-change-cell {
+    background-color: #fd33ca;
+    vertical-align: middle;
+}
+
+.geo_overview_css_2 .x-change-cell {
+    background-color: #01cafd;
+    vertical-align: middle;
+}
+
+.geo_overview_css_3 .x-change-cell {
+    background-color: #fd6601;
+    vertical-align: middle;
+}
+
+.geo_overview_css_4 .x-change-cell {
+    background-color: #3f3f3f;
+    vertical-align: middle;
+}
+
+.assigned .x-change-cell {
+    background-color: #00fd00;
+    vertical-align: middle;
+}
+
+.unassigned .x-change-cell {
+    background-color: #fd0101;
+    vertical-align: middle;
+}
+
+.ticketEditGridHeader .x-panel-header-default {
+    background-color: #B3181E;
+}
+
+.ticketEditGridHeader .x-panel-header {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.ticketEditGridHeader .x-title-text-default {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.x-grid-filterbar .x-form-text {
+    padding: 3px 3px 3px 5px;
+    /*font-size: 13px;*/
+}
+
+.x-operator-button {
+    padding-left: 10px;
+}

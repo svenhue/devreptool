@@ -1,0 +1,11 @@
+.sch-columnpicker-list li.#{$prefix}boundlist-item {
+    background-color : $sch-columnpicker-list-item-background-color;
+
+    &.#{$prefix}boundlist-selected {
+        background-color : $sch-columnpicker-list-item-selected-background-color;
+    }
+
+    &.#{$prefix}boundlist-item-over {
+        background-color : $sch-columnpicker-list-item-over-background-color;
+    }
+}

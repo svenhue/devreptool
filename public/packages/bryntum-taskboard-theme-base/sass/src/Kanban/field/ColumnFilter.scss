@@ -1,0 +1,17 @@
+.sch-columnfilter-list li {
+    border           : 0;
+    font-size        : 1.2em;
+    background-color : $sch-columnfilter-list-background-color !important;
+    color            : $sch-columnfilter-list-color !important;
+}
+
+.sch-columnfilter-list li.#{$prefix}boundlist-item:before {
+    font         : 16px/1 $font-icon-font-family;
+    content      : "\f00c";
+    margin-right : 6px;
+    visibility   : hidden;
+}
+
+.sch-columnfilter-list li.#{$prefix}boundlist-selected:before {
+    visibility : visible;
+}

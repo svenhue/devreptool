@@ -1,0 +1,71 @@
+/**
+ * @class Gnt.template.Milestone
+ */
+
+/**
+ * @var {color}
+ * Milestone border color
+ */
+$sch-gantt-milestone-border-color : dynamic(#4169E1);
+
+/**
+ * @var {color}
+ * Milestone background color
+ */
+$sch-gantt-milestone-background-color : dynamic(#4169E1);
+
+/**
+ * @var {color}
+ * Milestone shadow color
+ */
+$sch-gantt-milestone-shadow-color : dynamic(rgba(150, 150, 150, 0));
+
+/**
+ * @var {color}
+ * Selected milestone border color
+ */
+$sch-gantt-milestone-selected-border-color : dynamic($sch-gantt-milestone-border-color);
+
+/**
+ * @var {color}
+ * Selected milestone background color
+ */
+$sch-gantt-milestone-selected-background-color : dynamic($sch-gantt-milestone-background-color);
+
+/**
+ * @var {color}
+ * Selected milestone shadow color
+ */
+$sch-gantt-milestone-selected-shadow-color : dynamic($sch-gantt-milestone-shadow-color);
+
+/**
+ * @var {color}
+ * Milestone baseline background color
+ */
+$sch-gantt-milestone-baseline-background-color : dynamic(#AAA);
+
+/**
+ * @var {color}
+ * Milestone baseline border color
+ */
+$sch-gantt-milestone-baseline-border-color : dynamic(#AAA);
+
+/**
+ * @var {color}
+ * Readonly milestone border color
+ */
+$sch-gantt-milestone-readonly-border-color : dynamic(#696969);
+
+/**
+ * @var {color}
+ * Readonly milestone background color
+ */
+$sch-gantt-milestone-readonly-background-color : dynamic(#696969);
+
+$sch-gantt-rollup-milestone-border-color : dynamic(#AAA);
+$sch-gantt-rollup-milestone-background-color : dynamic(#CCC);
+$sch-gantt-rollup-milestone-shadow-color : dynamic($sch-gantt-milestone-shadow-color);
+
+$sch-gantt-rollup-milestone-selected-border-color : dynamic($sch-gantt-rollup-milestone-border-color);
+$sch-gantt-rollup-milestone-selected-background-color : dynamic($sch-gantt-rollup-milestone-background-color);
+$sch-gantt-rollup-milestone-selected-shadow-color : dynamic($sch-gantt-milestone-selected-shadow-color);

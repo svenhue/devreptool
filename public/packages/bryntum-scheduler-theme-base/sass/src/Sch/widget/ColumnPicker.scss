@@ -1,0 +1,10 @@
+.sch-columnpicker-list li.#{$prefix}boundlist-item {
+    border           : 0;
+    padding-left     : 7px;
+    line-height      : 30px;
+    background-color : transparent;
+}
+
+.sch-columnpicker-list li.#{$prefix}boundlist-selected:before {
+    margin-right : 5px;
+}

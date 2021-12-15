@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Report</title>
+
+    <meta charset="UTF-8">
+	<link href="Css/stimulsoft.designer.office2013.hv.css" rel="stylesheet">
+
+	<link href="Css/stimulsoft.viewer.office2013.hv.css" rel="stylesheet">
+	<script src="Scripts/stimulsoft.reports.pack.js" type="text/javascript"></script>
+	<script src="Scripts/stimulsoft.viewer.pack.js" type="text/javascript"></script>
+	<script src="Scripts/stimulsoft.dashboards.pack.js" type="text/javascript"></script>
+		<script src="Scripts/stimulsoft.designer.pack.js" type="text/javascript"></script>
+
+</head>
+<body>
+<script type="text/javascript">
+
+    Stimulsoft.StiOptions.WebServer.url = "DataAdapters/PHP/handler.php";
+
+    function getURLParameter(name) {
+        let value = decodeURIComponent((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, ""])[1]);
+        return (value !== 'null') ? value : false;
+    }
+
+    Stimulsoft.Base.StiLicense.key = "6vJhGtLLLz2GNviWmUTrhSqnOItdDwjBylQzQcAOiHlmy9/cbCg5KA4N6boUgQFDsiFvCXS5Hhgbmpp8Iww7Rb5lp7" +
+        "1MtsPk6D+NhFUdtj52dsKgXk9kLBrPz5Xp6cY6kcVSLoubUIK1HDPvyds76sIDzwkl3QjmEn/VnERtXAiOx0jlJmKS" +
+        "fbC49xHs3hKVKS7WEwRv/aCjmR5qigaDoOhwxsxuU+sI1YhHFSvq07DWa0Uuh0NdExOZgAFbg7Vu2yAosDnVrBoqk9" +
+        "1uMqo/vAH28gMuXD+Gqsh0YxdPoWZBPR7cjagIooq/sOBP4R0UOw8i6jovIcA6Vgi24UdMHAXYwK6xZMtBDgwaTSt4" +
+        "N8bzyQY0a7DPJm1tXHOw+aJnlLWxiQVlSskbpU/ZIIvb3x2plxndcrQt6oOZ714uYBYBVsp1dOUJUBqJePnsLGfrET" +
+        "QdolTB67wqs3mIhWc2gNKiPo30cLGKrbQCIegDa0u+rgzVOjg9deXLGR4sOuHgoLYsIHb6NN0cxXxCaquazaG43/J2" +
+        "xBjxzO/YKPzWyg7gCgAil8xdFoqhpXDOFLccHwD8oxX5bUNuVQyqF4+AIqn2HIg5dddbLHOlSumfvd19h5Mg19UqKr" +
+        "6Oym7LYrHYm2YWs9HMxMRtiQRcv1yrHPLp5pQJwJ7Caak3/67SRucHdEBfe58j2CL7COADFl+vcGvi9CaNzzYTGXm7" +
+        "z292Ig8VBLCM+E88+SWkwgBbSq/yPF3kX9oiFRk3YA2qZcOaqfKUHJtM478heEDP4aLDEmeosIv57Leh1SRxzClSbG" +
+        "TL3WnBaDC5vYqypGzXlQqwiGcK7suXVhnL/iRBF0d9kHQYTCyJifBlenQbhJZkCMeTOHHebwYfIXnw35yzUgV1npCq" +
+        "b/AkJSJTzrvgcuvX2g==";
+
+    Stimulsoft.Base.Localization.StiLocalization.setLocalizationFile('de.xml', true);
+
+    let report = new Stimulsoft.Report.StiReport(),
+        reportId = getURLParameter('id'),
+        options = new Stimulsoft.Designer.StiDesignerOptions();
+
+    options.appearance.fullScreenMode = true;
+    options.appearance.showSaveDialog = false;
+    options.toolbar.showFileMenuSaveAs = false;
+    options.toolbar.showFileMenu = false;
+
+    let designer = new Stimulsoft.Designer.StiDesigner(options);
+
+    designer.preConnectionStr = '';
+    designer.preQueryStr = '';
+
+    designer.onSaveReport = function (args) {
+        args.report.reportName = "Report";
+
+        let jsonReport = args.report.saveToJsonString();
+        localStorage.setItem('design_' + reportId, jsonReport);
+
+    };
+
+    designer.onSaveAsReport = function (args) {
+        args.report.reportName = "Report";
+
+        let jsonReport = args.report.saveToJsonString();
+        localStorage.setItem('design_' + reportId, jsonReport);
+    };
+
+    designer.onExit = function (event) {
+        alert('exit');
+    };
+
+    let jsonReport = localStorage.getItem('design_' + reportId);
+    if (jsonReport !== '') {
+        report.load(jsonReport);
+    }
+
+    designer.report = report;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.sch-item-canvas {
+    position : absolute;
+    left     : 0;
+    top      : 0;
+}
+
+.sch-horizontal .sch-item-canvas {
+    height   : 100%;
+}
+
+.sch-vertical .sch-item-canvas {
+    width    : 100%;
+}
+
+.sch-item-canvas {
+    /*z-index  : 2*/
+}
+
+.sch-dependencyview-ct.sch-item-canvas-layer
+{
+    z-index  : 1 !important;
+}
+
+.#{$prefix}rtl .sch-secondary-canvas,
+.#{$prefix}rtl .sch-item-canvas {
+    right : 0;
+    left  : auto;
+}

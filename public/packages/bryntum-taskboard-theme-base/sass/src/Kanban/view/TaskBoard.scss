@@ -1,0 +1,24 @@
+.sch-taskboard,
+.sch-taskboard-body {
+    background : $sch-taskboard-body-background;
+}
+
+/* Selector element should appear above task elements */
+.sch-taskboard {
+    .#{$prefix}view-selector {
+        z-index      : 2;
+        border-width : 2px;
+    }
+
+    /* Styling for the scrollable panel */
+    &.sch-taskboard-scrollable {
+        .x-autocontainer-outerCt {
+            display : flex;
+        }
+
+        .x-autocontainer-innerCt {
+            display   : flex;
+            flex-flow : row nowrap;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.sch-ganttpanel .#{$prefix}grid-cell {
+  border-bottom-color : #ededed !important;
+}
+
+.sch-ganttpanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item {
+  border-color : #eee;
+}
+
+/* LOCKED GRID STYLING */
+.sch-ganttpanel .#{$prefix}grid-inner-locked {
+  border-right : 1px solid #ddd;
+}
+
+.sch-ganttpanel .#{$prefix}grid-inner-locked .#{$prefix}column-header-last,
+.sch-ganttpanel .#{$prefix}grid-inner-locked .#{$prefix}grid-cell-last {
+  border-right : 0 none !important;
+}
+
+/* EOF LOCKED GRID STYLING */

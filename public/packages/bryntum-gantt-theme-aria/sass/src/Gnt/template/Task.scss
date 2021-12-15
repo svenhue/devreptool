@@ -1,0 +1,12 @@
+.#{$prefix}grid-item-selected .sch-gantt-label {
+  font-weight : bold;
+}
+
+.sch-gantt-task-bar,
+.sch-gantt-task-segment {
+  border-width : 0;
+}
+
+.sch-gantt-task-baseline .sch-gantt-task-bar {
+  border-radius : 0;
+}

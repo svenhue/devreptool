@@ -1,0 +1,56 @@
+.#{$prefix}dd-drag-proxy.sch-gantt-dragproxy, .sch-gantt-dragproxy {
+    background : none !important;
+    border     : none;
+    overflow   : visible; /* So parent task arrows are visible */
+    min-height : 1px; /*Required for the Ext drag drop to work */
+    min-width  : 1px; /*Required for the Ext drag drop to work */
+    display    : block;
+}
+
+.#{$prefix}dd-drag-proxy.sch-gantt-dragproxy .gnt-deadline-indicator,
+.sch-gantt-dragproxy .gnt-deadline-indicator {
+    position: static;
+    height: 100%;
+}
+
+.#{$prefix}dd-drag-proxy.sch-gantt-dragproxy .sch-gantt-task-segment,
+.sch-gantt-dragproxy .sch-gantt-task-segment {
+    position: static;
+}
+
+.#{$prefix}dd-drag-proxy.sch-gantt-dragproxy .sch-gantt-item .sch-gantt-task-segment,
+.sch-gantt-dragproxy .sch-gantt-item .sch-gantt-task-segment {
+    position: absolute;
+}
+
+
+.gnt-taskdd-dropmarker {
+    position : absolute;
+    border: 0px none;
+    border-top: 1px dotted green;
+    pointer-events: none;
+    z-index: 20;
+}
+
+/* Ext 6.0.1 rtl adaptation */
+.sch-gantt-dragproxy.sch-rtl {
+    display: block;
+}
+
+.sch-gantt-dragproxy .#{$prefix}dd-drop-icon {
+    display : none;
+}
+
+.sch-gantt-dragproxy .#{$prefix}dd-drag-ghost {
+    background-color : transparent;
+    white-space      : nowrap;
+    border           : 0 none;
+    color            : #000000;
+    font             : 11px arial, helvetica, sans-serif;
+    padding          : 0;
+}
+
+.#{$prefix}css-shadow,
+.gnt-dragdrop-tip {
+    pointer-events : none;
+}

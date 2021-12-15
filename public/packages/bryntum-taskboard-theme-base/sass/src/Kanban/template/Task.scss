@@ -1,0 +1,222 @@
+.sch-task.#{$prefix}view-item-focused {
+    outline : none !important;
+}
+
+.sch-task {
+    position           : relative;
+    border-left        : $kanban-task-border-left-width $kanban-task-border-left-style $kanban-task-border-left-color;
+    border-radius      : 1px;
+    box-shadow         : $kanban-task-box-shadow-x $kanban-task-box-shadow-y $kanban-task-box-shadow-blur $kanban-task-box-shadow-spread $kanban-task-box-shadow-color;
+    cursor             : pointer;
+    color              : $kanban-task-color;
+    margin             : 0 2% 7px 2%;
+    background-color   : $kanban-task-background-color;
+    padding-bottom     : 2px;
+    width              : 96%;
+    box-sizing         : border-box;
+    -webkit-transition : width 0.4s, height 0.4s, opacity 0.3s;
+    -moz-transition    : width 0.4s, height 0.4s, opacity 0.3s;
+    -ms-transition     : width 0.4s, height 0.4s, opacity 0.3s;
+    -o-transition      : width 0.4s, height 0.4s, opacity 0.3s;
+    transition         : width 0.4s, height 0.4s, opacity 0.3s;
+
+    &.sch-taskboard-cut-task {
+        opacity: 0.3;
+    }
+}
+
+.sch-task {
+    border-top         : $kanban-task-border-top-width $kanban-task-border-top-style $kanban-task-border-top-color;
+    border-bottom      : $kanban-task-border-bottom-width $kanban-task-border-bottom-style $kanban-task-border-bottom-color;
+    border-right       : $kanban-task-border-right-width $kanban-task-border-right-style $kanban-task-border-right-color;
+}
+
+.sch-task-inner {
+    height   : inherit;
+    overflow : hidden;
+    padding  : 2px 8px 2px 8px;
+}
+
+.sch-task-name {
+    margin : 5px 0;
+}
+
+.sch-task-id {
+    color : $kanban-task-id-color;
+}
+
+.sch-phantom-task span.sch-task-id {
+    display : none;
+}
+
+.sch-taskboard-filtered .sch-task {
+    opacity : .2;
+    filter  : alpha(opacity=20);
+}
+
+.sch-taskboard-filtered .sch-task.sch-filter-match {
+    opacity : 1;
+    filter  : alpha(opacity=100);
+}
+
+.sch-taskview div.sch-task-over {
+    background-color : $kanban-task-over-background-color;
+    color            : $kanban-task-over-color;
+}
+
+.sch-taskview div.sch-task-selected {
+    background-color : $kanban-task-selected-background-color;
+    z-index          : 2;
+}
+
+.sch-phantom-task {
+    opacity       : 0.7;
+    border-top-width : $kanban-task-phantom-border-top-width;
+    border-top-style : $kanban-task-phantom-border-top-style;
+    border-top-color : $kanban-task-phantom-border-top-color;
+    border-right-width : $kanban-task-phantom-border-right-width;
+    border-right-style : $kanban-task-phantom-border-right-style;
+    border-right-color : $kanban-task-phantom-border-right-color;
+    border-bottom-width : $kanban-task-phantom-border-bottom-width;
+    border-bottom-style : $kanban-task-phantom-border-bottom-style;
+    border-bottom-color : $kanban-task-phantom-border-bottom-color;
+}
+
+.sch-task-selected div,
+.sch-task-selected span {
+    color       : $kanban-task-selected-color;
+    text-shadow : 1px 1px 1px $kanban-task-selected-text-shadow-color;
+}
+
+.sch-color {
+    border-top-left-radius    : 1px;
+    border-bottom-left-radius : 1px;
+    width                     : 10px;
+    position                  : absolute;
+    height                    : 100%;
+}
+
+.sch-task.sch-task-state-NotStarted {
+    border-left-color : $kanban-task-state-notstarted-border-left-color;
+}
+
+.sch-task.sch-task-state-InProgress {
+    border-left-color : $kanban-task-state-inprogress-border-left-color;
+}
+
+.sch-task.sch-task-state-Test {
+    border-left-color : $kanban-task-state-test-border-left-color;
+}
+
+.sch-task.sch-task-state-Done {
+    border-left-color : $kanban-task-state-done-border-left-color;
+}
+
+.sch-task-img {
+    width         : 100%;
+    border-radius : 1px;
+    margin-bottom : 2px;
+    margin-top    : 5px;
+}
+
+.sch-task img.sch-user-avatar {
+    position         : absolute;
+    bottom           : -4px;
+    right            : -4px;
+    width            : 20px;
+    height           : 20px;
+    border           : 1px solid $kanban-task-user-avatar-border-color;
+    padding          : 1px;
+    border-radius    : 100%;
+    background-color : $kanban-task-user-avatar-background-color;
+}
+
+.sch-task img.sch-user-avatar:hover {
+    border-color : $kanban-task-user-avatar-hover-border-color;
+}
+
+.sch-no-img {
+    display : none;
+    opacity : 0.6;
+}
+
+.sch-task-over .sch-no-img {
+    display : block;
+}
+
+.sch-no-img:hover {
+    opacity : 1;
+}
+
+/* TASK ZOOM LEVEL SIZING */
+[size=large] div.sch-task {
+    width: auto;
+    margin: 0 0 0.5em 0;
+
+    .sch-task-inner {
+        overflow-wrap: break-word;
+    }
+}
+
+[size=medium] div.sch-task {
+    width     : 90px;
+    height    : 90px;
+    float     : left;
+    font-size : 90%;
+}
+
+[size=small] div.sch-task {
+    height    : 50px;
+    width     : 50px;
+    float     : left;
+    font-size : 85%;
+}
+
+[size=mini] div.sch-task {
+    height    : 25px;
+    width     : 25px;
+    float     : left;
+    font-size : 75%;
+    border    : 0;
+}
+
+[size=mini] .sch-task-img,
+[size=mini] .sch-task-name,
+[size=mini] .sch-no-img {
+    display : none;
+}
+
+[size=mini] .sch-task-id {
+    margin     : 6px 0px;
+    display    : block;
+    text-align : center;
+}
+
+[size=mini] .sch-task-inner {
+    padding : 0;
+}
+
+[size=mini] .sch-user-avatar {
+    left   : 3px;
+    top    : 3px;
+    bottom : auto;
+    right  : auto;
+}
+
+[size=mini] .sch-task.sch-task-state-NotStarted {
+    background-color : $kanban-task-mini-state-notstarted-background-color;
+}
+
+[size=mini] .sch-task.sch-task-state-InProgress {
+    background-color : $kanban-task-mini-state-inprogress-background-color;
+}
+
+[size=mini] .sch-task.sch-task-state-Test {
+    background-color : $kanban-task-mini-state-test-background-color;
+}
+
+[size=mini] .sch-task.sch-task-state-Done {
+    background-color : $kanban-task-mini-state-done-background-color;
+}
+
+/***/

@@ -1,0 +1,75 @@
+/**
+ * @class Gnt.template.ParentTask
+ */
+
+/**
+ * @var {color}
+ * Parent task bar background color
+ */
+$sch-gantt-parenttask-background-color : dynamic(#FFBC00);
+
+/**
+ * @var {color}
+ * Parent task bar border color
+ */
+$sch-gantt-parenttask-border-color : dynamic(#F00);
+
+/**
+ * @var {color}
+ * Parent task bar shadow color
+ */
+$sch-gantt-parenttask-shadow-color : dynamic(rgba(150, 150, 150, 0));
+
+/**
+ * @var {color}
+ * Selected parent task bar border color
+ */
+$sch-gantt-parenttask-selected-border-color : dynamic($sch-gantt-parenttask-border-color);
+
+/**
+ * @var {color}
+ * Selected parent task bar background color
+ */
+$sch-gantt-parenttask-selected-background-color : dynamic($sch-gantt-parenttask-background-color);
+
+/**
+ * @var {color}
+ * Progress bar background color
+ */
+$sch-gantt-parenttask-progress-bar-background-color : dynamic(#FFF3A5);
+
+/**
+ * @var {color}
+ * Parent task baseline bar background color
+ */
+$sch-gantt-parenttask-baseline-background-color : dynamic(#EEE);
+
+/**
+ * @var {color}
+ * Parent task baseline bar border color
+ */
+$sch-gantt-parenttask-baseline-border-color : dynamic(#FFA500);
+
+/**
+ * @var {color}
+ * Readonly parent task bar background color
+ */
+$sch-gantt-parenttask-readonly-background-color : dynamic(#EBEBEB);
+
+/**
+ * @var {color}
+ * Readonly parent task bar border color
+ */
+$sch-gantt-parenttask-readonly-border-color : dynamic(#6B6B6B);
+
+/**
+ * @var {color}
+ * Readonly progress bar background color
+ */
+$sch-gantt-parenttask-progress-bar-readonly-background-color : dynamic(#7B7B7B);
+
+$sch-gantt-parenttask-arrow-border-color : dynamic(#EFAF90);
+$sch-gantt-parenttask-readonly-arrow-border-color : dynamic(#C7C7C7);
+
+$sch-gantt-parenttask-highlighted-border-color : dynamic($sch-gantt-parenttask-border-color);
+$sch-gantt-parenttask-highlighted-background-color : dynamic($sch-gantt-parenttask-background-color);

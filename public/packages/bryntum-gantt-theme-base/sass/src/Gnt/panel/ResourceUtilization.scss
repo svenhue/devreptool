@@ -1,0 +1,74 @@
+.gnt-resourceutilizationpanel .#{$prefix}grid-cell-inner {
+  height : 31px;
+}
+
+.gnt-resourceutilizationpanel .sch-timetd .#{$prefix}grid-cell-inner {
+  overflow : hidden;
+}
+
+.gnt-resourceutilizationpanel .sch-event,
+.gnt-resourceutilizationpanel .sch-event.sch-event-selected.sch-event-hover {
+  top         : 0;
+  height      : 100%;
+  border      : 0 none;
+  background  : $gnt-resourceutilizationpanel-event-background-color none;
+  box-shadow  : none;
+  line-height : 30px;
+  color       : $gnt-resourceutilizationpanel-event-color;
+  font-weight : normal;
+}
+
+.gnt-utilizationrow-task .gnt-resource-utilization-interval {
+  color            : $gnt-task-utilization-interval-color;
+  background-color : $gnt-task-utilization-interval-background-color;
+}
+
+.gnt-resourceutilizationpanel .sch-event-inner {
+  padding : 0;
+}
+
+.gnt-resource-utilization-interval-notutilized {
+  visibility : hidden;
+}
+
+.gnt-resource-utilization-interval {
+  position         : absolute;
+  height           : 100%;
+  text-align       : center;
+  overflow         : hidden;
+  z-index          : 1;
+  background-color : $gnt-resource-utilization-interval;
+}
+
+.#{$prefix}safari .gnt-resource-utilization-interval {
+  margin-left : 1px;
+}
+
+
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-notcalculated {
+    background-color : $gnt-resource-utilization-interval-notcalculated;
+}
+
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-overallocated {
+  background-color : $gnt-resource-utilization-interval-overallocated;
+}
+
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-underallocated {
+  background-color : $gnt-resource-utilization-interval-underallocated;
+}
+
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-optimallyallocated {
+  background-color : $gnt-resource-utilization-interval-optimallyallocated;
+}
+
+.gnt-resourceutilizationprogress {
+    background-color: $gnt-resource-utilization-progressbar-background;
+
+    .#{$prefix}progress-bar {
+        background-color: $gnt-resource-utilization-progressbar-barcolor;
+    }
+
+    .#{$prefix}progress-text {
+        display : none;
+    }
+}

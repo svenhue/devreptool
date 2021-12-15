@@ -1,0 +1,18 @@
+.sch-recurrencedialog {
+    .#{$prefix}form-text-field-body-default {
+        min-width : 85px;
+    }
+
+    .sch-combo-with-no-value .#{$prefix}form-item-label {
+        font-size         : 12px;
+        -webkit-transform : translateY(8px);
+        -moz-transform    : translateY(8px);
+        -ms-transform     : translateY(8px);
+        -o-transform      : translateY(8px);
+        transform         : translateY(8px);
+    }
+
+    .sch-segmentedbuttonfield .#{$prefix}btn-default-small {
+        padding : 8px;
+    }
+}

@@ -1,0 +1,21 @@
+/**
+ * @class Gnt.view.dependency.View
+ */
+
+/**
+ * @var {color}
+ * Dependency color
+ */
+$sch-dependency-color : dynamic(#5FA2DD);
+
+/**
+ * @var {color}
+ * Dependency lines color
+ */
+$sch-dependency-line-color : dynamic($sch-dependency-color);
+
+/**
+ * @var {color}
+ * Dependency arrow color
+ */
+$sch-dependency-arrow-color : dynamic($sch-dependency-color);

@@ -1,0 +1,13 @@
+.sch-usermenu .#{$prefix}menu-item-icon {
+    opacity         : 0.4;
+}
+
+.sch-user-selected .#{$prefix}menu-item-icon {
+    opacity         : 1;
+}
+
+.sch-user-selected,
+.sch-user-selected .#{$prefix}menu-item-text
+{
+    font-weight  : bold;
+}

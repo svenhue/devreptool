@@ -1,0 +1,13 @@
+$sch-gantt-milestone-shadow-color : dynamic(#A9A9A9);
+
+$sch-gantt-milestone-selected-border-color : dynamic(#FF0000);
+$sch-gantt-milestone-selected-shadow-color : dynamic($sch-gantt-milestone-shadow-color);
+
+$sch-gantt-rollup-milestone-border-color : dynamic(#AAA);
+$sch-gantt-rollup-milestone-background-color : dynamic(#CCC);
+$sch-gantt-rollup-milestone-shadow-color : dynamic(rgba(150, 150, 150, 0));
+
+$sch-gantt-rollup-milestone-selected-shadow-color : dynamic(rgba(150, 150, 150, 0));
+
+$sch-gantt-milestone-readonly-border-color : dynamic(#696969);
+$sch-gantt-milestone-readonly-background-color : dynamic(#696969);

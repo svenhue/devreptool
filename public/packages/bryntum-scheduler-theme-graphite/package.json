@@ -1,0 +1,38 @@
+{
+    "name": "bryntum-scheduler-theme-graphite",
+    "sencha": {
+        "namespace": "",
+        "format": "1",
+        "version": "6.1.15",
+        "compatVersion": "6.1.15",
+        "creator": "Bryntum",
+        "summary": "The Graphite theme for Ext Scheduler",
+        "detailedDescription": "The Graphite theme for Ext Scheduler",
+        "type": "theme",
+        "extend": "theme-graphite",
+        "slicer": {
+            "js": [
+                {
+                    "path": "${package.dir}/sass/example/custom.js",
+                    "isWidgetManifest": true
+                }
+            ]
+        },
+        "toolkit": "classic",
+        "output": "${package.dir}/build",
+        "sass": {
+            "namespace": "",
+            "etc": "${package.dir}/sass/etc/all.scss",
+            "var": "${package.dir}/sass/var",
+            "src": "${package.dir}/sass/src"
+        },
+        "classpath": "${package.dir}/src",
+        "overrides": "${package.dir}/overrides",
+        "framework": "ext",
+        "requires": [
+            "bryntum-scheduler@6+",
+            "bryntum-scheduler-theme-base",
+            "font-awesome"
+        ]
+    }
+}

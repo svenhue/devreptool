@@ -1,0 +1,44 @@
+.gnt-calendar-legend {
+  padding    : 0;
+  margin-top : 0;
+}
+
+.gnt-calendar-legend li {
+  margin-bottom : 10px;
+  list-style    : none outside none;
+}
+
+.gnt-calendar-legend-itemstyle {
+  width        : 25px;
+  height       : 25px;
+  line-height  : 21px;
+  text-align   : center;
+  margin-right : 10px;
+  border       : solid 1px #bbb;
+  float        : left;
+}
+
+.gnt-calendar-legend-override .gnt-calendar-legend-itemstyle {
+  font-weight : bold;
+}
+
+.gnt-calendar-legend-itemname {
+  display     : block;
+  padding-top : 5px;
+}
+
+.gnt-calendar-dateinfo {
+  padding : 0 10px 10px 10px;
+}
+
+.gnt-calendar-availabilities {
+  padding : 5px 0 5px 30px;
+}
+
+.gnt-calendar-availabilities li {
+  list-style : disc !important;
+}
+
+.gnt-dateinfo-override {
+  padding-left : 25px;
+}

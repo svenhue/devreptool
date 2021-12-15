@@ -1,0 +1,48 @@
+.sch-summaryrow-title {
+    background : $sch-summaryrow-background-color;
+    padding    : 0 10px;
+    text-align : right;
+
+    .sch-summaryrow-title-text {
+        font-weight : bold;
+        font-size   : 13px;
+    }
+}
+
+.sch-summaryrow-view {
+    background : $sch-summaryrow-background-color;
+
+    table {
+        height : 100%;
+    }
+
+    .sch-summaryrow-bar-wrapper {
+        position : relative;
+        height   : 100%;
+        width    : 100%;
+
+        .sch-summaryrow-bar {
+            position   : absolute;
+            bottom     : 0;
+            left       : 0;
+            background : $sch-summaryrow-bar-color;
+            width      : 100%;
+            transition : height 0.4s, color 0.4s;
+
+            .sch-summaryrow-bar-text {
+                position      : absolute;
+                font-weight   : bold;
+                font-size     : 90%;
+                overflow      : hidden;
+                white-space   : nowrap;
+                text-overflow : ellipsis;
+                width         : 100%;
+                height        : 20px;
+                top           : -20px;
+                left          : 0;
+                text-align    : center;
+                line-height   : 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.sch-zone {
+    position    : absolute;
+    left        : 0;
+    top         : 0;
+    overflow    : hidden;
+    margin-left : -1px;
+    z-index     : -1;
+    background-color: rgba(235, 235, 235, 0.5);
+}
+.sch-horizontal .sch-zone {
+    height : 100%;
+}
+
+.sch-vertical .sch-zone {
+    width : 100%;
+}
+
+.sch-print-body .sch-zone {
+    border-left-style : solid;
+    border-left-color : #f4f4f4;
+}
+

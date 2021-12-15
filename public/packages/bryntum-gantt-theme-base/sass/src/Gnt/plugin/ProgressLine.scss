@@ -1,0 +1,19 @@
+.sch-svg-canvas {
+    position       : absolute;
+    top            : 0;
+    overflow       : visible;
+    pointer-events : none;
+    // It's enough to set minimal width and height on svg container: child lines have their own sizes
+    width          : 1px;
+    height         : 1px;
+}
+
+.#{$prefix}chrome .sch-svg-canvas {
+    // width and height should be equal in our case to scale svg properly on browser zoom
+    width  : auto;
+    height : auto;
+}
+
+.sch-gantt-progress-line {
+    stroke: red;
+}

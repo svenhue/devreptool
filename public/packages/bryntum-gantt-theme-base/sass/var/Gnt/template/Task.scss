@@ -1,0 +1,121 @@
+/**
+ * @class Gnt.template.Task
+ */
+
+/**
+ * @var {color}
+ * Task bar text color
+ */
+$sch-gantt-task-color : dynamic(inherit);
+
+/**
+ * @var {color}
+ * Task label color
+ */
+$sch-gantt-task-label-color : dynamic(#999);
+
+/**
+ * @var {color}
+ * Task bar background color
+ */
+$sch-gantt-task-background-color : dynamic(#E5ECF5);
+
+/**
+ * @var {color}
+ * Task bar border color
+ */
+$sch-gantt-task-border-color : dynamic(#3172D7);
+
+/**
+ * @var {color}
+ * Task bar shadow color
+ */
+$sch-gantt-task-shadow-color : dynamic(rgba(150, 150, 150, 0));
+
+/**
+ * @var {color}
+ * Task bar border color on hover
+ */
+$sch-gantt-task-hover-border-color : dynamic($sch-gantt-task-border-color);
+
+/**
+ * @var {color}
+ * Selected task label color
+ */
+$sch-gantt-task-selected-label-color : dynamic(#555);
+
+/**
+ * @var {color}
+ * Selected task bar border color
+ */
+$sch-gantt-task-selected-border-color : dynamic($sch-gantt-task-border-color);
+
+/**
+ * @var {color}
+ * Selected task bar background color
+ */
+$sch-gantt-task-selected-background-color : dynamic($sch-gantt-task-background-color);
+
+/**
+ * @var {color}
+ * Selected task bar shadow color
+ */
+$sch-gantt-task-selected-shadow-color : dynamic($sch-gantt-task-shadow-color);
+
+/**
+ * @var {color}
+ * Selected task bar border color on hover
+ */
+$sch-gantt-task-hover-selected-border-color : dynamic($sch-gantt-task-selected-border-color);
+
+/**
+ * @var {color}
+ * Task baseline bar background color
+ */
+$sch-gantt-task-baseline-background-color : dynamic(#EEE);
+
+/**
+ * @var {color}
+ * Task baseline bar border color
+ */
+$sch-gantt-task-baseline-border-color : dynamic(#FFA500);
+
+/**
+ * @var {color}
+ * Progress bar text color
+ */
+$sch-gantt-progress-bar-color : dynamic(#FFF);
+
+/**
+ * @var {color}
+ * Progress bar background color
+ */
+$sch-gantt-progress-bar-background-color : dynamic(#7971E2);
+
+/**
+ * @var {color}
+ * Readonly task bar background color
+ */
+$sch-gantt-task-readonly-background-color : dynamic(#EBEBEB);
+
+/**
+ * @var {color}
+ * Readonly task bar border color
+ */
+$sch-gantt-task-readonly-border-color : dynamic(#6B6B6B);
+
+/**
+ * @var {color}
+ * Readonly progress bar background color
+ */
+$sch-gantt-progress-bar-readonly-background-color : dynamic(#7B7B7B);
+
+$sch-gantt-task-highlighted-border-color : dynamic($sch-gantt-task-border-color);
+$sch-gantt-task-highlighted-background-color : dynamic($sch-gantt-task-background-color);
+$sch-gantt-task-highlighted-shadow-color : dynamic($sch-gantt-task-shadow-color);
+
+$sch-gantt-critical-chain-highlighted-shadow-color : dynamic(#F00);
+$sch-gantt-critical-chain-highlighted-border-color : dynamic(#F00);
+
+$gnt-deadline-indicator-border-color : dynamic(#F00);
+$gnt-deadline-indicator-late-border-color : dynamic(#8B0000);

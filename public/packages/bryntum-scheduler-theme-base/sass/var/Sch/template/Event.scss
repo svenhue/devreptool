@@ -1,0 +1,82 @@
+/**
+ * @class Sch.template.Event
+ */
+
+/**
+ * @var {color}
+ * Event bar text color
+ */
+$sch-event-color: dynamic(inherit);
+
+/**
+ * @var {color}
+ * Event bar background color
+ */
+$sch-event-background-color: dynamic(transparent);
+
+/**
+ * @var {number}
+ * Event bar border width
+ */
+$sch-event-border-width: dynamic(1px);
+/**
+ * @var {string}
+ * Event bar border style
+ */
+$sch-event-border-style: dynamic(solid);
+/**
+ * @var {color}
+ * Event bar border color
+ */
+$sch-event-border-color: dynamic(transparent);
+/**
+ * @var {number}
+ * Event bar opacity (value from 0 till 1)
+ */
+$sch-event-opacity: dynamic(1);
+/**
+ * @var {string}
+ * Event bar transitions
+ */
+$sch-event-transition: dynamic(none);
+/**
+ * @var {string/number}
+ * Event bar font-weight
+ */
+$sch-event-font-weight: dynamic(normal);
+
+$sch-event-outside-border-color: dynamic($sch-event-border-color);
+$sch-event-outside-border-style: dynamic(dashed);
+$sch-event-outside-border-width: dynamic($sch-event-border-width);
+
+$sch-event-highlighted-border-width: dynamic($sch-event-border-width);
+$sch-event-highlighted-border-style: dynamic($sch-event-border-style);
+$sch-event-highlighted-border-color: dynamic(red);
+
+$sch-event-highlighted-shadow-color: dynamic($sch-event-highlighted-border-color);
+
+$sch-event-selected-color       : dynamic($sch-event-color);
+$sch-event-selected-background-color : dynamic($sch-event-background-color);
+$sch-event-selected-border-width: dynamic($sch-event-border-width);
+$sch-event-selected-border-style: dynamic($sch-event-border-style);
+$sch-event-selected-border-color: dynamic($sch-event-border-color);
+
+$sch-event-selected-shadow-horizontal-offset: dynamic(0);
+$sch-event-selected-shadow-vertical-offset: dynamic(0);
+$sch-event-selected-shadow-radius: dynamic(0);
+$sch-event-selected-shadow-distance: dynamic(0);
+$sch-event-selected-shadow-color: dynamic(transparent);
+
+$sch-event-selected-opacity: dynamic(1);
+
+$sch-event-hover-border-width: dynamic($sch-event-border-width);
+$sch-event-hover-border-style: dynamic($sch-event-border-style);
+$sch-event-hover-border-color: dynamic($sch-event-border-color);
+
+$sch-event-hover-shadow-horizontal-offset: dynamic(0);
+$sch-event-hover-shadow-vertical-offset: dynamic(0);
+$sch-event-hover-shadow-radius: dynamic(0);
+$sch-event-hover-shadow-distance: dynamic(0);
+$sch-event-hover-shadow-color: dynamic(transparent);
+
+$sch-event-hover-opacity: dynamic(1);

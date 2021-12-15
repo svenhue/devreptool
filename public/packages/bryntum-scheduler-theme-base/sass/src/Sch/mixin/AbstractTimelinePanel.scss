@@ -1,0 +1,9 @@
+/* Ext adds a dotted outline of focused cells, remove it */
+.sch-timelinepanel .#{$prefix}grid-item-focused .#{$prefix}grid-cell-inner:before {
+    border : none;
+}
+
+.sch-timelinepanel-highlightweekends .sch-dayheadercell-nonworking {
+    background-color : $sch-dayheadercell-nonworking-background-color;
+    color            : $sch-dayheadercell-nonworking-color;
+}

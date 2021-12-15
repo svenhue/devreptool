@@ -1,0 +1,15 @@
+.gnt-datepicker-nonworkingday:not(.gnt-datepicker-overriddenday):not(.gnt-datepicker-overriddenweekday) {
+  background-color : $gnt-datepicker-nonworkingday-background-color !important;
+}
+
+.gnt-datepicker-workingday:not(.gnt-datepicker-overriddenday):not(.gnt-datepicker-overriddenweekday):not(.#{$prefix}datepicker-today) {
+  background-color : $gnt-datepicker-workingday-background-color !important;
+}
+
+.gnt-datepicker-overriddenday {
+  background : $gnt-datepicker-overriddenday-background-color;
+}
+
+.gnt-datepicker-overriddenweekday {
+  background : $gnt-datepicker-overriddenweekday-background-color;
+}

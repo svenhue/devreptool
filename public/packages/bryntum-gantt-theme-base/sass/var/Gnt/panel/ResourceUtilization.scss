@@ -1,0 +1,14 @@
+$gnt-task-utilization-interval-color : dynamic(#404040);
+$gnt-task-utilization-interval-background-color : dynamic(transparent);
+
+$gnt-resource-utilization-interval : dynamic(#ADD8E6);
+$gnt-resource-utilization-interval-notcalculated : dynamic(#CCCCCC);
+$gnt-resource-utilization-interval-overallocated : dynamic(#FB0E0E);
+$gnt-resource-utilization-interval-underallocated : dynamic(#BBB);
+$gnt-resource-utilization-interval-optimallyallocated : dynamic(#1AB906);
+
+$gnt-resourceutilizationpanel-event-color : dynamic(#FFF);
+$gnt-resourceutilizationpanel-event-background-color : dynamic(transparent);
+
+$gnt-resource-utilization-progressbar-background : $panel-header-background-color;
+$gnt-resource-utilization-progressbar-barcolor   : dynamic(#ff6c00);

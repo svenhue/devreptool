@@ -1,0 +1,1913 @@
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:3 */
+.sch-schedulerpanel.sch-vertical .sch-schedulerview .x-grid-cell-inner:before {
+    content: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:7 */
+.sch-schedulerpanel.sch-vertical .sch-schedulerview td {
+    background-color: rgba(66, 66, 66, 0.25);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:10 */
+.sch-schedulerpanel.sch-vertical .sch-schedulerview td.sch-col-alt {
+    background-color: rgba(46, 46, 46, 0.63);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:16 */
+.sch-schedulerpanel.sch-vertical .sch-verticaltimeaxis-cell .x-grid-cell-inner {
+    color: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:20 */
+.sch-schedulerpanel.sch-vertical .x-grid-cell {
+    border-top-color: #1b1b1b;
+    background-color: #424242;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:25 */
+.sch-schedulerpanel.sch-vertical .x-column-header {
+    background-color: #424242;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/Vertical.scss:29 */
+.sch-schedulerpanel.sch-vertical .x-grid-with-col-lines .x-grid-item-selected .x-grid-cell:not(.sch-column-line-solid) {
+    border-color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/tooltip/Tooltip.scss:1 */
+.sch-tip-ok,
+.sch-tip-notok {
+    padding-left: 24px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/WeekView.scss:1 */
+.sch-calendarcolumn-ct {
+    margin-top: -23px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/view/WeekView.scss:5 */
+.sch-calendar .x-grid-header-ct {
+    background-color: #424242;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/widget/ColumnPicker.scss:1 */
+.sch-columnpicker-list li.x-boundlist-item {
+    background-color: transparent;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/widget/ColumnPicker.scss:4 */
+.sch-columnpicker-list li.x-boundlist-item.x-boundlist-selected {
+    background-color: #f2f2f2;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-scheduler-theme-graphite/sass/src/Sch/widget/ColumnPicker.scss:8 */
+.sch-columnpicker-list li.x-boundlist-item.x-boundlist-item-over {
+    background-color: rgba(242, 242, 242, 0.7);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/Tooltip.scss:1 */
+.sch-timetipwrap table {
+    min-width: 140px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/Tooltip.scss:5 */
+.sch-timetipwrap td {
+    vertical-align: top;
+    padding-bottom: 3px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/Tooltip.scss:10 */
+.sch-timetipwrap td.sch-gantt-tip-desc {
+    width: 80%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/Tooltip.scss:14 */
+.sch-timetipwrap td.sch-gantt-tip-value {
+    width: 20%;
+    text-align: right;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/Tooltip.scss:19 */
+.sch-timetipwrap td {
+    white-space: nowrap;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/DatePickerWithDateHighlighting.scss:1 */
+.gnt-datepicker-nonworkingday:not(.gnt-datepicker-overriddenday):not(.gnt-datepicker-overriddenweekday) {
+    background-color: #282828 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/DatePickerWithDateHighlighting.scss:5 */
+.gnt-datepicker-workingday:not(.gnt-datepicker-overriddenday):not(.gnt-datepicker-overriddenweekday):not(.x-datepicker-today) {
+    background-color: #6d6d6d !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/DatePickerWithDateHighlighting.scss:9 */
+.gnt-datepicker-overriddenday {
+    background: #87ffff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/DatePickerWithDateHighlighting.scss:13 */
+.gnt-datepicker-overriddenweekday {
+    background: #ff90bd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Name.scss:1 */
+.sch-gantt-parent-cell {
+    font-weight: bold;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/AssignmentGrid.scss:1 */
+.gnt-assignmentgrid .gnt-cell-invalid .x-grid-cell-inner:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, transparent 66%, red 67%), linear-gradient(45deg, red 33%, transparent 44%);
+    background-position: -10px 0;
+    background-size: 4px 100%;
+    background-repeat: repeat-x;
+    /* bypass ext js focus CSS rules */
+    top: auto !important;
+    border: 0 none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/ShowInTimeline.scss:1 */
+.gnt-showintimeline-cell {
+    text-align: center;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/WBS.scss:1 */
+.gnt-wbs-cell .x-grid-cell-inner {
+    text-overflow: clip;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:1 */
+.gnt-addnewcolumn * {
+    border: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:5 */
+.gnt-addnewcolumn .x-autocontainer-outerCt,
+.gnt-addnewcolumn .x-autocontainer-innerCt {
+    display: flex;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:10 */
+.gnt-addnewcolumn .x-field {
+    flex: 1;
+    width: 100% !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:15 */
+.gnt-addnewcolumn input {
+    padding-left: 6px;
+    background: transparent !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: inherit;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:23 */
+.gnt-addnewcolumn input:not(:focus) {
+    font-style: italic;
+    color: #666;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:28 */
+.gnt-addnewcolumn .x-column-header-inner {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/AddNew.scss:32 */
+.gnt-addnewcolumn .x-form-text,
+.gnt-addnewcolumn .x-form-type-text {
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:1 */
+.sch-gantt-column-dragdrop .x-grid-cell-inner {
+    color: #bbb;
+    text-overflow: clip;
+    cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
+    color: #e7e7e7;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:10 */
+.sch-gantt-column-dragdrop .x-grid-cell-inner:before,
+.sch-gantt-column-dragdrop-header .x-column-header-text-inner:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f0b2" !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:16 */
+.sch-gantt-column-dragdrop .x-grid-cell-inner:before {
+    position: relative !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:20 */
+.sch-gantt-column-dragdrop-header .x-column-header-text-inner:before {
+    color: #999;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:24 */
+.sch-gantt-column-dragdrop-header .x-column-header-text {
+    text-overflow: clip;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:28 */
+.sch-gantt-column-dragdrop .x-grid-cell-inner:hover {
+    color: #777;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/DragDrop.scss:32 */
+.sch-gantt-column-dragdrop:hover .x-grid-cell-inner,
+.sch-gantt-column-dragdrop-header .x-column-header-text-container {
+    background-image: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:1 */
+.gnt-scalecolumn.x-grid-cell {
+    padding: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:5 */
+.gnt-scalecolumn .x-grid-cell-inner {
+    padding: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:9 */
+.gnt-scalecolumn-wrap {
+    position: relative;
+    top: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:14 */
+.gnt-scalecolumn-label-line,
+.gnt-scalecolumn-line {
+    background-color: #9c9c9c;
+    display: block;
+    position: absolute;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:21 */
+.gnt-scalecolumn-line {
+    height: 1px;
+    width: 4px;
+    background-color: #d0d0d0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:27 */
+.gnt-scalecolumn-label-line {
+    font-size: 8px;
+    height: 1px;
+    width: 8px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:33 */
+.gnt-scalecolumn-label {
+    position: absolute;
+    top: -6px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:39 */
+.sch-ltr .gnt-scalecolumn-line {
+    right: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:43 */
+.sch-ltr .gnt-scalecolumn-label-line {
+    right: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:47 */
+.sch-ltr .gnt-scalecolumn-label {
+    right: 9px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:53 */
+.sch-rtl .gnt-scalecolumn-line {
+    left: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:57 */
+.sch-rtl .gnt-scalecolumn-label-line {
+    left: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/column/Scale.scss:61 */
+.sch-rtl .gnt-scalecolumn-label {
+    left: 9px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/DragCreator.scss:1 */
+.x-dd-drag-proxy.sch-gantt-dragcreator-proxy,
+.sch-gantt-dragcreator-proxy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    border: 1px solid #39b;
+    cursor: auto !important;
+    opacity: 0.5;
+    filter: opacity=50;
+    zoom: 1;
+    background-color: #c3daf9;
+    z-index: 10000;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:1 */
+.sch-gantt-item .sch-gantt-progressbar-handle {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    cursor: ew-resize !important;
+    margin-left: -5px;
+    z-index: 1000;
+    overflow: hidden;
+    border-color: #fff;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-width: 0px 5px 6px 5px;
+    border-style: solid;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:18 */
+.x-rtl .sch-gantt-progressbar-handle {
+    margin-left: 0;
+    margin-right: -4px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:23 */
+.x-quirks .x-ie .sch-gantt-progressbar-handle {
+    bottom: -1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:27 */
+.sch-event-hover .sch-gantt-progressbar-handle {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:31 */
+.sch-gantt-progress-bar .x-resizable-handle-east,
+.sch-gantt-dragproxy .sch-gantt-progressbar-handle,
+.sch-ganttview-readonly .sch-gantt-progressbar-handle,
+.x-resizable-over .sch-gantt-progressbar-handle {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:39 */
+.sch-touch-only .sch-gantt-item .sch-gantt-progressbar-handle {
+    /* Make the handle easier to reach in a touch environment */
+    display: block;
+    background: none;
+    margin-left: -10px;
+    height: 100%;
+    width: 20px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/ProgressBarResize.scss:48 */
+.sch-progress-bar-resizing {
+    /*https://www.sencha.com/forum/showthread.php?321953-Ext-JS-resizer-sets-height-when-resizing-east-west&p=1151605#post1151605*/
+    height: 100% !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:1 */
+div.sch-gantt-item .sch-resizable-handle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 7px;
+    overflow: hidden;
+    z-index: 999;
+    background-image: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:11 */
+.sch-gantt-task-readonly .sch-resizable-handle {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:15 */
+.sch-gantt-task-baseline .sch-resizable-handle,
+.sch-gantt-task-baseline .sch-gantt-progressbar-handle,
+.sch-gantt-task-baseline .sch-gantt-terminal,
+.sch-gantt-parenttask-baseline .sch-gantt-terminal,
+.sch-gantt-milestone-baseline .sch-gantt-terminal {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:23 */
+.x-quirks .x-ie .sch-ganttview-showbaseline .sch-resizable-handle {
+    height: 6px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:28 */
+.x-quirks .x-ie .sch-ganttview-showbaseline .sch-gantt-task-bar {
+    /* Without this, task bar is 15px high in baseline mode, instead of expected 7px */
+    height: 7px;
+    overflow: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:33 */
+.sch-gantt-item .sch-resizable-handle-end {
+    right: -1px;
+    cursor: e-resize;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:38 */
+.sch-gantt-item .sch-resizable-handle-start {
+    left: -1px;
+    cursor: w-resize;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:43 */
+.x-rtl .sch-gantt-item .sch-resizable-handle-end {
+    right: auto;
+    left: -1px;
+    cursor: w-resize;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:49 */
+.x-rtl .sch-gantt-item .sch-resizable-handle-start {
+    left: auto;
+    right: -1px;
+    cursor: e-resize;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:55 */
+.sch-event-endsoutside .x-resizable-handle-end,
+.sch-event-startsoutside .x-resizable-handle-start,
+.sch-ganttview-readonly .x-resizable-handle,
+.sch-ganttview-readonly .sch-resizable-handle,
+.sch-event-resizable-false .sch-resizable-handle,
+.sch-event-resizable-start .sch-resizable-handle-end,
+.sch-event-resizable-end .sch-resizable-handle-start,
+.sch-gantt-task-readonly .sch-gantt-progressbar-handle,
+.sch-gantt-resizing .sch-gantt-progressbar-handle,
+.sch-gantt-resizing .sch-gantt-terminal,
+.sch-gantt-resizing .x-resizable-handle {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/TaskResize.scss:73 */
+.sch-touch-only .sch-gantt-item .sch-resizable-handle {
+    /* TOUCH DEVICE ADAPTIONS */
+    width: 20px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:1 */
+.x-dd-drag-proxy.sch-gantt-dragproxy,
+.sch-gantt-dragproxy {
+    background: none !important;
+    border: none;
+    overflow: visible;
+    /* So parent task arrows are visible */
+    min-height: 1px;
+    /*Required for the Ext drag drop to work */
+    min-width: 1px;
+    /*Required for the Ext drag drop to work */
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:10 */
+.x-dd-drag-proxy.sch-gantt-dragproxy .gnt-deadline-indicator,
+.sch-gantt-dragproxy .gnt-deadline-indicator {
+    position: static;
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:16 */
+.x-dd-drag-proxy.sch-gantt-dragproxy .sch-gantt-task-segment,
+.sch-gantt-dragproxy .sch-gantt-task-segment {
+    position: static;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:21 */
+.x-dd-drag-proxy.sch-gantt-dragproxy .sch-gantt-item .sch-gantt-task-segment,
+.sch-gantt-dragproxy .sch-gantt-item .sch-gantt-task-segment {
+    position: absolute;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:27 */
+.gnt-taskdd-dropmarker {
+    position: absolute;
+    border: 0px none;
+    border-top: 1px dotted green;
+    pointer-events: none;
+    z-index: 20;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:36 */
+.sch-gantt-dragproxy.sch-rtl {
+    /* Ext 6.0.1 rtl adaptation */
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:40 */
+.sch-gantt-dragproxy .x-dd-drop-icon {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:44 */
+.sch-gantt-dragproxy .x-dd-drag-ghost {
+    background-color: transparent;
+    white-space: nowrap;
+    border: 0 none;
+    color: #000;
+    font: 11px arial, helvetica, sans-serif;
+    padding: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/feature/taskdd/DragZone.scss:53 */
+.x-css-shadow,
+.gnt-dragdrop-tip {
+    pointer-events: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:1 */
+.sch-dd-dependency-from-name,
+.sch-dd-dependency-to-name {
+    font-weight: bold;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:5 */
+.sch-export .sch-dependency-line {
+    -webkit-box-sizing: content-box;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:9 */
+.sch-export.x-chrome .sch-dependency-line,
+.sch-export.x-safari .sch-dependency-line,
+.sch-export.sch-ie-export .sch-dependency-line {
+    -webkit-box-sizing: border-box;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:15 */
+.sch-terminal-start {
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    margin-left: -9px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:22 */
+.sch-terminal-end {
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+    margin-right: -9px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:29 */
+.x-rtl .sch-terminal-start {
+    left: auto;
+    right: 0;
+    margin-right: -9px;
+    margin-left: auto;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:36 */
+.x-rtl .sch-terminal-end {
+    left: 0;
+    right: auto;
+    margin-left: -9px;
+    margin-right: auto;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:43 */
+.sch-gantt-task-readonly .sch-terminal {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:47 */
+.sch-gantt-project-task .sch-terminal {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:51 */
+.sch-event-hover .sch-terminal {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:55 */
+.sch-terminal-allow-source-start .sch-event-hover .sch-terminal-start,
+.sch-terminal-allow-source-end .sch-event-hover .sch-terminal-end {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:60 */
+.sch-terminals-visible.sch-terminal-allow-source-start .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-source-end .sch-terminal-end,
+.sch-terminals-visible.sch-terminal-allow-source-start .sch-event-hover .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-source-end .sch-event-hover .sch-terminal-end {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:67 */
+.sch-terminals-visible.sch-terminal-allow-target-start .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-target-end .sch-terminal-end,
+.sch-terminals-visible.sch-terminal-allow-target-start .sch-event-hover .sch-terminal-start,
+.sch-terminals-visible.sch-terminal-allow-target-end .sch-event-hover .sch-terminal-end {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:74 */
+.x-dd-drag-proxy .sch-terminal,
+.x-dd-drag-proxy .sch-dependency,
+.sch-ganttview-readonly .sch-terminal,
+.sch-gantt-baseline-item .sch-terminal,
+.x-resizable-over .sch-terminal {
+    display: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:86 */
+.sch-dependency.sch-dependency-selected {
+    /*.sch-gantt-dep-dd-dragging .#{$prefix}resizable-handle {
+    display : none !important;
+}*/
+    border-color: red;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:90 */
+.sch-dependency.sch-dependency-over {
+    border-color: #358ad4;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:94 */
+.sch-dependency.sch-dependency-selected.sch-dependency-over {
+    border-color: #c00;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:99 */
+.sch-gantt-critical-chain .sch-dependency {
+    /* CRITICAL CHAIN STYLING */
+    opacity: 0.2;
+    filter: opacity=20;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:104 */
+.sch-gantt-critical-chain .sch-dependency-selected {
+    display: block;
+    opacity: 1;
+    filter: opacity=100;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:115 */
+.sch-touch-only .sch-terminal {
+    /* EOF CRITICAL CHAIN STYLING */
+    /* TOUCH ADAPTIONS */
+    /* Make the touchable area for task edges larger to make it easy to create dependencies with the finger */
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-top: -12px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:125 */
+.sch-touch-only .sch-terminal-start {
+    left: -25px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:129 */
+.sch-touch-only .sch-terminal-end {
+    right: -25px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:133 */
+.sch-touch-only .sch-gantt-dep-dd-dragging .sch-terminal-start {
+    width: 35px;
+    left: -18px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/dependency/View.scss:138 */
+.sch-touch-only .sch-gantt-dep-dd-dragging .sch-terminal-end {
+    width: 35px;
+    right: -18px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:1 */
+.sch-event-wrap {
+    z-index: 10;
+    position: absolute;
+    overflow: visible;
+    top: 16%;
+    height: 68%;
+    transition: opacity 0.4s;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:10 */
+.sch-gantt-item {
+    position: relative;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:14 */
+.sch-event-hover.sch-gantt-item:not(.sch-event-fixed),
+.sch-event-hover:not(.sch-event-fixed) .sch-gantt-task-segment {
+    cursor: move;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:19 */
+.sch-gantt-task-readonly .sch-event-hover .sch-gantt-task-segment,
+.gnt-group-item .sch-gantt-item {
+    cursor: default !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:24 */
+.sch-event-hover.sch-event-segmented {
+    cursor: default;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:28 */
+.sch-gantt-baseline-item {
+    cursor: default;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:32 */
+.sch-event-segmented .sch-resizable-handle {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:36 */
+.sch-gantt-task-segment .sch-resizable-handle {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:41 */
+.sch-ltr .sch-event-endsoutside .sch-gantt-item {
+    /* PARTIALLY VISIBLE TASK STYLING */
+    border-right-style: dashed;
+    border-radius-top-right: 0 !important;
+    border-radius-bottom-right: 0 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:48 */
+.sch-ltr .sch-event-endsoutside .sch-gantt-item {
+    /* Hide right border for events ending outside the view */
+    border-right-style: dashed;
+    border-radius-top-right: 0 !important;
+    border-radius-bottom-right: 0 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:55 */
+.sch-ltr .sch-event-startsoutside .sch-gantt-item {
+    /* Hide left border for events starting outside the view */
+    border-left-style: dashed;
+    border-radius-top-left: 0 !important;
+    border-radius-bottom-left: 0 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:61 */
+.sch-ltr .sch-event-startsoutside.sch-gantt-parent-task {
+    border-left: 0 none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:65 */
+.sch-ltr .sch-event-endsoutside.sch-gantt-parent-task {
+    border-right: 0 none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:70 */
+.sch-ltr .sch-event-startsoutside .sch-gantt-labelct-left,
+.sch-ltr .sch-event-endsoutside .sch-gantt-labelct-right {
+    /* Hide label if not part of the view */
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:78 */
+div.sch-gantt-task-bar.sch-event-segmented {
+    /* EOF PARTIALLY VISIBLE TASK STYLING */
+    /* Leaf task styling */
+    /* EOF PARTIALLY VISIBLE TASK STYLING */
+    /* Leaf task styling */
+    border-width: 0;
+    background: transparent;
+    box-shadow: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:84 */
+.sch-gantt-segment-connector {
+    width: 98%;
+    height: 0;
+    border-top: 2px dotted;
+    border-color: inherit;
+    left: 2px;
+    top: 50%;
+    position: absolute;
+    pointer-events: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:95 */
+.sch-gantt-progress-bar {
+    overflow: hidden;
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:100 */
+.gnt-group-item .sch-gantt-label {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:113 */
+.sch-event-segmented .sch-gantt-progress-bar {
+    /*.sch-gantt-task-bar .sch-gantt-progress-bar*/
+    /*{*/
+    /*margin-left : -1px;*/
+    /*}*/
+    /*.sch-gantt-no-task-border .sch-gantt-progress-bar {*/
+    /*margin-left : 0;*/
+    /*}*/
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:117 */
+.sch-event-segmented .sch-gantt-task-segment .sch-gantt-progress-bar {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:121 */
+.sch-event-segmented .sch-gantt-progress-bar.sch-progress-bar-resizing {
+    display: block;
+    opacity: 0.1;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:126 */
+.sch-gantt-task-segment {
+    position: absolute;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:131 */
+.sch-gantt-top-label .sch-event-wrap {
+    top: 35%;
+    height: 16px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:136 */
+.sch-event-wrap .sch-gantt-labelct {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:144 */
+.sch-event-wrap .sch-gantt-labelct .sch-gantt-label {
+    white-space: nowrap;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:149 */
+.sch-event-wrap .sch-gantt-labelct-top,
+.sch-event-wrap .sch-gantt-labelct-bottom {
+    align-items: flex-start;
+    width: 100%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:155 */
+.sch-event-wrap .sch-gantt-labelct-left {
+    left: -600px;
+    width: 570px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:160 */
+.sch-event-wrap .sch-gantt-labelct-left {
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:165 */
+.sch-event-wrap .sch-gantt-labelct-right {
+    margin-left: 30px;
+    justify-content: flex-start;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:170 */
+.sch-event-wrap .sch-gantt-labelct-top {
+    margin-top: -20px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:174 */
+.sch-event-wrap .sch-gantt-labelct-bottom {
+    margin-top: 20px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:180 */
+.sch-gantt-milestone .sch-gantt-labelct-right {
+    margin-left: 60px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:186 */
+.sch-gantt-topbottom-labels .sch-gantt-milestone-diamond-ct {
+    /* Hardcoded heights when using top/bottom labels */
+    height: 14px;
+    width: 14px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:191 */
+.sch-gantt-topbottom-labels .sch-gantt-parenttask-bar {
+    height: 11px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:195 */
+.sch-gantt-topbottom-labels .sch-gantt-task-bar {
+    height: 16px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:200 */
+.sch-ganttview-showbaseline .sch-event-wrap {
+    /* Baseline styling */
+    height: 34%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:204 */
+.sch-ganttview-showbaseline .sch-gantt-task-bar {
+    height: 100%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:208 */
+.sch-gantt-baseline-item {
+    display: none;
+    top: 50%;
+    z-index: 0 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:214 */
+.sch-gantt-baseline-item .sch-gantt-item {
+    cursor: auto !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:218 */
+.sch-gantt-task-baseline .sch-gantt-task-bar {
+    border-width: 1px;
+    overflow: hidden !important;
+    border-radius: 2px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:224 */
+.sch-ganttview-showbaseline .sch-gantt-baseline-item {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:228 */
+.sch-gantt-critical-chain .x-grid-row .sch-event-wrap {
+    opacity: 0.2;
+    filter: opacity=20;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:233 */
+.sch-gantt-critical-chain .x-grid-item-selected .x-grid-row .sch-event-wrap,
+.sch-gantt-critical-chain .x-grid-row-selected .sch-event-wrap {
+    opacity: 0.5;
+    filter: opacity=50;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:239 */
+.sch-gantt-critical-chain .x-grid-item-selected .x-grid-row.sch-gantt-task-highlighted .sch-event-wrap,
+.sch-gantt-critical-chain .x-grid-row.sch-gantt-task-highlighted .sch-event-wrap,
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-event-wrap {
+    opacity: 1;
+    filter: opacity=100;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:246 */
+.sch-gantt-task-readonly {
+    cursor: default;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:250 */
+.sch-gantt-task-readonly .sch-event-hover.sch-gantt-item {
+    cursor: default !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:259 */
+.sch-gantt-task-baseline .sch-gantt-labelct {
+    top: -50%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:263 */
+.sch-gantt-milestone-baseline .sch-gantt-labelct {
+    top: -25%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:269 */
+.sch-event-hover.sch-rollup-task,
+.sch-event-hover .sch-rollup-task {
+    /* ROLLUP STYLING           */
+    /* ---------------------    */
+    cursor: default;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:274 */
+.sch-rollup-wrap .sch-event-wrap {
+    height: 100%;
+    z-index: 15;
+    opacity: 0.6;
+    filter: opacity=50;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:281 */
+.sch-rollup-wrap .sch-event-wrap:hover {
+    opacity: 1;
+    filter: opacity=100;
+    z-index: 16;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:290 */
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-task-segment,
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-task-bar.sch-event-notsegmented,
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-milestone-diamond {
+    /* EOF ROLLUP STYLING       */
+    /* CRITICAL CHAIN STYLING           */
+    box-shadow: 0 0 8px red;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:296 */
+.sch-gantt-critical-chain .sch-gantt-task-highlighted .sch-gantt-segment-connector {
+    border-color: red;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:302 */
+.gnt-deadline-indicator {
+    /* EOF CRITICAL CHAIN STYLING           */
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    cursor: pointer;
+    width: 1px;
+    border-left: 1px dotted red;
+    height: 96%;
+    z-index: 11;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:313 */
+.gnt-deadline-indicator:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -6px;
+    border-top: 6px solid red;
+    border-left: 6px solid;
+    border-right: 6px solid;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:325 */
+.gnt-deadline-indicator-late,
+.gnt-deadline-indicator-late:before {
+    border-color: #8b0000;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:330 */
+.sch-gantt-rollup-label {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    pointer-events: none;
+    transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    font-size: 80%;
+    font-weight: normal;
+    line-height: 12px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:342 */
+.sch-gantt-task-highlighted .sch-gantt-task-bar,
+.sch-gantt-task-highlighted .sch-event-segmented,
+.sch-gantt-task-highlighted .sch-gantt-task-segment {
+    border-color: #5fa2dd;
+    background-color: #5fa2dd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:349 */
+.x-grid-item-selected .sch-gantt-task-bar,
+.x-grid-item-selected .sch-event-segmented,
+.x-grid-item-selected .sch-gantt-task-segment {
+    border-color: #5fa2dd;
+    background-color: #5fa2dd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:356 */
+.sch-gantt-task-highlighted .sch-gantt-task-bar.sch-event-notsegmented,
+.sch-gantt-task-highlighted .sch-gantt-task-segment {
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:361 */
+.x-grid-item-selected .sch-gantt-task-bar.sch-event-notsegmented,
+.x-grid-item-selected .sch-gantt-task-segment {
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:366 */
+.sch-gantt-task-bar,
+.sch-gantt-task-segment {
+    border: 1px solid #5fa2dd;
+    background-color: #5fa2dd;
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0);
+    color: #fff;
+    height: 100%;
+    min-width: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:376 */
+.sch-gantt-task-bar.sch-event-hover {
+    border-color: #5fa2dd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:380 */
+.x-grid-item-selected .sch-gantt-task-bar.sch-event-hover {
+    border-color: #5fa2dd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:384 */
+.sch-gantt-task-bar .sch-gantt-progress-bar,
+.sch-gantt-task-segment .sch-gantt-progress-bar {
+    color: #fff;
+    background-color: #87bceb;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:390 */
+.sch-gantt-progress-bar {
+    background-color: #87bceb;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:394 */
+.sch-gantt-label {
+    color: #999;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:398 */
+.x-grid-item-selected .sch-gantt-label {
+    color: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:402 */
+.sch-gantt-task-baseline .sch-gantt-task-bar {
+    background-color: #ddd;
+    border-color: orange;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:407 */
+.sch-ganttview-showbaseline .sch-gantt-task-baseline {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:411 */
+.sch-gantt-task-readonly .sch-gantt-task-bar .sch-gantt-progress-bar,
+.sch-gantt-task-readonly .sch-gantt-task-segment .sch-gantt-progress-bar {
+    background-color: #b4b4b4;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Task.scss:416 */
+.sch-gantt-task-readonly .sch-gantt-task-bar,
+.sch-gantt-task-readonly .sch-gantt-task-segment {
+    border-color: #989898;
+    background-color: #989898;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:1 */
+.sch-gantt-parenttask-bar {
+    height: 59%;
+    line-height: 7px;
+    /* IE Quirks */
+    border: 1px solid #34d075;
+    min-width: 1px;
+    background-color: #34d075;
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0.3);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:10 */
+.sch-gantt-parenttask-bar .sch-gantt-progress-bar {
+    background-color: #80edc4;
+    overflow: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:15 */
+.sch-gantt-parenttask-bar:before,
+.sch-gantt-parenttask-bar:after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    bottom: -8px;
+    border: 0;
+    border-color: #34d075;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-style: solid;
+    content: ' ';
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:29 */
+.sch-gantt-parenttask-bar:before {
+    left: -1px;
+    border-width: 8px 8px 0 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:34 */
+.sch-gantt-parenttask-bar:after {
+    right: -1px;
+    border-width: 8px 0 0 8px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:40 */
+.sch-gantt-parent-noarrows .sch-gantt-parenttask-bar:before,
+.sch-gantt-parent-noarrows .sch-gantt-parenttask-bar:after,
+.sch-ltr .sch-event-startsoutside .sch-gantt-parenttask-bar:before,
+.sch-ltr .sch-event-endsoutside .sch-gantt-parenttask-bar:after {
+    /* Hide parent arrows explicitly for short tasks */
+    /* Hide parent arrows if not part of the view */
+    /* Hide parent arrows if not part of the view */
+    visibility: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:48 */
+.sch-gantt-no-task-border .sch-gantt-parenttask-bar:before {
+    left: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:52 */
+.sch-gantt-no-task-border .sch-gantt-parenttask-bar:after {
+    right: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:58 */
+.sch-ganttview-showbaseline .sch-event-wrap.sch-gantt-parent-task {
+    /* BASELINE STYLING           */
+    /* ---------------------    */
+    height: 50%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:62 */
+.sch-gantt-parenttask-baseline {
+    display: none;
+    z-index: 0 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:67 */
+.sch-ganttview-showbaseline .sch-gantt-parenttask-baseline {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:75 */
+.sch-rollup-wrap {
+    /* ROLLUP STYLING           */
+    /* ---------------------    */
+    /* Container el holding all the rollup task elements */
+    position: absolute;
+    top: 58%;
+    height: 8px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:81 */
+.sch-gantt-task-highlighted .sch-gantt-parenttask-bar {
+    border-color: #34d075;
+    background-color: #34d075;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:86 */
+.x-grid-item-selected .sch-gantt-parenttask-bar {
+    border-color: #34d075;
+    background-color: #34d075;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:91 */
+.x-grid-item-selected .sch-gantt-parenttask-bar:before,
+.x-grid-item-selected .sch-gantt-parenttask-bar:after {
+    border-color: #34d075;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:96 */
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar {
+    background-color: #a8a8a8;
+    border-color: #a8a8a8;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:101 */
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar:before,
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar:after {
+    border-color: #a8a8a8;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:106 */
+.sch-gantt-task-readonly .sch-gantt-parenttask-bar .sch-gantt-progress-bar {
+    background-color: #d3d3d3;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:110 */
+.sch-gantt-parenttask-arrow {
+    border-color: #efaf90;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:114 */
+.sch-gantt-task-readonly .sch-gantt-parenttask-arrow {
+    border-color: #c7c7c7;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/ParentTask.scss:118 */
+.sch-gantt-parenttask-baseline .sch-gantt-parenttask-bar {
+    cursor: auto !important;
+    border: 1px solid orange;
+    overflow: hidden !important;
+    left: 0;
+    background-color: #ddd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:1 */
+.sch-gantt-milestone {
+    top: 25%;
+    height: 50%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:7 */
+.x-gecko .sch-ltr .sch-gantt-milestone-diamond-ct {
+    /* Diamond IMG not making the containing div stretch to its width in FF */
+    padding-right: 5px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:11 */
+.x-gecko .sch-rollup-wrap .sch-gantt-milestone-diamond-ct {
+    padding-right: 0px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:15 */
+.x-gecko .x-rtl .sch-gantt-milestone-diamond-ct {
+    padding-left: 5px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:20 */
+.sch-gantt-milestone-baseline {
+    /* Baseline styling */
+    top: 50%;
+    display: none;
+    height: inherit;
+    z-index: 5;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:27 */
+.sch-ganttview-showbaseline .sch-gantt-milestone-baseline {
+    display: block;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:31 */
+.sch-ganttview-showbaseline .sch-gantt-milestone-diamond-ct {
+    height: 90%;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:35 */
+.sch-gantt-milestone-baseline .sch-gantt-milestone-diamond:before {
+    background-image: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:39 */
+.sch-gantt-milestone-baseline .sch-gantt-milestone-diamond,
+.sch-ganttview-readonly .sch-gantt-milestone-diamond {
+    cursor: auto;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:49 */
+.sch-rollup-wrap .sch-gantt-milestone {
+    /* EOF Baseline styling */
+    /* ROLLUP STYLING           */
+    /* ---------------------    */
+    height: 100%;
+    margin-top: -1px;
+    /* milestones should be placed half their width to the left*/
+    transform: translateX(-50%);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:56 */
+.sch-gantt-milestone-diamond {
+    height: 100%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 0;
+    -o-border-radius: 0;
+    /* Opera gets this wrong */
+    border-color: #13bc7d;
+    background-color: #13bc7d;
+    box-shadow: 1px 1px 3px rgba(150, 150, 150, 0);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:69 */
+.sch-gantt-milestone-diamond-ct {
+    border-color: #13bc7d;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    line-height: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:77 */
+.x-grid-item-selected .sch-gantt-milestone-diamond {
+    border-color: #13bc7d;
+    background-color: #13bc7d;
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0.7);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:83 */
+.x-grid-item-selected .sch-gantt-milestone-diamond-ct {
+    border-color: #13bc7d;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:87 */
+.sch-gantt-milestone-baseline .sch-gantt-milestone-diamond {
+    border-color: #ddd;
+    background-color: #ddd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:92 */
+.sch-rollup-wrap .sch-gantt-milestone-diamond {
+    border-color: #888;
+    background-color: #ddd;
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:98 */
+.x-grid-item-selected .sch-rollup-wrap .sch-gantt-milestone-diamond {
+    border-color: #888;
+    background-color: #ddd;
+    box-shadow: 1px 1px 2px rgba(150, 150, 150, 0.7);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/Milestone.scss:104 */
+.sch-gantt-task-readonly .sch-gantt-milestone-diamond {
+    border-color: #949494;
+    background-color: #949494;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/Gantt.scss:1 */
+.x-ie .sch-ganttview td.sch-timetd {
+    background-image: none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/Gantt.scss:8 */
+.sch-ganttview .x-grid-item-focused .x-grid-cell-inner {
+    /* Make sure row element doesn't make dependency line unreachable
+ https://www.assembla.com/spaces/bryntum/tickets/2391
+/* See tests 201_create.t.js and 052_dependency_events.t.js */
+    z-index: auto;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProjectLines.scss:1 */
+.sch-timeline {
+    border-color: #aaa;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProjectLines.scss:5 */
+.sch-gantt-project-task .sch-gantt-labelct {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProjectLines.scss:9 */
+.sch-gantt-project-line-text {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background-color: #ffbc00;
+    color: #fff;
+    display: block;
+    font-size: 0.8em;
+    white-space: nowrap;
+    padding: 3px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProjectLines.scss:21 */
+.sch-gantt-project-line-start,
+.sch-gantt-project-line-end {
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/TaskTooltip.scss:1 */
+.sch-task-tip {
+    width: 100%;
+    min-width: 160px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/TaskTooltip.scss:6 */
+.sch-task-tip td {
+    width: 70px;
+    padding: 5px 0 0 0;
+    white-space: nowrap;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/TaskTooltip.scss:12 */
+.sch-task-tip-header {
+    white-space: nowrap;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/TaskTooltip.scss:18 */
+.sch-task-tip-header:not(:first-child) {
+    margin-top: 15px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/template/TaskTooltip.scss:22 */
+.sch-task-tip-extra {
+    padding-top: 5px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:2 */
+.sch-ganttpanel .x-grid-cell {
+    /* Base row height rule */
+    height: 24px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:7 */
+.sch-ganttpanel .x-grid-cell-inner {
+    /* Allows us to use % based heights, so child task elements can stretch to row height */
+    height: inherit;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:11 */
+.sch-ganttpanel .x-grid-body {
+    overflow: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:15 */
+.sch-ganttview .sch-todayLine {
+    border-left: 2px dashed #999 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:19 */
+.sch-ganttpanel {
+    z-index: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:23 */
+.sch-ganttpanel-container-body {
+    background-color: #dfe8f6 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:28 */
+.sch-normalgrid-collapsed .x-grid-inner-locked .x-tree-view {
+    /* Show a vertical scroll if the gantt chart is collapsed */
+    overflow-y: auto !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:32 */
+.sch-timelineview .x-grid-item-container {
+    overflow: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:37 */
+.sch-ganttpanel .x-grid-inner-locked .x-column-header.x-column-header-last,
+.sch-ganttpanel .x-grid-inner-locked .x-grid-cell-last {
+    /* Ext hides the right most column border in the locked grid, put it back */
+    border-right: 1px solid #1b1b1b !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:44 */
+.sch-gantt-topbottom-labels .x-grid-cell {
+    /* Special fixed row height when vertical labels are used */
+    height: 52px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:48 */
+.sch-ganttpanel .x-grid-with-row-lines .x-grid-item.x-grid-item-focused,
+.sch-ganttpanel .x-grid-with-row-lines .x-grid-item-focused + .x-grid-item {
+    border-style: solid;
+    border-top-color: #ededed;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:54 */
+.sch-timelinepanel div.x-border-layout-ct {
+    background: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:58 */
+.sch-timelinepanel .x-grid-locking-body > .x-splitter {
+    background: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Gantt.scss:62 */
+.sch-timelinepanel .x-grid-scrollbar-clipper-locked {
+    border-width: 0 1px 0 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:1 */
+.gnt-resourcehistogram .x-grid-cell-inner {
+    height: 50px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:5 */
+.gnt-resourcehistogram .x-grid-item-selected td.sch-timetd {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:10 */
+.gnt-resourcehistogram-line {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    border-width: 0;
+    border-top: dotted 1px #ddd;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:18 */
+.gnt-resourcehistogram-limitline {
+    z-index: 10;
+    position: absolute;
+    height: 0;
+    border-width: 0;
+    border-left: solid 1px #f99;
+    margin-left: -1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:27 */
+.gnt-resourcehistogram-limitline.gnt-resourcehistogram-limitline-bottom {
+    border-bottom: solid 1px #f99;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:31 */
+.gnt-resourcehistogram-limitline.gnt-resourcehistogram-limitline-top {
+    border-top: solid 1px #f99;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:35 */
+.gnt-resourcehistogram-line.gnt-resourcehistogram-line-label {
+    border-top: dotted 1px #999;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:39 */
+.gnt-resourcehistogram-line.gnt-resourcehistogram-line-min {
+    border-top: solid 1px #ccc;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:43 */
+.gnt-resourcehistogram-bar {
+    position: absolute;
+    background: #60a354;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:48 */
+.gnt-resourcehistogram-bar.gnt-resourcehistogram-bar-partofbar {
+    background: #993;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:52 */
+.gnt-resourcehistogram-bar.gnt-resourcehistogram-bar-overwork {
+    background: #933;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:56 */
+.gnt-resourcehistogram-spacer {
+    position: absolute;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/view/ResourceHistogram.scss:60 */
+.gnt-resourcehistogram-bar-text {
+    position: absolute;
+    left: 2px;
+    color: #000;
+    font-size: 10px;
+    transform: rotate(90deg) translateY(-5px);
+    transform-origin: left center;
+    z-index: 20;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:1 */
+.gnt-resourceutilizationpanel .x-grid-cell-inner {
+    height: 31px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:5 */
+.gnt-resourceutilizationpanel .sch-timetd .x-grid-cell-inner {
+    overflow: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:9 */
+.gnt-resourceutilizationpanel .sch-event,
+.gnt-resourceutilizationpanel .sch-event.sch-event-selected.sch-event-hover {
+    top: 0;
+    height: 100%;
+    border: 0 none;
+    background: transparent none;
+    box-shadow: none;
+    line-height: 30px;
+    color: #fff;
+    font-weight: normal;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:21 */
+.gnt-utilizationrow-task .gnt-resource-utilization-interval {
+    color: #fff;
+    background-color: transparent;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:26 */
+.gnt-resourceutilizationpanel .sch-event-inner {
+    padding: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:30 */
+.gnt-resource-utilization-interval-notutilized {
+    visibility: hidden;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:34 */
+.gnt-resource-utilization-interval {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #add8e6;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:43 */
+.x-safari .gnt-resource-utilization-interval {
+    margin-left: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:48 */
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-notcalculated {
+    background-color: #ccc;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:52 */
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-overallocated {
+    background-color: #fb0e0e;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:56 */
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-underallocated {
+    background-color: #bbb;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:60 */
+.gnt-utilizationrow-resource .gnt-resource-utilization-interval-optimallyallocated {
+    background-color: #1ab906;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:64 */
+.gnt-resourceutilizationprogress {
+    background-color: #1b1b1b;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:67 */
+.gnt-resourceutilizationprogress .x-progress-bar {
+    background-color: #ff6c00;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/ResourceUtilization.scss:71 */
+.gnt-resourceutilizationprogress .x-progress-text {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:1 */
+.sch-gantt-timeline {
+    background: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:6 */
+.sch-gantt-timeline > .x-panel-body > .x-box-inner,
+.sch-gantt-timeline .sch-schedulerpanel,
+.sch-gantt-timeline .sch-schedulerpanel .x-box-inner,
+.sch-gantt-timeline .sch-gantt-timeline-scheduler .sch-schedulerview,
+.sch-gantt-timeline-scheduler .x-grid-body,
+.sch-gantt-timeline-scheduler .x-grid,
+.sch-gantt-timeline .x-grid-item-container,
+.sch-gantt-timeline .x-grid-scrollbar-clipper,
+.sch-gantt-timeline .x-grid-scroll-body,
+.sch-gantt-timeline .x-panel-bodyWrap {
+    overflow: visible !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:19 */
+.sch-gantt-timeline .sch-timetd .x-grid-cell-inner {
+    margin-left: -2px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:23 */
+.sch-gantt-timeline-scheduler .sch-header-row:last-child {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:27 */
+.sch-gantt-timeline-scheduler .sch-column-header,
+.sch-gantt-timeline-scheduler .x-grid-header-ct,
+.sch-gantt-timeline-scheduler .x-column-header {
+    background: none;
+    background-image: none;
+    border: 0 none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:35 */
+.sch-gantt-timeline-scheduler td:not(:first-child) .sch-simple-timeheader:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 1px;
+    border-left: 1px solid #aaa;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:45 */
+.sch-gantt-timeline-scheduler .sch-column-header {
+    text-align: left !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:49 */
+.sch-gantt-timeline-scheduler .sch-gantt-timeline-stretch {
+    height: 100% !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:53 */
+.sch-gantt-timeline-scheduler .x-grid-body {
+    border: 0 none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:57 */
+.sch-gantt-timeline-scheduler .x-grid {
+    border: 0 none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:61 */
+.sch-gantt-timeline-scheduler .sch-event {
+    border-color: transparent;
+    background-image: none;
+    font-weight: 300;
+    opacity: 1;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:68 */
+.sch-gantt-timeline-scheduler .sch-event-inner {
+    padding-top: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:72 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone {
+    margin-left: -13px;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 1px;
+    top: auto !important;
+    bottom: -13px;
+    z-index: 100;
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:83 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-event-inner {
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:87 */
+.sch-gantt-timeline-scheduler div.sch-gantt-timeline-diamond {
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    border-radius: 1px;
+    z-index: 100;
+    position: relative;
+    opacity: 1;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:97 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone {
+    background: none;
+    border: none;
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:103 */
+.sch-gantt-timeline-scheduler .sch-gantt-timeline-milestone-label {
+    position: absolute;
+    top: 16px;
+    left: 29px;
+    background: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:110 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-resizable-handle {
+    display: none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:115 */
+.sch-gantt-timeline-scheduler .sch-timelineview .x-grid-item-container {
+    /* So milestones can be seen fully*/
+    padding-bottom: 20px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:119 */
+.sch-gantt-timeline .sch-gantt-timeline-right-label {
+    margin-left: 10px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:123 */
+.sch-gantt-timeline .sch-gantt-timeline-left-label {
+    text-align: right;
+    margin-right: 10px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:128 */
+.sch-gantt-timeline .sch-gantt-timeline-label {
+    font-weight: bolder;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:132 */
+.sch-gantt-timeline-scheduler .sch-column-header,
+.sch-gantt-timeline-scheduler .x-grid-header-ct,
+.sch-gantt-timeline-scheduler .x-column-header,
+.sch-gantt-timeline .sch-gantt-timeline-label {
+    color: #999;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:139 */
+.sch-gantt-timeline-scheduler .sch-schedulerview .x-grid-cell {
+    border: 3px solid #13bd7d !important;
+    background: #80edc4 !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:144 */
+.sch-gantt-timeline-scheduler .sch-event:not(.sch-event-milestone) {
+    color: #fff;
+    border-color: #80edc4;
+    background-color: #13bd7d;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:150 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-gantt-timeline-diamond {
+    background: #5fafdd;
+    border: 3px solid #f8f8f8;
+    box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.2);
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:156 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-event-inner {
+    color: #888;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/panel/Timeline.scss:160 */
+.sch-gantt-timeline .sch-gantt-timeline-label {
+    margin-top: 39px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/DependencyEditor.scss:1 */
+.sch-gantt-dependencyeditor {
+    z-index: 13;
+    top: -1000px;
+    left: -1000px;
+    position: absolute;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/DependencyEditor.scss:8 */
+.sch-gantt-dependencyeditor-readonly .x-form-trigger-wrap {
+    border: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/DependencyEditor.scss:12 */
+.sch-gantt-dependencyeditor-readonly input {
+    padding-left: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/Export.scss:1 */
+.sch-export .sch-dependency-line {
+    -webkit-box-sizing: content-box;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/Export.scss:5 */
+.sch-export.x-chrome .sch-dependency-line,
+.sch-export.x-safari .sch-dependency-line,
+.sch-export.sch-ie-export .sch-dependency-line {
+    -webkit-box-sizing: border-box;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/Export.scss:11 */
+.sch-export-header {
+    background: #99bce8;
+    border: 1px solid #c5c5c5;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/Printable.scss:1 */
+@media print {
+    /* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/Printable.scss:3 */
+    .sch-gantt-parenttask-bar,
+    .sch-gantt-task-bar,
+    .sch-gantt-milestone-diamond {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        box-shadow: none;
+    }
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProgressLine.scss:1 */
+.sch-svg-canvas {
+    position: absolute;
+    top: 0;
+    overflow: visible;
+    pointer-events: none;
+    width: 1px;
+    height: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProgressLine.scss:11 */
+.x-chrome .sch-svg-canvas {
+    width: auto;
+    height: auto;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/ProgressLine.scss:17 */
+.sch-gantt-progress-line {
+    stroke: red;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/TaskIndicators.scss:1 */
+.gnt-indicator {
+    position: absolute;
+    top: 8px;
+    cursor: pointer;
+    font-weight: normal;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/TaskIndicators.scss:8 */
+.gnt-indicator i {
+    position: relative;
+    margin-right: 4px;
+    color: #5fa2dd;
+    z-index: 11;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/taskeditor/BaseEditor.scss:1 */
+.gnt-taskeditor-window .x-window-body {
+    background: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/plugin/taskeditor/BaseEditor.scss:5 */
+.gnt-taskeditor-window .x-html-editor-container {
+    border: 0px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/taskeditor/BaseForm.scss:1 */
+.gnt-taskeditor-form fieldset {
+    padding: 0;
+    margin: 5px 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    background: transparent;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/taskeditor/BaseForm.scss:11 */
+.gnt-taskeditor-form legend {
+    padding-left: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/taskeditor/TaskForm.scss:1 */
+.gnt-taskeditor-taskform .gnt-baselinefield .x-form-item-label {
+    color: #999;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/AssignmentGrid.scss:1 */
+.gnt-assignmentgrid .gnt-cell-invalid .x-grid-cell-inner:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, transparent 66%, red 67%), linear-gradient(45deg, red 33%, transparent 44%);
+    background-position: -10px 0;
+    background-size: 4px 100%;
+    background-repeat: repeat-x;
+    /* bypass ext js focus CSS rules */
+    top: auto !important;
+    border: 0 none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/DependencyGrid.scss:1 */
+.gnt-dependencygrid .gnt-cell-invalid .x-grid-cell-inner:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, transparent 66%, red 67%), linear-gradient(45deg, red 33%, transparent 44%);
+    background-position: -10px 0;
+    background-size: 4px 100%;
+    background-repeat: repeat-x;
+    /* bypass ext js focus CSS rules */
+    top: auto !important;
+    border: 0 none !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:1 */
+.gnt-calendar-legend {
+    padding: 0;
+    margin-top: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:6 */
+.gnt-calendar-legend li {
+    margin-bottom: 10px;
+    list-style: none outside none;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:11 */
+.gnt-calendar-legend-itemstyle {
+    width: 25px;
+    height: 25px;
+    line-height: 21px;
+    text-align: center;
+    margin-right: 10px;
+    border: solid 1px #bbb;
+    float: left;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:21 */
+.gnt-calendar-legend-override .gnt-calendar-legend-itemstyle {
+    font-weight: bold;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:25 */
+.gnt-calendar-legend-itemname {
+    display: block;
+    padding-top: 5px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:30 */
+.gnt-calendar-dateinfo {
+    padding: 0 10px 10px 10px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:34 */
+.gnt-calendar-availabilities {
+    padding: 5px 0 5px 30px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:38 */
+.gnt-calendar-availabilities li {
+    list-style: disc !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-base/sass/src/Gnt/widget/calendar/Calendar.scss:42 */
+.gnt-dateinfo-override {
+    padding-left: 25px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/column/Scale.scss:1 */
+.gnt-scalecolumn-label {
+    top: -9px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/Task.scss:1 */
+.sch-gantt-task-bar,
+.sch-gantt-task-segment {
+    border-width: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/Task.scss:6 */
+.sch-gantt-task-bar .sch-gantt-progress-bar,
+.sch-gantt-task-segment .sch-gantt-progress-bar {
+    text-align: right;
+    text-indent: 3px;
+    font-size: 0.9em;
+    overflow: visible;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/Task.scss:15 */
+.x-grid-item-selected .gnt-indicator,
+.x-grid-item-selected .sch-gantt-rollup-label {
+    color: #fff;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/Task.scss:21 */
+.sch-event-wrap .sch-gantt-labelct .sch-gantt-label {
+    font-size: 16px;
+    line-height: 16px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/ParentTask.scss:1 */
+.sch-gantt-parenttask-bar,
+.sch-gantt-parenttask-segment {
+    border-width: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/ParentTask.scss:6 */
+.sch-gantt-parenttask-bar:before {
+    left: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/ParentTask.scss:10 */
+.sch-gantt-parenttask-bar:after {
+    right: 0;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/Milestone.scss:1 */
+.sch-gantt-milestone-diamond {
+    border-width: 0;
+    border-style: none;
+    border-radius: 1px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/template/Milestone.scss:9 */
+.sch-rollup-wrap .sch-gantt-milestone-diamond {
+    border-width: 1px;
+    border-style: solid;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/plugin/ProjectLines.scss:1 */
+.sch-gantt-project-line-text {
+    top: 34px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/panel/ResourceUtilization.scss:1 */
+.gnt-resourceutilizationpanel .x-grid-cell-inner {
+    height: 100%;
+    line-height: 34px;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/panel/Timeline.scss:1 */
+.sch-gantt-timeline-scheduler .sch-schedulerview .x-grid-cell {
+    border-width: 2px !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/panel/Timeline.scss:5 */
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-gantt-timeline-diamond {
+    border-width: 2px !important;
+}
+/* /home/dev/workspace/Bryntum/ExtGantt6.x/gantt-pro-6.1.15/packages/bryntum-gantt-theme-graphite/sass/src/Gnt/panel/Timeline.scss:9 */
+.sch-gantt-timeline .sch-gantt-timeline-label {
+    margin-top: 45px;
+}

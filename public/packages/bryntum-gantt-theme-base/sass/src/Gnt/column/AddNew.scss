@@ -1,0 +1,35 @@
+.gnt-addnewcolumn * {
+  border : 0;
+}
+
+.gnt-addnewcolumn .x-autocontainer-outerCt,
+.gnt-addnewcolumn .x-autocontainer-innerCt {
+  display: flex;
+}
+
+.gnt-addnewcolumn .x-field {
+  flex  : 1;
+  width : 100% !important;
+}
+
+.gnt-addnewcolumn input {
+  padding-left   : 6px;
+  background     : transparent !important;
+  padding-top    : 0;
+  padding-bottom : 0;
+  font-size      : inherit;
+}
+
+.gnt-addnewcolumn input:not(:focus) {
+  font-style : italic;
+  color      : #666;
+}
+
+.gnt-addnewcolumn .#{$prefix}column-header-inner {
+  display : none;
+}
+
+.gnt-addnewcolumn .#{$prefix}form-text,
+.gnt-addnewcolumn .#{$prefix}form-type-text {
+  height : 100%;
+}

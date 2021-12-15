@@ -1,0 +1,107 @@
+.sch-gantt-milestone {
+  top    : 25%;
+  height : 50%;
+}
+
+/* Diamond IMG not making the containing div stretch to its width in FF */
+.#{$prefix}gecko .sch-ltr .sch-gantt-milestone-diamond-ct {
+  padding-right : 5px;
+}
+
+.#{$prefix}gecko .sch-rollup-wrap .sch-gantt-milestone-diamond-ct {
+  padding-right : 0px;
+}
+
+.#{$prefix}gecko .#{$prefix}rtl .sch-gantt-milestone-diamond-ct {
+  padding-left : 5px;
+}
+
+/* Baseline styling */
+.sch-gantt-milestone-baseline {
+  top     : 50%;
+  display : none;
+  height  : inherit;
+  z-index : 5; /* behind main task */
+}
+
+.sch-ganttview-showbaseline .sch-gantt-milestone-baseline {
+  display : block;
+}
+
+.sch-ganttview-showbaseline .sch-gantt-milestone-diamond-ct {
+  height : 90%;
+}
+
+.sch-gantt-milestone-baseline .sch-gantt-milestone-diamond:before {
+  background-image : none;
+}
+
+.sch-gantt-milestone-baseline .sch-gantt-milestone-diamond,
+.sch-ganttview-readonly .sch-gantt-milestone-diamond {
+  cursor : auto;
+}
+
+/* EOF Baseline styling */
+
+/* ROLLUP STYLING           */
+/* ---------------------    */
+
+.sch-rollup-wrap .sch-gantt-milestone {
+  height     : 100%;
+  margin-top : -1px;
+  /* milestones should be placed half their width to the left*/
+  transform  : translateX(-50%);
+}
+
+.sch-gantt-milestone-diamond {
+  height            : 100%;
+  -webkit-transform : rotate(45deg);
+  -moz-transform    : rotate(45deg);
+  -ms-transform     : rotate(45deg);
+  transform         : rotate(45deg);
+  border-radius     : 0;
+  -o-border-radius  : 0; /* Opera gets this wrong */
+  border-color     : $sch-gantt-milestone-border-color;
+  background-color : $sch-gantt-milestone-background-color;
+  box-shadow       : 1px 1px 3px $sch-gantt-milestone-shadow-color;
+}
+
+.sch-gantt-milestone-diamond-ct {
+  border-color : $sch-gantt-milestone-border-color;
+  position     : relative;
+  z-index      : 2;
+  height       : 100%;
+  line-height  : 0;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-milestone-diamond {
+  border-color     : $sch-gantt-milestone-selected-border-color;
+  background-color : $sch-gantt-milestone-selected-background-color;
+  box-shadow       : 1px 1px 2px $sch-gantt-milestone-selected-shadow-color;
+}
+
+.#{$prefix}grid-item-selected .sch-gantt-milestone-diamond-ct {
+  border-color : $sch-gantt-milestone-selected-border-color;
+}
+
+.sch-gantt-milestone-baseline .sch-gantt-milestone-diamond {
+  border-color     : $sch-gantt-milestone-baseline-border-color;
+  background-color : $sch-gantt-milestone-baseline-background-color;
+}
+
+.sch-rollup-wrap .sch-gantt-milestone-diamond {
+  border-color     : $sch-gantt-rollup-milestone-border-color;
+  background-color : $sch-gantt-rollup-milestone-background-color;
+  box-shadow       : 1px 1px 2px $sch-gantt-rollup-milestone-shadow-color;
+}
+
+.#{$prefix}grid-item-selected .sch-rollup-wrap .sch-gantt-milestone-diamond {
+  border-color     : $sch-gantt-rollup-milestone-selected-border-color;
+  background-color : $sch-gantt-rollup-milestone-selected-background-color;
+  box-shadow       : 1px 1px 2px $sch-gantt-rollup-milestone-selected-shadow-color;
+}
+
+.sch-gantt-task-readonly .sch-gantt-milestone-diamond {
+  border-color     : $sch-gantt-milestone-readonly-border-color;
+  background-color : $sch-gantt-milestone-readonly-background-color;
+}

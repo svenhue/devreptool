@@ -1,0 +1,32 @@
+.sch-schedulerpanel.sch-vertical {
+    .sch-schedulerview {
+        .#{$prefix}grid-cell-inner:before {
+            content : none;
+        }
+
+        td {
+            background-color : $sch-verticaltimeaxis-background-color;
+
+            &.sch-col-alt {
+                background-color : $sch-verticaltimeaxis-background-color-alt;
+            }
+        }
+    }
+
+    .sch-verticaltimeaxis-cell .#{$prefix}grid-cell-inner {
+        color : $sch-verticaltimeaxis-color;
+    }
+
+    .#{$prefix}grid-cell {
+        border-top-color : $sch-verticaltimeaxis-border-color;
+        background-color : $sch-verticaltimeaxis-header-background-color;
+    }
+
+    .#{$prefix}column-header {
+        background-color : $sch-verticaltimeaxis-header-background-color;
+    }
+
+    .#{$prefix}grid-with-col-lines .#{$prefix}grid-item-selected .#{$prefix}grid-cell:not(.sch-column-line-solid) {
+        border-color : $sch-verticaltimeaxis-border-color-selected;
+    }
+}

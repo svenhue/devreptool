@@ -1,0 +1,100 @@
+﻿.sch-schedulerview .sch-resizable-handle {
+  position     : absolute;
+  visibility   : hidden;
+  overflow     : hidden;
+  border-color : $sch-resizable-handle-border-color;
+  border-style : $sch-resizable-handle-border-style;
+}
+
+.sch-horizontal-view .sch-resizable-handle-start,
+.sch-horizontal-view .sch-resizable-handle-end {
+  width  : 7px;
+  height : 50%;
+  top    : 25%;
+  cursor : ew-resize;
+}
+
+.sch-horizontal-view .sch-resizable-handle-start {
+  border-width : 0 3px 0 0;
+  left         : -2px;
+}
+
+.sch-horizontal-view .sch-resizable-handle-end {
+  border-width : 0 0 0 3px;
+  right        : -2px;
+}
+
+.sch-horizontal-view .#{$prefix}rtl .sch-resizable-handle-start {
+  border-width : 0 0 0 3px;
+  right        : -2px;
+  left         : auto;
+}
+
+.sch-horizontal-view .#{$prefix}rtl .sch-resizable-handle-end {
+  border-width : 0 3px 0 0;
+  left         : -2px;
+  right        : auto;
+}
+
+.sch-vertical-view .sch-resizable-handle {
+    width  : 50%;
+    left   : 25%;
+    cursor : ns-resize;
+    height : 7px;
+}
+
+.sch-vertical-view .sch-resizable-handle-start {
+    border-width : 3px 0 0 0;
+    top : 1px;
+}
+
+.sch-vertical-view .sch-resizable-handle-end {
+    border-width : 0 0 3px 0;
+    bottom : 1px;
+}
+
+.sch-event-endsoutside .sch-resizable-handle-end,
+.sch-event-startsoutside .sch-resizable-handle-start,
+.sch-schedulerview-readonly .sch-resizable-handle,
+.sch-event-resizable-false .sch-resizable-handle,
+.sch-event-resizable-start .sch-resizable-handle-end,
+.sch-event-resizable-end .sch-resizable-handle-start {
+  display : none !important;
+}
+
+.sch-event .#{$prefix}resizable-handle {
+  background : none;
+}
+
+.sch-schedulerview .sch-event-hover .sch-resizable-handle {
+  visibility : visible;
+}
+
+.sch-event-resizing .sch-resizable-handle,
+.sch-event-milestone .sch-resizable-handle { /* No resize handles for milestone tasks */
+  display : none !important;
+}
+
+/* TOUCH DEVICE ADAPTIONS */
+
+/* Skip bg for resize handles */
+.#{$prefix}touch .sch-schedulerview .sch-event:not(.sch-event-hover) .sch-resizable-handle {
+  visibility : visible;
+  border     : 0 none;
+}
+
+/* Make it easier to grab */
+.#{$prefix}touch .sch-schedulerview .sch-event:not(.sch-event-hover) .sch-resizable-handle {
+  width : 20px;
+}
+
+.x-touch.x-desktop .sch-horizontal .sch-event:not(.sch-event-hover) .sch-resizable-handle {
+  height : 100%;
+  top    : 0;
+}
+
+.x-touch .sch-schedulerpanel .sch-event:not(.sch-event-hover) .sch-resizable-handle {
+  height : 20px;
+}
+
+/* EOF TOUCH DEVICE ADAPTIONS */

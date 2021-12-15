@@ -1,0 +1,26 @@
+div.sch-dependency.sch-dependency-line-horizontal {
+  border-width : 2px 0 0 0;
+}
+
+div.sch-dependency.sch-dependency-line-vertical {
+  border-width : 0 0 0 2px;
+}
+
+div.sch-dependency.sch-dependency-arrow-right {
+  border-width : 5px 0 5px 8px;
+}
+
+div.sch-dependency.sch-dependency-arrow-left {
+  border-width : 5px 8px 5px 0;
+}
+
+div.sch-dependency.sch-dependency-arrow-down {
+  margin-left  : -4.5px;
+  border-width : 8px 5px 0;
+}
+
+div.sch-dependency.sch-dependency-arrow-up {
+  margin-left  : -4.5px;
+  border-width : 0 5px 8px;
+}
+

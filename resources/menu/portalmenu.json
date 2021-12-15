@@ -1,0 +1,74 @@
+{
+    "id": "root",
+    "de": "Menü",
+    "info": "Menü",
+    "leaf": false,
+    "iconCls": "far fa-fw fa-folder",
+    "expanded": true,
+    "children": [
+        {
+            "id": "m_msh_portal_system_grid",
+            "de": "Systeme",
+            "info": "MSH Portal Systeme",
+            "iconCls": "far fa-fw fa-print",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.system.portal.SystemGrid"
+        },
+        {
+            "id": "m_msh_portal_ticket_grid",
+            "de": "Tickets",
+            "info": "MSH Portal Tickets",
+            "iconCls": "far fa-fw fa-file-invoice",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.ticket.portal.TicketGrid"
+        },
+        {
+            "id": "m_msh_portal_supply_order_grid",
+            "de": "Bestellungen",
+            "info": "MSH Portal Bestellungen",
+            "iconCls": "far fa-fw fa-cash-register",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.supplyorder.portal.SupplyOrderGrid"
+        },
+        {
+            "id": "m_msh_portal_volume_evaluation",
+            "de": "Volumenauswertung",
+            "info": "MSH Portal Volumenauswertung",
+            "iconCls": "far fa-fw fa-ballot",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.volumeevaluation.portal.VolumeEvaluation"
+        },
+        {
+            "id": "m_msh_portal_volume_overview",
+            "de": "Volumenübersicht",
+            "info": "MSH Portal Volumenübersicht",
+            "iconCls": "far fa-fw fa-analytics",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.volumeoverview.portal.VolumeOverview"
+        },
+        {
+            "id": "m_msh_portal_volume_distribution",
+            "de": "Volumenverteilung",
+            "info": "MSH Portal Volumenverteilung",
+            "iconCls": "far fa-fw fa-chart-pie",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.volumedistribution.portal.VolumeDistribution"
+        },
+        {
+            "id": "m_msh_portal_model_distribution",
+            "de": "Modellverteilung",
+            "info": "MSH Portal Modellverteilung",
+            "iconCls": "far fa-fw fa-chart-pie",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.modeldistribution.portal.ModelDistribution"
+        },
+        {
+            "id": "m_msh_portal_user_grid",
+            "de": "Benutzer",
+            "info": "MSH Portal Benutzer",
+            "iconCls": "far fa-fw fa-user",
+            "leaf": true,
+            "moduleClass": "MyApp.view.msh.user.portal.UserGrid"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+.sch-print-body
+{
+    /* If component is in a viewport, it puts overflow:hidden on the body which prevents
+       print from working.
+    */
+    overflow                   : visible !important;
+    background-color           : transparent !important;
+    position                   : static !important;
+    -webkit-print-color-adjust : exact;
+    color-adjust               : exact;
+}
+
+.sch-print-ct
+{
+    overflow : visible !important;
+}
+
+/* Remove any background image since they won't be printed anyway unless user changes browser setting. */
+.sch-print-header-wrap *
+{
+    background : transparent none !important;
+}
+
+/* Use border-width to achieve background color*/
+.sch-print-fake-background .sch-event
+{
+    overflow           : visible !important;
+    width              : 0 !important;
+    border-left-style  : solid;
+    border-right-style : solid !important;
+}
+
+/* Make sure the inner content is "above" the border */
+.sch-print-fake-background .sch-event-inner
+{
+    overflow : visible !important;
+    z-index  : 10000;
+    position : absolute;
+    left     : 0;
+}
+
+
+.sch-print-normalheader
+{
+    position : absolute;
+    top      : 0;
+    z-index  : 1;
+}
+
+.sch-print-headerbg
+{
+    position    : absolute;
+    left        : 0;
+    width       : 0;
+    border-left : 1px solid #eee;
+}
+
+.sch-print-lockedheader
+{
+    z-index : 2;
+}
+
+.sch-print-locked-rows-ct
+{
+    z-index : 2;
+    float   : left;
+}
+
+div.sch-print-normal-rows-ct
+{
+    overflow : hidden !important;
+}
+
+@media print {
+    body {
+        margin  : 0 !important;
+        padding : 0 !important;
+    }
+}

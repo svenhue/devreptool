@@ -1,0 +1,9 @@
+$sch-gantt-milestone-border-color : dynamic(#5A9CFF);
+$sch-gantt-milestone-background-color : dynamic(#5A9CFF);
+
+$sch-gantt-milestone-selected-border-color : dynamic($sch-gantt-milestone-border-color);
+$sch-gantt-milestone-selected-background-color : dynamic($sch-gantt-milestone-background-color);
+$sch-gantt-milestone-selected-shadow-color : dynamic(rgba(150, 150, 150, 0.7));
+
+$sch-gantt-milestone-readonly-border-color : dynamic(#AAA);
+$sch-gantt-milestone-readonly-background-color : dynamic(#AAA);

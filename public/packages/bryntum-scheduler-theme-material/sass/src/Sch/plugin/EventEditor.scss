@@ -1,0 +1,13 @@
+﻿.sch-event-editor-durationlabel {
+    padding-top : 7px;
+}
+
+.sch-eventeditor {
+    .#{$prefix}form-text-field-body-default {
+        min-width : 85px;
+    }
+
+    .sch-eventeditor-timefield.x-form-item-no-label > .x-form-item-label {
+        display : table-row;
+    }
+}

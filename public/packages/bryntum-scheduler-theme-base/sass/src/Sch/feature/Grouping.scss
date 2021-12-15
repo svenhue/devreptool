@@ -1,0 +1,30 @@
+.sch-schedulerview .#{$prefix}grid-group-hd {
+    padding-left  : 0;
+    padding-right : 0;
+    overflow      : hidden;
+}
+
+.sch-schedulerview .#{$prefix}grid-group-title,
+.sch-schedulerview .#{$prefix}grid-group-hd-collapsible .#{$prefix}grid-group-title {
+    visibility       : visible !important;
+    background-image : none;
+    text-indent      : -1000em;
+    font-weight      : normal;
+    padding-left     : 0;
+    padding-right    : 0;
+}
+
+.sch-grid-group-hd-cell {
+    text-indent : 0;
+    float       : left;
+    text-align  : center;
+}
+
+.sch-grid-group-custom-header div.#{$prefix}grid-group-hd {
+    padding    : 0 !important;
+    background : none;
+    /* http://www.mikepadgett.com/technology/technical/alternative-to-the-pie-clearfix-hack/ */
+    height     : 1%;
+    overflow   : hidden;
+}
+

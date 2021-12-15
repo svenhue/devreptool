@@ -1,0 +1,14 @@
+.sch-gantt-milestone-diamond {
+  border   : {
+    width  : 0;
+    style  : none;
+    radius : 1px;
+  }
+}
+
+.sch-rollup-wrap .sch-gantt-milestone-diamond {
+  border  : {
+    width : 1px;
+    style : solid;
+  }
+}

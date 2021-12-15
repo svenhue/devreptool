@@ -1,0 +1,27 @@
+.sch-resourcezone {
+    position       : absolute;
+    overflow       : hidden;
+    background     : #eee;
+    pointer-events : none;
+}
+
+.#{$prefix}ie .sch-resourcezone {
+    z-index : -1;
+}
+
+.sch-horizontal .sch-resourcezone {
+    top    : 0 !important;
+    height : 100% !important;
+}
+
+.sch-vertical .sch-resourcezone {
+    width : 100% !important;
+}
+
+.sch-ltr.sch-vertical .sch-resourcezone {
+    left : 0 !important;
+}
+
+.sch-rtl.sch-vertical .sch-resourcezone {
+    right : 0 !important;
+}

@@ -1,0 +1,162 @@
+.sch-gantt-timeline {
+  background : #fff;
+}
+
+//Avoid milestone labels being cropped
+.sch-gantt-timeline > .x-panel-body > .x-box-inner,
+.sch-gantt-timeline .sch-schedulerpanel,
+.sch-gantt-timeline .sch-schedulerpanel .x-box-inner,
+.sch-gantt-timeline .sch-gantt-timeline-scheduler .sch-schedulerview,
+.sch-gantt-timeline-scheduler .x-grid-body,
+.sch-gantt-timeline-scheduler .x-grid,
+.sch-gantt-timeline .x-grid-item-container,
+.sch-gantt-timeline .x-grid-scrollbar-clipper,
+.sch-gantt-timeline .x-grid-scroll-body,
+.sch-gantt-timeline .x-panel-bodyWrap {
+  overflow : visible !important;
+}
+
+.sch-gantt-timeline .sch-timetd .x-grid-cell-inner {
+  margin-left : -2px;
+}
+
+.sch-gantt-timeline-scheduler .sch-header-row:last-child {
+  display : none;
+}
+
+.sch-gantt-timeline-scheduler .sch-column-header,
+.sch-gantt-timeline-scheduler .#{$prefix}grid-header-ct,
+.sch-gantt-timeline-scheduler .#{$prefix}column-header {
+  background       : none;
+  background-image : none;
+  border           : 0 none;
+}
+
+.sch-gantt-timeline-scheduler td:not(:first-child) .sch-simple-timeheader:before {
+  content     : " ";
+  position    : absolute;
+  left        : 0;
+  bottom      : 0;
+  height      : 5px;
+  width       : 1px;
+  border-left : 1px solid #aaa;
+}
+
+.sch-gantt-timeline-scheduler .sch-column-header {
+  text-align : left !important;
+}
+
+.sch-gantt-timeline-scheduler .sch-gantt-timeline-stretch {
+  height : 100% !important;
+}
+
+.sch-gantt-timeline-scheduler .#{$prefix}grid-body {
+  border : 0 none;
+}
+
+.sch-gantt-timeline-scheduler .#{$prefix}grid {
+  border : 0 none;
+}
+
+.sch-gantt-timeline-scheduler .sch-event {
+  border-color     : transparent;
+  background-image : none;
+  font-weight      : 300;
+  opacity          : 1;
+}
+
+.sch-gantt-timeline-scheduler .sch-event-inner {
+  padding-top : 0;
+}
+
+.sch-gantt-timeline-scheduler div.sch-event-milestone {
+  margin-left   : -13px;
+  width         : 24px !important;
+  height        : 24px !important;
+  border-radius : 1px;
+  top           : auto !important;
+  bottom        : -13px;
+  z-index       : 100;
+  overflow      : visible;
+}
+
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-event-inner {
+  overflow : visible;
+}
+
+.sch-gantt-timeline-scheduler div.sch-gantt-timeline-diamond {
+  width         : 24px;
+  height        : 24px;
+  transform     : rotate(45deg);
+  border-radius : 1px;
+  z-index       : 100;
+  position      : relative;
+  opacity       : 1;
+}
+
+.sch-gantt-timeline-scheduler div.sch-event-milestone {
+  background : none;
+  border     : none;
+  overflow   : visible;
+}
+
+.sch-gantt-timeline-scheduler .sch-gantt-timeline-milestone-label {
+  position   : absolute;
+  top        : 16px;
+  left       : 29px;
+  background : $sch-gantt-timeline-scheduler-milestone-label-background-color;
+}
+
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-resizable-handle {
+  display : none;
+}
+
+/* So milestones can be seen fully*/
+.sch-gantt-timeline-scheduler .sch-timelineview .#{$prefix}grid-item-container {
+  padding-bottom : 20px;
+}
+
+.sch-gantt-timeline .sch-gantt-timeline-right-label {
+  margin-left : 10px;
+}
+
+.sch-gantt-timeline .sch-gantt-timeline-left-label {
+  text-align   : right;
+  margin-right : 10px;
+}
+
+.sch-gantt-timeline .sch-gantt-timeline-label {
+  font-weight : bolder;
+}
+
+.sch-gantt-timeline-scheduler .sch-column-header,
+.sch-gantt-timeline-scheduler .#{$prefix}grid-header-ct,
+.sch-gantt-timeline-scheduler .#{$prefix}column-header,
+.sch-gantt-timeline .sch-gantt-timeline-label {
+  color : $sch-gantt-timeline-scheduler-color;
+}
+
+.sch-gantt-timeline-scheduler .sch-schedulerview .#{$prefix}grid-cell {
+  border     : 3px solid $sch-gantt-timeline-scheduler-cell-border-color !important;
+  background : $sch-gantt-timeline-scheduler-cell-background-color !important;
+}
+
+.sch-gantt-timeline-scheduler .sch-event:not(.sch-event-milestone) {
+  color            : $sch-gantt-timeline-scheduler-task-color;
+  border-color     : $sch-gantt-timeline-scheduler-task-border-color;
+  background-color : $sch-gantt-timeline-scheduler-task-background-color;
+}
+
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-gantt-timeline-diamond {
+  background : $sch-gantt-timeline-scheduler-milestone-background-color;
+  border     : 3px solid $sch-gantt-timeline-scheduler-milestone-border-color;
+  box-shadow : 1px 1px 1px $sch-gantt-timeline-scheduler-milestone-shadow-color;
+}
+
+.sch-gantt-timeline-scheduler div.sch-event-milestone .sch-event-inner {
+  color : $sch-gantt-timeline-scheduler-milestone-color;
+}
+
+.sch-gantt-timeline .sch-gantt-timeline-label {
+  margin-top : 39px;
+}

@@ -1,0 +1,53 @@
+.sch-dd-newtime {
+  font-weight : bold;
+  color       : #274490;
+  display     : block;
+  margin      : 0 0 5px 4px;
+}
+
+.sch-dragproxy {
+  background     : none !important;
+  overflow       : visible !important;
+  border         : 0 !important;
+  pointer-events : none;
+}
+
+.sch-dragproxy .sch-dd-ref {
+  position : relative;
+}
+
+.sch-dragproxy .sch-event {
+  opacity  : 0.6;
+  cursor   : pointer;
+}
+
+.sch-dragproxy .#{$prefix}resizable-handle,
+.sch-dragproxy .#{$prefix}dd-drop-icon {
+  display : none !important;
+}
+
+.sch-dragproxy .#{$prefix}dd-drag-ghost {
+  background-color : transparent;
+  border           : 0 none;
+  padding          : 0;
+  white-space      : nowrap;
+
+  /* Gantt tasks elements are sized based on row height */
+  height           : inherit;
+}
+
+.sch-rtl .sch-dragproxy .sch-event {
+  text-align : right;
+}
+
+/* Avoid tooltip interfering with drag drop if cursor goes above it*/
+.sch-dragdrop-tip {
+  pointer-events : none;
+}
+
+/*
+    In case Ext JS sets a very high Z-index, lower it temporarily so it doesn't interfere with popups etc
+*/
+.sch-dragproxy.sch-before-drag-finalized {
+  z-index : 10 !important;
+}

@@ -1,0 +1,12 @@
+// $kanban-task-border-color: dynamic(adjust-color($base-color, $hue: 0deg, $saturation: -55.556%, $lightness: -2.549%));
+$kanban-task-border-color: dynamic(adjust-color($base-color, $hue: 0deg, $saturation: 7.644%, $lightness: -8.627%));
+$kanban-task-color: dynamic($color);
+// $grid-row-cell-over-background-color
+$kanban-task-over-background-color: dynamic(adjust-color($neutral-color, $hue: 0deg, $saturation: 0%, $lightness: 0.392%));
+$kanban-task-over-color: dynamic($color);
+// $grid-cell-selected-background-color
+$kanban-task-selected-background-color: dynamic(adjust-color($base-color, $hue: 3.188deg, $saturation: 0.542%, $lightness: 7.843%));
+$kanban-task-selected-color: dynamic($color);
+$kanban-task-selected-text-shadow-color: dynamic(transparent);
+// $kanban-task--shadow-color: dynamic(transparent);
+$kanban-task-box-shadow-color: dynamic(rgba(150, 150, 150, 0.4));

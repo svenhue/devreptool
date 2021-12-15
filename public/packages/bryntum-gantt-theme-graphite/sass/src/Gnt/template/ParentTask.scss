@@ -1,0 +1,12 @@
+.sch-gantt-parenttask-bar,
+.sch-gantt-parenttask-segment {
+    border-width : 0;
+}
+
+.sch-gantt-parenttask-bar:before {
+    left : 0;
+}
+
+.sch-gantt-parenttask-bar:after {
+    right : 0;
+}

@@ -1,0 +1,102 @@
+.unit-top {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "MuseoSans", Arial, sans-serif;
+    padding: 4px 0;
+    vertical-align: top;
+}
+
+.unit-additional {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "MuseoSans", Arial, sans-serif;
+    padding: 4px 0;
+    vertical-align: top;
+    width: 50%;
+}
+
+.unit-additional-value {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "MuseoSans", Arial, sans-serif;
+    padding: 4px 0;
+    vertical-align: top;
+    width: 50%;
+    text-align: right;
+}
+
+.unit-map_label {
+    //background: rgb(235, 235, 235);
+    background: rgba(235, 235, 235, 0.81);
+    background-clip: padding-box;
+    border-color: #777;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    color: #111;
+    display: block;
+    font: 12px/14px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1px 2px;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.speech-bubble {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    background: #164f55;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    color: #fff;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 33px solid transparent;
+    border-top-color: #164f55;
+    border-bottom: 0;
+    margin-left: -33px;
+    margin-bottom: -33px;
+}
+
+.box2 {
+    width: 300px;
+    margin: 50px auto;
+    border: 4px solid #00bfb6;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #00bfb6;
+    font-family: arial;
+    position: relative;
+}
+
+
+.sb9:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    right: 50%;
+    bottom: -23px;
+}

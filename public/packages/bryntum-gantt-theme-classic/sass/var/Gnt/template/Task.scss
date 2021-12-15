@@ -1,0 +1,6 @@
+$sch-gantt-task-shadow-color : dynamic(rgba(150, 150, 150, 0.5));
+$sch-gantt-task-highlighted-shadow-color : dynamic($sch-gantt-task-shadow-color);
+$sch-gantt-task-selected-shadow-color : dynamic($sch-gantt-task-shadow-color);
+
+$sch-gantt-task-selected-border-color : dynamic(#F00);
+$sch-gantt-task-highlighted-border-color : dynamic(#F00);

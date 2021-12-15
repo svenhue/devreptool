@@ -1,0 +1,22 @@
+.sch-tip-ok,
+.sch-tip-notok {
+    position     : relative;
+    padding-left : 20px;
+}
+
+.sch-tip-ok:before,
+.sch-tip-notok:before {
+    position  : absolute;
+    left      : 0;
+    top       : 0;
+    font-size : 17px;
+}
+
+.sch-tooltip-enddate {
+    padding-top : 2px;
+}
+
+
+.sch-tip-message {
+    margin : 3px 0;
+}

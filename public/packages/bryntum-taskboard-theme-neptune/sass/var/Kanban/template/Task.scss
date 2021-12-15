@@ -1,0 +1,7 @@
+$kanban-task-border-width: dynamic(0);
+$kanban-task-over-background-color: dynamic(mix(#fff, $base-light-color, 65%));
+$kanban-task-over-color: dynamic($color);
+// $grid-cell-selected-background-color
+$kanban-task-selected-background-color: dynamic(mix(#fff, $base-light-color, 25%));
+$kanban-task-selected-color: dynamic($color);
+$kanban-task-selected-text-shadow-color: dynamic(transparent);

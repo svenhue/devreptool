@@ -1,0 +1,32 @@
+.sch-column-line {
+  position       : absolute;
+  border-style   : solid;
+  border-color   : $grid-row-cell-border-color;
+  pointer-events : none;
+  cursor         : pointer;
+  overflow       : hidden;
+}
+
+.#{$prefix}ie .sch-column-line {
+  margin-left : 0;
+}
+
+.sch-horizontal .sch-column-line,
+.sch-all-day-header.sch-horizontal .sch-column-line {
+  border-width : 0 0 0 1px;
+  height       : 100%;
+  margin-left  : -1px;
+}
+
+.sch-vertical .sch-column-line {
+  border-width : 1px 0 0 0;
+  width        : 100%;
+}
+
+/* To use columnlines plugin .x-grid-item borders are disabled in vertical view and moved to .x-grid-cell
+ We need such detailed rule to provide better match for cell color as we want one darker line across locked and normal view
+ */
+.sch-vertical .sch-verticaltimeaxis-cell.sch-column-line-solid,
+.sch-column-line-solid {
+  border-color : $sch-column-line-solid-color;
+}

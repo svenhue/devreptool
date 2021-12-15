@@ -1,0 +1,46 @@
+.sch-cellplugin-highlighter {
+    position : absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.sch-cellplugin-highlighter.sch-cellplugin-highlighter-editing {
+    pointer-events: all;
+}
+
+.sch-cellplugin-active .sch-cellplugin-border {
+    border-color : green;
+}
+
+.sch-cellplugin-border {
+    position : absolute;
+    z-index  : 1;
+}
+
+.sch-cellplugin-border-horizontal {
+    height     : 0;
+    width      : inherit;
+    border-top : 1px solid black;
+}
+
+.sch-cellplugin-border-vertical {
+    width       : 0;
+    height      : inherit;
+    border-left : 1px solid black;
+}
+
+.sch-cellplugin-border-top {
+    top : 0;
+}
+
+.sch-cellplugin-border-bottom {
+    bottom : 0;
+}
+
+.sch-cellplugin-border-left {
+    left : 0;
+}
+
+.sch-cellplugin-border-right {
+    right : 0;
+}

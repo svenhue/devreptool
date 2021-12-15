@@ -1,0 +1,64 @@
+/* Base row height rule */
+.sch-ganttpanel .#{$prefix}grid-cell {
+  height : 24px;
+}
+
+/* Allows us to use % based heights, so child task elements can stretch to row height */
+.sch-ganttpanel .#{$prefix}grid-cell-inner {
+  height : inherit;
+}
+
+.sch-ganttpanel .#{$prefix}grid-body {
+  overflow : hidden;
+}
+
+.sch-ganttview .sch-todayLine {
+  border-left : 2px dashed #999 !important;
+}
+
+.sch-ganttpanel {
+  z-index : 0;
+}
+
+.sch-ganttpanel-container-body {
+  background-color : #DFE8F6 !important;
+}
+
+/* Show a vertical scroll if the gantt chart is collapsed */
+.sch-normalgrid-collapsed .#{$prefix}grid-inner-locked .#{$prefix}tree-view {
+    overflow-y : auto !important;
+}
+
+.sch-timelineview .#{$prefix}grid-item-container {
+  overflow : hidden;
+}
+
+/* Ext hides the right most column border in the locked grid, put it back */
+.sch-ganttpanel .#{$prefix}grid-inner-locked .#{$prefix}column-header.#{$prefix}column-header-last,
+.sch-ganttpanel .#{$prefix}grid-inner-locked .#{$prefix}grid-cell-last {
+  // Since Ext is using !important to hide it, so must we (Still relevant for Ext 6.5.3)
+  border-right : 1px solid $grid-header-border-color !important;
+}
+
+/* Special fixed row height when vertical labels are used */
+.sch-gantt-topbottom-labels .#{$prefix}grid-cell {
+  height : 52px;
+}
+
+.sch-ganttpanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item.#{$prefix}grid-item-focused,
+.sch-ganttpanel .#{$prefix}grid-with-row-lines .#{$prefix}grid-item-focused + .#{$prefix}grid-item {
+  border-style     : solid;
+  border-top-color : #ededed;
+}
+
+.sch-timelinepanel div.#{$prefix}border-layout-ct {
+  background: none;
+}
+
+.sch-timelinepanel .#{$prefix}grid-locking-body > .#{$prefix}splitter  {
+  background: #ffffff;
+}
+
+.sch-timelinepanel .#{$prefix}grid-scrollbar-clipper-locked {
+  border-width: 0 1px 0 0;
+}

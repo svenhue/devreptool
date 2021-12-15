@@ -1,0 +1,68 @@
+.sch-calendar .sch-verticaltimeaxis-cell {
+    overflow   : visible;
+}
+
+.sch-calendar .#{$prefix}grid-cell{
+    border-bottom-color : #e0e0e0;
+}
+
+.sch-calendar .sch-schedulerview td.sch-col-alt {
+    background-image: none;
+}
+
+.sch-calendar .#{$prefix}grid-item:first-child .sch-verticaltimeaxis-cell .sch-calendarcolumn-ct {
+    display: none;
+}
+
+.sch-calendar .sch-verticaltimeaxis-cell .#{$prefix}grid-cell-inner {
+    overflow     : visible;
+    padding-left : 0;
+}
+
+.sch-calendarcolumn-ct {
+    background-color : $sch-calendarcolumn-background-color;
+    color            : $sch-calendarcolumn-color;
+    margin-top       : -11px;
+    position         : absolute;
+    padding          : 0 3px 0 5px;
+}
+
+.sch-calendarcolumn-minutes,
+.sch-calendarcolumn-hours {
+    display : block;
+    float   : left;
+}
+
+.sch-calendarcolumn-hours {
+    font-size : 1.5em;
+}
+
+.sch-calendarcolumn-minutes {
+    font-size   : 0.8em;
+    margin-top  : -0.2em;
+    margin-left : 2px;
+}
+
+.sch-calendarcolumn-minutes-non-zero {
+    padding-left: 30px;
+}
+
+.sch-calendar .sch-schedulerview td.sch-daycolumn-weekend
+{
+    background-color:rgba(242, 242, 242, 0.4);
+}
+
+.sch-daycolumn-header-weekend .#{$prefix}column-header-text
+{
+    color:#888;
+}
+
+.sch-calendar .sch-schedulerview td.sch-daycolumn-today
+{
+    background-color: rgba(255, 236, 236, 0.5);
+}
+
+.sch-daycolumn-header-today .#{$prefix}column-header-text
+{
+    color: rgb(178, 108, 62);
+}
